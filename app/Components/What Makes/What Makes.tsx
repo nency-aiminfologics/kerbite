@@ -142,7 +142,7 @@ export default function WhatMakes() {
                                             <div className="w-[149.62px] h-[142.72px] rounded-[11.51px] bg-[#FFFFFF] border-[1.15px] border-[#F3F3F3] mt-[19.57px]">
                                                 <div className="w-[89px]  mx-[31px] my-[20px]">
                                                     <div className="w-[50px] h-[50px] rounded-[25px] bg-[#FFD2C050] mx-[18px]">
-                                                        <Image src="/images/total-sugar.svg" alt="total-sugar" width={32} height={32} className="py-[9px] mx-[9px]" />
+                                                        <Image src="/Images/total-sugar.svg" alt="total-sugar" width={32} height={32} className="py-[9px] mx-[9px]" />
                                                     </div>
                                                     <h1 className="text-[#1B1A1F] font-normal geologica w-[89px] leading-[100%] mt-[13.72px] text-[15px] ">Total Sugars</h1>
                                                     <h1 className="text-[#FF733D] font-normal geologica leading-100%] mt-[11.17px] text-center text-[14.96px] ">15.0 g</h1>
