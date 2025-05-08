@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Utility classes for different weights */
+.rubik-300 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+.rubik-400 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+.rubik-500 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+.rubik-700 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+
+.geologica {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0, "SHRP" 0;
+}
