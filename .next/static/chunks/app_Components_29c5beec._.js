@@ -19,341 +19,431 @@ function Scan() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-4df7749a4062edd7" + " " + "w-full mx-auto bg-[#ffffff] overflow-hidden",
+                className: "jsx-ba6e7df63aecc4c3" + " " + "w-full mx-auto bg-[#ffffff] overflow-hidden",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-4df7749a4062edd7" + " " + "w-[1440px] mx-auto overflow-hidden",
+                    className: "jsx-ba6e7df63aecc4c3" + " " + "2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] mx-auto overflow-hidden",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-4df7749a4062edd7" + " " + "mx-[150px] relative",
+                        className: "jsx-ba6e7df63aecc4c3" + " " + "2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] mx-auto",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                backgroundImage: `url("/Images/animation-bg.png")`
-                            },
-                            className: "jsx-4df7749a4062edd7" + " " + "bg-cover bg-center bg-no-repeat w-[1068px]",
+                            className: "jsx-ba6e7df63aecc4c3" + " " + "2xl:w-[1068px] xl:w-[950.65px] lg:w-[806.67px] md:w-[605px] mx-auto relative",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-4df7749a4062edd7" + " " + "w-[528px] h-[253px] top-[356px] left-[275px] absolute",
+                                    className: "jsx-ba6e7df63aecc4c3" + " " + "lg:w-[646px] lg:mt-[90px] md:w-[484px] md:mt-[70px] mx-auto 2xl:hidden xl:hidden lg:block md:block",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                            className: "jsx-4df7749a4062edd7" + " " + "text-[#000000] text-[40px] font-semibold text-center leading-[100%]",
-                                            children: "Scan."
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                            lineNumber: 15,
-                                            columnNumber: 17
-                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-4df7749a4062edd7" + " " + "flex h-[100px] w-[454px] justify-between mt-[13px] ml-[33px]",
+                                            className: "jsx-ba6e7df63aecc4c3" + " " + "lg:w-[448px] md:w-[434px] lg:text-[36px] md:text-[34px] text-[#000000] leading-[100%] font-semibold geologica flex justify-between mx-auto",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "jsx-4df7749a4062edd7" + " " + "text-[#000000] text-[40px] font-semibold text-center leading-[100%] mt-[25px]",
+                                                    className: "jsx-ba6e7df63aecc4c3",
                                                     children: "Analyze."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                    lineNumber: 17,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-4df7749a4062edd7" + " " + "w-[100px] h-[100px] bg-[#1B1A1F] rounded-[50px]",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/Group 1410126173.png",
-                                                        alt: "green icon",
-                                                        width: 37.79,
-                                                        height: 36.91,
-                                                        className: "h-[36.91px] my-[31px] mx-[31px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 21,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                    lineNumber: 20,
+                                                    lineNumber: 14,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "jsx-4df7749a4062edd7" + " " + "text-[#000000] text-[40px] font-semibold text-center leading-[100%] mt-[25px]",
+                                                    className: "jsx-ba6e7df63aecc4c3",
+                                                    children: "Scan."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                    lineNumber: 15,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                    className: "jsx-ba6e7df63aecc4c3",
                                                     children: "Results."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                    lineNumber: 29,
+                                                    lineNumber: 16,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                            lineNumber: 16,
+                                            lineNumber: 13,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-4df7749a4062edd7" + " " + "text-[#7D7C81] w-[528px] text-center text-[20px] leading-[100%] mt-[30px]",
+                                            className: "jsx-ba6e7df63aecc4c3" + " " + "lg:text-[20px] md:text-[16px] lg:mt-[20px] md:mt-[24px] text-[#7D7C81] leading-[100%] geologica text-center",
                                             children: "Helping health professionals guide clients to better nutrition is challenging. Endless food options, misleading labels, and confusing choices."
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                            lineNumber: 33,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "jsx-4df7749a4062edd7" + " " + "w-[249px] h-[61px] text-[17px] rounded-[15px] flex items-center justify-center mt-[64px] mx-[150px] bg-[#1B1A1F] text-[#ffffff]",
-                                            children: "Get free trial"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                            lineNumber: 37,
+                                            lineNumber: 18,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                    lineNumber: 14,
+                                    lineNumber: 12,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-4df7749a4062edd7" + " " + "w-[1068px] h-[1068px] relative",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-4df7749a4062edd7" + " " + "circular-motion flex justify-center items-center",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-4df7749a4062edd7" + " " + "card w-[182px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/gym owners icon.svg",
-                                                        alt: "gym owners icon",
-                                                        width: 42,
-                                                        height: 42,
-                                                        className: "absolute ml-[6px] my-[6px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 48,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                        className: "jsx-4df7749a4062edd7" + " " + "text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]",
-                                                        children: "Gym Owners"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 55,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/gym curve.svg",
-                                                        alt: "gym curve",
-                                                        width: 16,
-                                                        height: 16,
-                                                        className: "h-[16px] absolute top-[6px] left-[160px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 58,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                    style: {
+                                        backgroundImage: `url("/Images/animation-bg.png")`
+                                    },
+                                    className: "jsx-ba6e7df63aecc4c3" + " " + "bg-cover bg-center bg-no-repeat 2xl:w-[1068px] 2xl:h-[1069px] xl:w-[950.65px] xl:h-[951.54px] md:w-[605px] md:h-[605px] md:mt-[50px] lg:w-[806.67px] lg:h-[806.67px] lg:mt-[80px]",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "jsx-ba6e7df63aecc4c3" + " " + "lg:w-[210px] lg:h-[210px] md:w-[157px] md:h-[157px] lg:rounded-[106.67px] md:rounded-[80px] lg:py-[44.14px] md:py-[33px] lg:my-[299.67px] md:my-[225px] lg:mx-[297px] md:mx-[223px] absolute bg-[#1B1A1F] 2xl:hidden xl:hidden lg:block md:block",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/Images/Group 1410126173.png",
+                                                alt: "Green circular icon with a checkmark",
+                                                width: 58,
+                                                height: 58,
+                                                className: "lg:w-[121.72px] lg:h-[121.72px] md:w-[91px] md:h-[91px] mx-auto"
+                                            }, void 0, false, {
                                                 fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                lineNumber: 47,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-4df7749a4062edd7" + " " + "card w-[211px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/sport icon.svg",
-                                                        alt: "sports coaches icon",
-                                                        width: 42,
-                                                        height: 42,
-                                                        className: "absolute ml-[6px] my-[6px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 69,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                        className: "jsx-4df7749a4062edd7" + " " + "text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]",
-                                                        children: "Sports Coaches"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 76,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/sport curve.svg",
-                                                        alt: "sport curve",
-                                                        width: 16,
-                                                        height: 16,
-                                                        className: "h-[16px] absolute top-[6px] left-[190px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 79,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                lineNumber: 68,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-4df7749a4062edd7" + " " + "card w-[182px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/nutrition icon.svg",
-                                                        alt: "nutrition icon",
-                                                        width: 42,
-                                                        height: 42,
-                                                        className: "absolute ml-[6px] my-[6px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 90,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                        className: "jsx-4df7749a4062edd7" + " " + "text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]",
-                                                        children: "Nutritions"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 97,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/nutrition curve.svg",
-                                                        alt: "nutrition curve",
-                                                        width: 16,
-                                                        height: 16,
-                                                        className: "h-[16px] absolute top-[6px] left-[160px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 100,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                lineNumber: 89,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-4df7749a4062edd7" + " " + "card w-[200px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/health icon.svg",
-                                                        alt: "health icon",
-                                                        width: 42,
-                                                        height: 42,
-                                                        className: "absolute ml-[6px] my-[6px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 111,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                        className: "jsx-4df7749a4062edd7" + " " + "text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]",
-                                                        children: "Health-Care"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 118,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/health curve.svg",
-                                                        alt: "health curve",
-                                                        width: 16,
-                                                        height: 16,
-                                                        className: "h-[16px] absolute top-[6px] left-[180px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 121,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                lineNumber: 110,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-4df7749a4062edd7" + " " + "card w-[215px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/wellness icon.svg",
-                                                        alt: "wellness icon",
-                                                        width: 42,
-                                                        height: 42,
-                                                        className: "absolute ml-[6px] my-[6px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 132,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                        className: "jsx-4df7749a4062edd7" + " " + "text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]",
-                                                        children: "Wellness & Fitness"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 139,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/wellness curve.svg",
-                                                        alt: "wellness curve",
-                                                        width: 16,
-                                                        height: 16,
-                                                        className: "h-[16px] absolute top-[6px] left-[195px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 142,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                lineNumber: 131,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-4df7749a4062edd7" + " " + "card w-[200px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/yoga icon.svg",
-                                                        alt: "yoga icon",
-                                                        width: 42,
-                                                        height: 42,
-                                                        className: "absolute ml-[6px] my-[6px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 153,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                        className: "jsx-4df7749a4062edd7" + " " + "text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]",
-                                                        children: "Yoga Instructors"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 160,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/yoga curve.svg",
-                                                        alt: "yoga curve",
-                                                        width: 16,
-                                                        height: 16,
-                                                        className: "h-[16px] absolute top-[6px] left-[180px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                        lineNumber: 163,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 30,
                                                 columnNumber: 19
                                             }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                        lineNumber: 45,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                            lineNumber: 29,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "jsx-ba6e7df63aecc4c3" + " " + "2xl:w-[592px] xl:w-[527px] 2xl:mx-[238px] xl:mx-[211px] xl:my-[330px] 2xl:my-[351px] absolute lg:hidden md:hidden 2xl:block xl:block",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                    className: "jsx-ba6e7df63aecc4c3" + " " + "2xl:text-[40px] xl:text-[36px] font-semibold text-center leading-[100%] text-[#000000]",
+                                                    children: "Scan."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                    lineNumber: 41,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-ba6e7df63aecc4c3" + " " + "flex 2xl:w-[454px] xl:w-[405.48px] justify-between 2xl:mt-[13px] xl:mt-[10.7px] mx-auto",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                            className: "jsx-ba6e7df63aecc4c3" + " " + "2xl:text-[40px] xl:text-[36px] 2xl:mt-[25px] xl:mt-[22px] font-semibold text-center text-[#000000] leading-[100%]",
+                                                            children: "Analyze."
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                            lineNumber: 45,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "jsx-ba6e7df63aecc4c3" + " " + "2xl:w-[100px] 2xl:h-[100px] xl:w-[89px] xl:h-[89px] 2xl:rounded-[50px] xl:rounded-[44.51px] bg-[#1B1A1F]",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/Group 1410126173.png",
+                                                                alt: "Green circular icon with a checkmark",
+                                                                width: 58,
+                                                                height: 58,
+                                                                className: "2xl:w-[58px] 2xl:h-[58px] xl:w-[52px] xl:h-[52px] 2xl:my-[21px] xl:my-[19px] mx-auto",
+                                                                priority: true
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 49,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                            lineNumber: 48,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                            className: "jsx-ba6e7df63aecc4c3" + " " + "text-[#000000] 2xl:text-[40px] xl:text-[36px] font-semibold text-center leading-[100%] 2xl:mt-[25px] xl:mt-[22px]",
+                                                            children: "Results."
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                            lineNumber: 58,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                    lineNumber: 44,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "jsx-ba6e7df63aecc4c3" + " " + "text-[#7D7C81] 2xl:w-[592px] xl:w-[527px] 2xl:text-[20px] xl:text-[20px] leading-[100%] 2xl:mt-[30px] xl:mt-[27.3px] text-center",
+                                                    children: "Helping health professionals guide clients to better nutrition is challenging. Endless food options, misleading labels, and confusing choices."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                    lineNumber: 62,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-ba6e7df63aecc4c3" + " " + "flex justify-center",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        className: "jsx-ba6e7df63aecc4c3" + " " + ([
+                                                            "2xl:w-[249px] 2xl:h-[61px] xl:w-[239px] xl:h-[51px]",
+                                                            "2xl:text-[17px] xl:text-[16px] 2xl:rounded-[15px] xl:rounded-[14px]",
+                                                            "flex items-center justify-center",
+                                                            "2xl:mt-[64px] xl:mt-[57px] bg-[#1B1A1F] text-[#ffffff]"
+                                                        ].join(" ") || ""),
+                                                        children: "Get free trial"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                        lineNumber: 67,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                    lineNumber: 66,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                            lineNumber: 40,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "jsx-ba6e7df63aecc4c3" + " " + "2xl:w-[1068px] 2xl:h-[1068px] xl:w-[950.65px] xl:h-[951.54px] relative",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-ba6e7df63aecc4c3" + " " + "circular-motion flex justify-center items-center",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-ba6e7df63aecc4c3" + " " + "card 2xl:w-[182px] 2xl:h-[54px] xl:w-[162px] xl:h-[48px] lg:w-[137.5px] lg:h-[40.8px] md:w-[103.1px] md:h-[30.6px] bg-[#F1F1F1] rounded-[18px] absolute",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/gym owners icon.svg",
+                                                                alt: "Gym owners icon",
+                                                                width: 42,
+                                                                height: 42,
+                                                                className: "absolute 2xl:ml-[6px] 2xl:my-[6px] xl:ml-[5.3px] xl:my-[5.3px] lg:ml-[4.5px] lg:my-[4.5px] md:ml-[3.4px] md:my-[3.4px] 2xl:w-[42px] 2xl:h-[42px] xl:w-[37.3px] xl:h-[37.3px] lg:w-[31.7px] lg:h-[31.7px] md:w-[23.8px] md:h-[23.8px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 84,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                className: "jsx-ba6e7df63aecc4c3" + " " + "text-[#1B1A1F] 2xl:text-[16px] xl:text-[14.2px] lg:text-[12px] md:text-[9px] font-medium leading-[15.12px] tracking-[-2%] absolute 2xl:left-[63.52px] 2xl:top-[20px] xl:left-[56.5px] xl:top-[17.8px] lg:left-[47.9px] lg:top-[15.1px] md:left-[35.9px] md:top-[11.3px]",
+                                                                children: "Gym Owners"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 91,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/gym curve.svg",
+                                                                alt: "Gym curve decorative element",
+                                                                width: 16,
+                                                                height: 16,
+                                                                className: "2xl:h-[16px] xl:h-[14.2px] lg:h-[12px] md:h-[9px] absolute 2xl:top-[6px] 2xl:left-[160px] xl:top-[5.3px] xl:left-[142.2px] lg:top-[4.5px] lg:left-[120.5px] md:top-[3.4px] md:left-[90.4px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 94,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                        lineNumber: 83,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-ba6e7df63aecc4c3" + " " + "card 2xl:w-[211px] 2xl:h-[54px] xl:w-[187.8px] xl:h-[48px] lg:w-[159.4px] lg:h-[40.8px] md:w-[119.6px] md:h-[30.6px] bg-[#F1F1F1] rounded-[18px] absolute",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/sport icon.svg",
+                                                                alt: "Sports coaches icon",
+                                                                width: 42,
+                                                                height: 42,
+                                                                className: "absolute 2xl:ml-[6px] 2xl:my-[6px] xl:ml-[5.3px] xl:my-[5.3px] lg:ml-[4.5px] lg:my-[4.5px] md:ml-[3.4px] md:my-[3.4px] 2xl:w-[42px] 2xl:h-[42px] xl:w-[37.3px] xl:h-[37.3px] lg:w-[31.7px] lg:h-[31.7px] md:w-[23.8px] md:h-[23.8px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 105,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                className: "jsx-ba6e7df63aecc4c3" + " " + "text-[#1B1A1F] 2xl:text-[16px] xl:text-[14.2px] lg:text-[12px] md:text-[9px] font-medium leading-[15.12px] tracking-[-2%] absolute 2xl:left-[63.52px] 2xl:top-[20px] xl:left-[56.5px] xl:top-[17.8px] lg:left-[47.9px] lg:top-[15.1px] md:left-[35.9px] md:top-[11.3px]",
+                                                                children: "Sports Coaches"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 112,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/sport curve.svg",
+                                                                alt: "Sport curve decorative element",
+                                                                width: 16,
+                                                                height: 16,
+                                                                className: "2xl:h-[16px] xl:h-[14.2px] lg:h-[12px] md:h-[9px] absolute 2xl:top-[6px] 2xl:left-[190px] xl:top-[5.3px] xl:left-[169px] lg:top-[4.5px] lg:left-[143.2px] md:top-[3.4px] md:left-[107.4px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 115,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                        lineNumber: 104,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-ba6e7df63aecc4c3" + " " + "card 2xl:w-[182px] 2xl:h-[54px] xl:w-[162px] xl:h-[48px] lg:w-[137.5px] lg:h-[40.8px] md:w-[103.1px] md:h-[30.6px] bg-[#F1F1F1] rounded-[18px] absolute",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/nutrition icon.svg",
+                                                                alt: "Nutrition icon",
+                                                                width: 42,
+                                                                height: 42,
+                                                                className: "absolute 2xl:ml-[6px] 2xl:my-[6px] xl:ml-[5.3px] xl:my-[5.3px] lg:ml-[4.5px] lg:my-[4.5px] md:ml-[3.4px] md:my-[3.4px] 2xl:w-[42px] 2xl:h-[42px] xl:w-[37.3px] xl:h-[37.3px] lg:w-[31.7px] lg:h-[31.7px] md:w-[23.8px] md:h-[23.8px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 126,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                className: "jsx-ba6e7df63aecc4c3" + " " + "text-[#1B1A1F] 2xl:text-[16px] xl:text-[14.2px] lg:text-[12px] md:text-[9px] font-medium leading-[15.12px] tracking-[-2%] absolute 2xl:left-[63.52px] 2xl:top-[20px] xl:left-[56.5px] xl:top-[17.8px] lg:left-[47.9px] lg:top-[15.1px] md:left-[35.9px] md:top-[11.3px]",
+                                                                children: "Nutritions"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 133,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/nutrition curve.svg",
+                                                                alt: "Nutrition curve decorative element",
+                                                                width: 16,
+                                                                height: 16,
+                                                                className: "2xl:h-[16px] xl:h-[14.2px] lg:h-[12px] md:h-[9px] absolute 2xl:top-[6px] 2xl:left-[160px] xl:top-[5.3px] xl:left-[142.2px] lg:top-[4.5px] lg:left-[120.5px] md:top-[3.4px] md:left-[90.4px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 136,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                        lineNumber: 125,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-ba6e7df63aecc4c3" + " " + "card 2xl:w-[200px] 2xl:h-[54px] xl:w-[178px] xl:h-[48px] lg:w-[151px] lg:h-[40.8px] md:w-[113.3px] md:h-[30.6px] bg-[#F1F1F1] rounded-[18px] absolute",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/health icon.svg",
+                                                                alt: "Health icon",
+                                                                width: 42,
+                                                                height: 42,
+                                                                className: "absolute 2xl:ml-[6px] 2xl:my-[6px] xl:ml-[5.3px] xl:my-[5.3px] lg:ml-[4.5px] lg:my-[4.5px] md:ml-[3.4px] md:my-[3.4px] 2xl:w-[42px] 2xl:h-[42px] xl:w-[37.3px] xl:h-[37.3px] lg:w-[31.7px] lg:h-[31.7px] md:w-[23.8px] md:h-[23.8px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 147,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                className: "jsx-ba6e7df63aecc4c3" + " " + "text-[#1B1A1F] 2xl:text-[16px] xl:text-[14.2px] lg:text-[12px] md:text-[9px] font-medium leading-[15.12px] tracking-[-2%] absolute 2xl:left-[63.52px] 2xl:top-[20px] xl:left-[56.5px] xl:top-[17.8px] lg:left-[47.9px] lg:top-[15.1px] md:left-[35.9px] md:top-[11.3px]",
+                                                                children: "Health-Care"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 154,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/health curve.svg",
+                                                                alt: "Health curve decorative element",
+                                                                width: 16,
+                                                                height: 16,
+                                                                className: "2xl:h-[16px] xl:h-[14.2px] lg:h-[12px] md:h-[9px] absolute 2xl:top-[6px] 2xl:left-[180px] xl:top-[5.3px] xl:left-[160px] lg:top-[4.5px] lg:left-[135.8px] md:top-[3.4px] md:left-[101.9px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 157,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                        lineNumber: 146,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-ba6e7df63aecc4c3" + " " + "card 2xl:w-[215px] 2xl:h-[54px] xl:w-[191.2px] xl:h-[48px] lg:w-[162.3px] lg:h-[40.8px] md:w-[121.7px] md:h-[30.6px] bg-[#F1F1F1] rounded-[18px] absolute",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/wellness icon.svg",
+                                                                alt: "Wellness icon",
+                                                                width: 42,
+                                                                height: 42,
+                                                                className: "absolute 2xl:ml-[6px] 2xl:my-[6px] xl:ml-[5.3px] xl:my-[5.3px] lg:ml-[4.5px] lg:my-[4.5px] md:ml-[3.4px] md:my-[3.4px] 2xl:w-[42px] 2xl:h-[42px] xl:w-[37.3px] xl:h-[37.3px] lg:w-[31.7px] lg:h-[31.7px] md:w-[23.8px] md:h-[23.8px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 168,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                className: "jsx-ba6e7df63aecc4c3" + " " + "text-[#1B1A1F] 2xl:text-[16px] xl:text-[14.2px] lg:text-[12px] md:text-[9px] font-medium leading-[15.12px] tracking-[-2%] absolute 2xl:left-[63.52px] 2xl:top-[20px] xl:left-[56.5px] xl:top-[17.8px] lg:left-[47.9px] lg:top-[15.1px] md:left-[35.9px] md:top-[11.3px]",
+                                                                children: "Wellness & Fitness"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 175,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/wellness curve.svg",
+                                                                alt: "Wellness curve decorative element",
+                                                                width: 16,
+                                                                height: 16,
+                                                                className: "2xl:h-[16px] xl:h-[14.2px] lg:h-[12px] md:h-[9px] absolute 2xl:top-[6px] 2xl:left-[195px] xl:top-[5.3px] xl:left-[173.3px] lg:top-[4.5px] lg:left-[147.1px] md:top-[3.4px] md:left-[109.9px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 178,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                        lineNumber: 167,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-ba6e7df63aecc4c3" + " " + "card 2xl:w-[200px] 2xl:h-[54px] xl:w-[178px] xl:h-[48px] lg:w-[151px] lg:h-[40.8px] md:w-[113.3px] md:h-[30.6px] bg-[#F1F1F1] rounded-[18px] absolute",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/yoga icon.svg",
+                                                                alt: "Yoga icon",
+                                                                width: 42,
+                                                                height: 42,
+                                                                className: "absolute 2xl:ml-[6px] 2xl:my-[6px] xl:ml-[5.3px] xl:my-[5.3px] lg:ml-[4.5px] lg:my-[4.5px] md:ml-[3.4px] md:my-[3.4px] 2xl:w-[42px] 2xl:h-[42px] xl:w-[37.3px] xl:h-[37.3px] lg:w-[31.7px] lg:h-[31.7px] md:w-[23.8px] md:h-[23.8px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 189,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                className: "jsx-ba6e7df63aecc4c3" + " " + "text-[#1B1A1F] 2xl:text-[16px] xl:text-[14.2px] lg:text-[12px] md:text-[9px] font-medium leading-[15.12px] tracking-[-2%] absolute 2xl:left-[63.52px] 2xl:top-[20px] xl:left-[56.5px] xl:top-[17.8px] lg:left-[47.9px] lg:top-[15.1px] md:left-[35.9px] md:top-[11.3px]",
+                                                                children: "Yoga Instructors"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 196,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/yoga curve.svg",
+                                                                alt: "Yoga curve decorative element",
+                                                                width: 16,
+                                                                height: 16,
+                                                                className: "2xl:h-[16px] xl:h-[14.2px] lg:h-[12px] md:h-[9px] absolute 2xl:top-[6px] 2xl:left-[180px] xl:top-[5.3px] xl:left-[160px] lg:top-[4.5px] lg:left-[135.8px] md:top-[3.4px] md:left-[101.9px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                                lineNumber: 199,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                        lineNumber: 188,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                                lineNumber: 81,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/Components/Scan./Scan.tsx",
+                                            lineNumber: 80,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 24,
                                     columnNumber: 15
                                 }, this)
                             ]
@@ -378,8 +468,8 @@ function Scan() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "4df7749a4062edd7",
-                children: ".circular-motion.jsx-4df7749a4062edd7{justify-content:center;align-items:center;width:1068px;height:1068px;display:flex;position:relative}.card.jsx-4df7749a4062edd7{transform-origin:534px 534px;animation:25s linear infinite spin,25s linear infinite fadeAndHide;position:absolute}.card.jsx-4df7749a4062edd7:first-child{animation-delay:0s,0s;transform:rotate(0)translate(560px)rotate(0)}.card.jsx-4df7749a4062edd7:nth-child(2){animation-delay:-4.17s,-4.17s;transform:rotate(60deg)translate(560px)rotate(-60deg)}.card.jsx-4df7749a4062edd7:nth-child(3){animation-delay:-8.34s,-8.34s;transform:rotate(120deg)translate(560px)rotate(-120deg)}.card.jsx-4df7749a4062edd7:nth-child(4){animation-delay:-12.5s,-12.5s;transform:rotate(180deg)translate(560px)rotate(-180deg)}.card.jsx-4df7749a4062edd7:nth-child(5){animation-delay:-16.67s,-16.67s;transform:rotate(240deg)translate(560px)rotate(-240deg)}.card.jsx-4df7749a4062edd7:nth-child(6){animation-delay:-20.84s,-20.84s;transform:rotate(300deg)translate(560px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(560px)rotate(0)}to{transform:rotate(360deg)translate(560px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}"
+                id: "ba6e7df63aecc4c3",
+                children: ".circular-motion.jsx-ba6e7df63aecc4c3{justify-content:center;align-items:center;width:1068px;height:1068px;display:flex;position:relative}.card.jsx-ba6e7df63aecc4c3{transform-origin:534px 534px;animation:25s linear infinite spin,25s linear infinite fadeAndHide;position:absolute}.card.jsx-ba6e7df63aecc4c3:first-child{animation-delay:0s,0s;transform:rotate(0)translate(560px)rotate(0)}.card.jsx-ba6e7df63aecc4c3:nth-child(2){animation-delay:-4.17s,-4.17s;transform:rotate(60deg)translate(560px)rotate(-60deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(3){animation-delay:-8.34s,-8.34s;transform:rotate(120deg)translate(560px)rotate(-120deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(4){animation-delay:-12.5s,-12.5s;transform:rotate(180deg)translate(560px)rotate(-180deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(5){animation-delay:-16.67s,-16.67s;transform:rotate(240deg)translate(560px)rotate(-240deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(6){animation-delay:-20.84s,-20.84s;transform:rotate(300deg)translate(560px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(560px)rotate(0)}to{transform:rotate(360deg)translate(560px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}@media (width<=1280px){.circular-motion.jsx-ba6e7df63aecc4c3{width:950.65px;height:951.54px}.card.jsx-ba6e7df63aecc4c3{transform-origin:475.325px 475.77px;border-radius:28px}.card.jsx-ba6e7df63aecc4c3:first-child{transform:rotate(0)translate(480px)rotate(0)}.card.jsx-ba6e7df63aecc4c3:nth-child(2){transform:rotate(60deg)translate(480px)rotate(-60deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(3){transform:rotate(120deg)translate(480px)rotate(-120deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(4){transform:rotate(180deg)translate(480px)rotate(-180deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(5){transform:rotate(240deg)translate(480px)rotate(-240deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(6){transform:rotate(300deg)translate(480px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(480px)rotate(0)}to{transform:rotate(360deg)translate(480px)rotate(-360deg)}}}@media (width<=1024px){.circular-motion.jsx-ba6e7df63aecc4c3{width:806.67px;height:806.67px}.card.jsx-ba6e7df63aecc4c3{transform-origin:403.335px 403.335px;border-radius:28px;animation:25s linear infinite spin}.card.jsx-ba6e7df63aecc4c3:first-child{transform:rotate(0)translate(400px)rotate(0)}.card.jsx-ba6e7df63aecc4c3:nth-child(2){transform:rotate(60deg)translate(400px)rotate(-60deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(3){transform:rotate(120deg)translate(400px)rotate(-120deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(4){transform:rotate(180deg)translate(400px)rotate(-180deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(5){transform:rotate(240deg)translate(400px)rotate(-240deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(6){transform:rotate(300deg)translate(400px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(400px)rotate(0)}to{transform:rotate(360deg)translate(400px)rotate(-360deg)}}}@media (width<=768px){.circular-motion.jsx-ba6e7df63aecc4c3{width:605px;height:605px}.card.jsx-ba6e7df63aecc4c3{transform-origin:302.5px 302.5px;border-radius:21px;animation:25s linear infinite spin}.card.jsx-ba6e7df63aecc4c3:first-child{transform:rotate(0)translate(300px)rotate(0)}.card.jsx-ba6e7df63aecc4c3:nth-child(2){transform:rotate(60deg)translate(300px)rotate(-60deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(3){transform:rotate(120deg)translate(300px)rotate(-120deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(4){transform:rotate(180deg)translate(300px)rotate(-180deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(5){transform:rotate(240deg)translate(300px)rotate(-240deg)}.card.jsx-ba6e7df63aecc4c3:nth-child(6){transform:rotate(300deg)translate(300px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(300px)rotate(0)}to{transform:rotate(360deg)translate(300px)rotate(-360deg)}}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
@@ -441,13 +531,13 @@ const filteredFAQs = [
 ];
 const Card = ({ item, isActive, onClick })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         onClick: onClick,
-        className: "cursor-pointer w-[866px] h-auto bg-white px-[35px] py-[22px] rounded-[15px] transition-all duration-300",
+        className: "cursor-pointer w-full h-auto bg-white px-[35px] py-[22px] rounded-[15px] transition-all duration-300",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-[20px] font-semibold text-[#1B1A1F]",
+                        className: "2xl:text-[20px] xl:text-[18px] lg:text-[17px] font-semibold text-[#1B1A1F]",
                         children: item.title
                     }, void 0, false, {
                         fileName: "[project]/app/Components/Frequently/Frequently.tsx",
@@ -495,7 +585,7 @@ const Card = ({ item, isActive, onClick })=>/*#__PURE__*/ (0, __TURBOPACK__impor
                     transition: {
                         duration: 0.15
                     },
-                    className: "overflow-hidden mt-[10px] text-[18px] text-[#1B1A1F]",
+                    className: "overflow-hidden 2xl:mt-[10px] xl:mt-[15px] lg:mt-[15px] 2xl:text-[18px] xl:text-[17px] lg:text-[16px] text-[#1B1A1F]",
                     children: item.description
                 }, void 0, false, {
                     fileName: "[project]/app/Components/Frequently/Frequently.tsx",
@@ -522,85 +612,92 @@ function Frequently() {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-[#F7F7F7]",
+            className: "bg-[#F7F7F7] w-full",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-[1440px] mx-auto h-full py-[75px]",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-[308px] h-[54px] bg-[#ffffff] rounded-[50px] flex gap-[11px] mx-[566px]",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-[39px] h-[39px] bg-[#C7FFE1] rounded-full ml-[8px] my-[8px]",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/Images/Frequently-icon.svg",
-                                    alt: "icon",
-                                    width: 26,
-                                    height: 26,
-                                    className: "py-[6px] mx-[6px]"
+                className: "2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px]  2xl:h-[800px] xl:h-[800px] lg:h-[800px] 2xl:py-[75px] xl:py-[95px] lg:py-[100px] mx-auto",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto ",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "2xl:w-[308px] 2xl:h-[54px] xl:w-[308px] xl:h-[54px] lg:w-[276px] lg:h-[54px] bg-[#ffffff]  2xl:rounded-[50px] xl:rounded-[50px] lg:rounded-[50px] flex 2xl:gap-[11px] xl:gap-[11px] lg:gap-[11px] mx-auto",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "2xl:w-[39px] 2xl:h-[39px] xl:w-[39px] xl:h-[39px] lg:w-[39px] lg:h-[39px] bg-[#C7FFE1] rounded-full 2xl:ml-[8px] xl:ml-[8px] 2xl:my-[8px] xl:my-[8px] lg:my-[8px] lg:ml-[8px]",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/Images/Frequently-icon.svg",
+                                        alt: "icon",
+                                        width: 26,
+                                        height: 26,
+                                        className: "2xl:w-[26px]  xl:w-[26px]  lg:w-[26px] 2xl:my-[6px] xl:my-[6px] 2xl:mx-[6px] xl:mx-[6px] lg:mx-[7px] lg:my-[6px]"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/Components/Frequently/Frequently.tsx",
+                                        lineNumber: 110,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-                                    lineNumber: 96,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-                                lineNumber: 95,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-[#1B1A1F] font-normal geologica text-[18px] leading-[100%] my-[18px]",
-                                children: "Frequently asked question"
-                            }, void 0, false, {
-                                fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-                                lineNumber: 98,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-                        lineNumber: 94,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-[#1B1A1F] geologica font-bold text-[40px] leading-[130%] text-center mt-[40px]",
-                        children: "Quick Help for Easy Integration"
-                    }, void 0, false, {
-                        fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-                        lineNumber: 102,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-[866px] mx-auto mt-[65px]",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col gap-[15px]",
-                            children: filteredFAQs.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Card, {
-                                    item: item,
-                                    isActive: activeId === item.id,
-                                    onClick: ()=>handleClick(item.id)
-                                }, item.id, false, {
+                                    lineNumber: 104,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    className: " 2xl:text-[18px] xl:text-[18px] lg:text-[16px] 2xl:my-[18px] xl:my-[18px] lg:my-[16px] text-[#1B1A1F] font-normal geologica leading-[100%]",
+                                    children: "Frequently asked question"
+                                }, void 0, false, {
                                     fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-                                    lineNumber: 108,
-                                    columnNumber: 17
-                                }, this))
+                                    lineNumber: 115,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/Components/Frequently/Frequently.tsx",
+                            lineNumber: 99,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: "2xl:text-[40px] xl:text-[36px] lg:text-[36px] 2xl:mt-[40px] xl:mt-[30px] lg:mt-[30px] text-[#1B1A1F] geologica font-bold leading-[130%] text-center ",
+                            children: "Quick Help for Easy Integration"
                         }, void 0, false, {
                             fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-                            lineNumber: 106,
-                            columnNumber: 13
+                            lineNumber: 122,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "2xl:w-[866px] xl:w-[866px] lg:w-[668px] mx-auto 2xl:mt-[65px] xl:mt-[70px] lg:mt-[53px]",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col 2xl:gap-[15px] xl:gap-[15px] lg:gap-[15px]",
+                                children: filteredFAQs.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Card, {
+                                        item: item,
+                                        isActive: activeId === item.id,
+                                        onClick: ()=>handleClick(item.id)
+                                    }, item.id, false, {
+                                        fileName: "[project]/app/Components/Frequently/Frequently.tsx",
+                                        lineNumber: 133,
+                                        columnNumber: 17
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/app/Components/Frequently/Frequently.tsx",
+                                lineNumber: 131,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/Components/Frequently/Frequently.tsx",
+                            lineNumber: 129,
+                            columnNumber: 11
                         }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-                        lineNumber: 105,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/Components/Frequently/Frequently.tsx",
+                    lineNumber: 97,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-                lineNumber: 93,
+                lineNumber: 95,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/Components/Frequently/Frequently.tsx",
-            lineNumber: 92,
+            lineNumber: 94,
             columnNumber: 7
         }, this)
     }, void 0, false);

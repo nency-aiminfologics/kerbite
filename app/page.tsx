@@ -11,20 +11,24 @@ import Frequently from "./Components/Frequently/Frequently";
 import OurTechnology from "./Components/Our Technology/Our Technology";
 import Unlock from "./Components/Unlock/Unlock";
 
+// import FallingChips from "./Components/FallingChips/FallingChips";
+
+
 export default function page() {
   return (
     <>
       <Navbar />
       <Home />
       <SmartFood />
-      <WhatMakes/>
-      <Scan/>
-      <Integrate/>
-      <WhatYouGet/>
-      <Howitsworks/>
-      <Frequently/>
-      <OurTechnology/>
-      <Unlock/>
+      <WhatMakes />
+      <Scan />
+      <Integrate />
+      <WhatYouGet />
+      <Howitsworks />
+      <Frequently />
+      <OurTechnology />
+      <Unlock />
+      {/* <FallingChips/> */}
 
     </>
   );

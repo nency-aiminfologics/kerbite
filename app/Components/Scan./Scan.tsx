@@ -5,167 +5,185 @@ export default function Scan() {
   return (
     <>
       <div className="w-full mx-auto bg-[#ffffff] overflow-hidden">
-        <div className="w-[1440px] mx-auto overflow-hidden">
-          <div className="mx-[150px] relative">
-            <div
-              className="bg-cover bg-center bg-no-repeat w-[1068px]"
-              style={{ backgroundImage: `url("/Images/animation-bg.png")` }}
-            >
-              <div className="w-[528px] h-[253px] top-[356px] left-[275px] absolute">
-                <h1 className="text-[#000000] text-[40px] font-semibold text-center leading-[100%]">Scan.</h1>
-                <div className="flex h-[100px] w-[454px] justify-between mt-[13px] ml-[33px]">
-                  <h1 className="text-[#000000] text-[40px] font-semibold text-center leading-[100%] mt-[25px]">
-                    Analyze.
-                  </h1>
-                  <div className="w-[100px] h-[100px] bg-[#1B1A1F] rounded-[50px]">
-                    <Image
-                      src="/Images/Group 1410126173.png"
-                      alt="green icon"
-                      width={37.79}
-                      height={36.91}
-                      className="h-[36.91px] my-[31px] mx-[31px]"
-                    />
-                  </div>
-                  <h1 className="text-[#000000] text-[40px] font-semibold text-center leading-[100%] mt-[25px]">
-                    Results.
-                  </h1>
+        <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[576px] w-[375px] mx-auto overflow-hidden">
+          <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] sm:w-[514px] w-[335px] mx-auto">
+            <div className="2xl:w-[1068px] xl:w-[950.65px] lg:w-[806.67px] md:w-[605px] sm:w-[419px] w-[273px] py-[50px] lg:py-[90px] md:py-[70px] 2xl:py-0 xl:py-0 mx-auto relative">
+              {/* Header Section */}
+              <div className="lg:w-[646px] md:w-[484px] sm:w-[400px] w-[298px] md:mt-[70px] mx-auto 2xl:hidden xl:hidden lg:block md:block sm:block">
+                <div className="lg:w-[448px] md:w-[434px] sm:w-[350px] w-[266px] text-[20px] lg:text-[36px] md:text-[34px] sm:text-[28px] text-[#000000] leading-[100%] font-semibold geologica flex justify-between mx-auto">
+                  <h1>Analyze.</h1>
+                  <h1>Scan.</h1>
+                  <h1>Results.</h1>
                 </div>
-                <p className="text-[#7D7C81] w-[528px] text-center text-[20px] leading-[100%] mt-[30px]">
-                  Helping health professionals guide clients to better nutrition is challenging. Endless food options,
-                  misleading labels, and confusing choices.
+                <p className="lg:text-[20px] md:text-[16px] sm:text-[15px] text-[14px] lg:mt-[20px] md:mt-[24px] sm:mt-[18px] mt-[15px] text-[#7D7C81] leading-[100%] geologica text-center">
+                  Helping health professionals guide clients to better nutrition is challenging. Endless food options, misleading labels, and confusing choices.
                 </p>
-                <button
-                  className="w-[249px] h-[61px] text-[17px] rounded-[15px] flex items-center justify-center mt-[64px] mx-[150px] bg-[#1B1A1F] text-[#ffffff]"
-                >
-                  Get free trial
-                </button>
               </div>
 
-              <div className="w-[1068px] h-[1068px] relative">
+              {/* Background and Circular Motion Container */}
+              <div
+                className="bg-cover bg-center bg-no-repeat w-[273px] h-[273px] sm:w-[419px] sm:h-[420px] 2xl:mt-0 xl:mt-0 2xl:w-[1068px] 2xl:h-[1069px] xl:w-[950.65px] xl:h-[951.54px] md:w-[605px] md:h-[605px] md:mt-[50px] mt-[50px] lg:w-[806.67px] lg:h-[806.67px] lg:mt-[80px]"
+                style={{ backgroundImage: "url('/Images/animation-bg.png')" }}
+              >
+                {/* Logo */}
+                <div className="w-[64px] h-[64px] my-[110px] mx-[107px] sm:w-[100px] sm:h-[100px] sm:my-[160px] sm:mx-[160px] lg:w-[210px] lg:h-[210px] md:w-[157px] md:h-[157px] lg:rounded-[106.67px] rounded-[32px] md:rounded-[80px] sm:rounded-[50px] p-[13.44px] sm:p-[20px] lg:p-[44.14px] md:p-[33px] lg:my-[299.67px] md:my-[225px] lg:mx-[297px] md:mx-[223px] absolute bg-[#1B1A1F] 2xl:hidden xl:hidden lg:block md:block sm:block">
+                  <Image
+                    src="/Images/Group 1410126173.png"
+                    alt="Green circular icon with a checkmark"
+                    width={37.12}
+                    height={37.12}
+                    className="lg:w-[121.72px] lg:h-[121.72px] md:w-[91px] md:h-[91px] sm:w-[60px] sm:h-[60px] mx-auto"
+                  />
+                </div>
+
+                {/* Larger Screen Content (unchanged) */}
+                <div className="2xl:w-[592px] xl:w-[527px] 2xl:mx-[238px] xl:mx-[211px] xl:my-[330px] 2xl:my-[351px] absolute hidden lg:hidden md:hidden 2xl:block xl:block">
+                  <h1 className="2xl:text-[40px] xl:text-[36px] font-semibold text-center leading-[100%] text-[#000000]">
+                    Scan.
+                  </h1>
+                  <div className="flex 2xl:w-[454px] xl:w-[405.48px] justify-between 2xl:mt-[13px] xl:mt-[10.7px] mx-auto">
+                    <h1 className="2xl:text-[40px] xl:text-[36px] 2xl:mt-[25px] xl:mt-[22px] font-semibold text-center text-[#000000] leading-[100%]">
+                      Analyze.
+                    </h1>
+                    <div className="2xl:w-[100px] 2xl:h-[100px] xl:w-[89px] xl:h-[89px] 2xl:rounded-[50px] xl:rounded-[44.51px] bg-[#1B1A1F]">
+                      <Image
+                        src="/Images/Group 1410126173.png"
+                        alt="Green circular icon with a checkmark"
+                        width={58}
+                        height={58}
+                        className="2xl:w-[58px] 2xl:h-[58px] xl:w-[52px] xl:h-[52px] 2xl:my-[21px] xl:my-[19px] mx-auto"
+                        priority
+                      />
+                    </div>
+                    <h1 className="text-[#000000] 2xl:text-[40px] xl:text-[36px] font-semibold text-center leading-[100%] 2xl:mt-[25px] xl:mt-[22px]">
+                      Results.
+                    </h1>
+                  </div>
+                  <p className="text-[#7D7C81] 2xl:w-[592px] xl:w-[527px] 2xl:text-[20px] xl:text-[20px] leading-[100%] 2xl:mt-[30px] xl:mt-[27.3px] text-center">
+                    Helping health professionals guide clients to better nutrition is challenging. Endless food options,
+                    misleading labels, and confusing choices.
+                  </p>
+                  <div className="flex justify-center">
+                    <button
+                      className={[
+                        "2xl:w-[249px] 2xl:h-[61px] xl:w-[239px] xl:h-[51px]",
+                        "2xl:text-[17px] xl:text-[16px] 2xl:rounded-[15px] xl:rounded-[14px]",
+                        "flex items-center justify-center",
+                        "2xl:mt-[64px] xl:mt-[57px] bg-[#1B1A1F] text-[#ffffff]",
+                      ].join(" ")}
+                    >
+                      Get free trial
+                    </button>
+                  </div>
+                </div>
+
+                {/* Circular Motion for Chips */}
                 <div className="circular-motion flex justify-center items-center">
                   {/* Card 1: Gym Owners */}
-                  <div className="card w-[182px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute">
+                  <div className="card absolute">
                     <Image
-                      src="/Images/gym owners icon.svg"
-                      alt="gym owners icon"
-                      width={42}
-                      height={42}
-                      className="absolute ml-[6px] my-[6px]"
+                      src="/Images/gym owners.svg"
+                      alt="gym owners"
+                      width={182}
+                      height={0}
+                      className="2xl:w-[182px] xl:w-[162px] lg:w-[162px] md:w-[162px] sm:w-[140px] hidden sm:block lg:block md:block 2xl:block xl:block"
                     />
-                    <h1 className="text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]">
-                      Gym Owners
-                    </h1>
                     <Image
-                      src="/Images/gym curve.svg"
-                      alt="gym curve"
-                      width={16}
-                      height={16}
-                      className="h-[16px] absolute top-[6px] left-[160px]"
+                      src="/Images/gym owners-iscon.svg"
+                      alt="gym owners-iscon"
+                      width={110}
+                      height={40}
+                      className="sm:hidden block"
                     />
                   </div>
 
                   {/* Card 2: Sports Coaches */}
-                  <div className="card w-[211px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute">
+                  <div className="card absolute">
                     <Image
-                      src="/Images/sport icon.svg"
-                      alt="sports coaches icon"
-                      width={42}
-                      height={42}
-                      className="absolute ml-[6px] my-[6px]"
+                      src="/Images/sport coaches.svg"
+                      alt="sport coaches"
+                      width={182}
+                      height={0}
+                      className="2xl:w-[211px] xl:w-[189px] lg:w-[189px] md:w-[189px] sm:w-[160px] hidden sm:block lg:block md:block 2xl:block xl:block"
                     />
-                    <h1 className="text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]">
-                      Sports Coaches
-                    </h1>
                     <Image
-                      src="/Images/sport curve.svg"
-                      alt="sport curve"
-                      width={16}
-                      height={16}
-                      className="h-[16px] absolute top-[6px] left-[190px]"
+                      src="/Images/sport coaches-icons.svg"
+                      alt="sport coaches-iscon"
+                      width={110}
+                      height={40}
+                      className="sm:hidden block"
                     />
                   </div>
 
                   {/* Card 3: Nutritions */}
-                  <div className="card w-[182px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute">
+                  <div className="card absolute">
                     <Image
-                      src="/Images/nutrition icon.svg"
-                      alt="nutrition icon"
-                      width={42}
-                      height={42}
-                      className="absolute ml-[6px] my-[6px]"
+                      src="/Images/nutritions.svg"
+                      alt="nutritions"
+                      width={182}
+                      height={0}
+                      className="xl:w-[162px] 2xl:w-[182px] lg:w-[162px] md:w-[162px] sm:w-[140px] hidden sm:block lg:block md:block 2xl:block xl:block"
                     />
-                    <h1 className="text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]">
-                      Nutritions
-                    </h1>
                     <Image
-                      src="/Images/nutrition curve.svg"
-                      alt="nutrition curve"
-                      width={16}
-                      height={16}
-                      className="h-[16px] absolute top-[6px] left-[160px]"
+                      src="/Images/nutritions-icons.svg"
+                      alt="nutritions-iscon"
+                      width={110}
+                      height={40}
+                      className="sm:hidden block"
                     />
                   </div>
 
                   {/* Card 4: Health-Care */}
-                  <div className="card w-[200px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute">
+                  <div className="card absolute">
                     <Image
-                      src="/Images/health icon.svg"
-                      alt="health icon"
-                      width={42}
-                      height={42}
-                      className="absolute ml-[6px] my-[6px]"
+                      src="/Images/health-care.svg"
+                      alt="health-care"
+                      width={182}
+                      height={0}
+                      className="2xl:w-[200px] xl:w-[178px] lg:w-[178px] md:w-[178px] sm:w-[150px] hidden sm:block lg:block md:block 2xl:block xl:block"
                     />
-                    <h1 className="text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]">
-                      Health-Care
-                    </h1>
                     <Image
-                      src="/Images/health curve.svg"
-                      alt="health curve"
-                      width={16}
-                      height={16}
-                      className="h-[16px] absolute top-[6px] left-[180px]"
+                      src="/Images/health-care-icons.svg"
+                      alt="health-care-iscon"
+                      width={110}
+                      height={40}
+                      className="sm:hidden block"
                     />
                   </div>
 
                   {/* Card 5: Wellness & Fitness */}
-                  <div className="card w-[215px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute">
+                  <div className="card absolute">
                     <Image
-                      src="/Images/wellness icon.svg"
-                      alt="wellness icon"
-                      width={42}
-                      height={42}
-                      className="absolute ml-[6px] my-[6px]"
+                      src="/Images/Wellness & Fitness.svg"
+                      alt="wellness & fitness"
+                      width={182}
+                      height={0}
+                      className="2xl:w-[211px] xl:w-[211px] lg:w-[211px] md:w-[211px] sm:w-[160px] hidden sm:block lg:block md:block 2xl:block xl:block"
                     />
-                    <h1 className="text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]">
-                      Wellness & Fitness
-                    </h1>
                     <Image
-                      src="/Images/wellness curve.svg"
-                      alt="wellness curve"
-                      width={16}
-                      height={16}
-                      className="h-[16px] absolute top-[6px] left-[195px]"
+                      src="/Images/Wellness & Fitness-icons.svg"
+                      alt="wellness & fitness-iscon"
+                      width={110}
+                      height={40}
+                      className="sm:hidden block"
                     />
                   </div>
 
                   {/* Card 6: Yoga Instructors */}
-                  <div className="card w-[200px] h-[54px] bg-[#F1F1F1] rounded-[18px] absolute">
+                  <div className="card absolute">
                     <Image
-                      src="/Images/yoga icon.svg"
-                      alt="yoga icon"
-                      width={42}
-                      height={42}
-                      className="absolute ml-[6px] my-[6px]"
+                      src="/Images/Yoga instructors.svg"
+                      alt="yoga instructors"
+                      width={182}
+                      height={0}
+                      className="2xl:w-[200px] xl:w-[194px] lg:w-[194px] md:w-[194px] sm:w-[160px] hidden sm:block lg:block md:block 2xl:block xl:block"
                     />
-                    <h1 className="text-[#1B1A1F] text-[16px] font-medium leading-[15.12px] tracking-[-2%] absolute left-[63.52px] top-[20px]">
-                      Yoga Instructors
-                    </h1>
                     <Image
-                      src="/Images/yoga curve.svg"
-                      alt="yoga curve"
-                      width={16}
-                      height={16}
-                      className="h-[16px] absolute top-[6px] left-[180px]"
+                      src="/Images/Yoga instructors-icons.svg"
+                      alt="yoga instructors-iscon"
+                      width={110}
+                      height={40}
+                      className="sm:hidden block"
                     />
                   </div>
                 </div>
@@ -188,83 +206,528 @@ export default function Scan() {
         .card {
           position: absolute;
           animation: spin 25s linear infinite, fadeAndHide 25s linear infinite;
-          transform-origin: 534px 534px; /* Center of the 1068x1068px container */
+          transform-origin: 548px 548px;
         }
 
-        /* Adjusted positions with equal angular gaps for 6 cards */
         .card:nth-child(1) {
-          animation-delay: 0s, 0s;
-          transform: rotate(0deg) translateX(560px) rotate(0deg);
+          animation-delay: 0s;
+          transform: rotate(0deg) translateX(548px) rotate(0deg);
         }
         .card:nth-child(2) {
-          animation-delay: -4.17s, -4.17s;
-          transform: rotate(60deg) translateX(560px) rotate(-60deg);
+          animation-delay: -4.17s;
+          transform: rotate(60deg) translateX(548px) rotate(-60deg);
         }
         .card:nth-child(3) {
-          animation-delay: -8.34s, -8.34s;
-          transform: rotate(120deg) translateX(560px) rotate(-120deg);
+          animation-delay: -8.34s;
+          transform: rotate(120deg) translateX(548px) rotate(-120deg);
         }
         .card:nth-child(4) {
-          animation-delay: -12.5s, -12.5s;
-          transform: rotate(180deg) translateX(560px) rotate(-180deg);
+          animation-delay: -12.5s;
+          transform: rotate(180deg) translateX(548px) rotate(-180deg);
         }
         .card:nth-child(5) {
-          animation-delay: -16.67s, -16.67s;
-          transform: rotate(240deg) translateX(560px) rotate(-240deg);
+          animation-delay: -16.67s;
+          transform: rotate(240deg) translateX(548px) rotate(-240deg);
         }
         .card:nth-child(6) {
-          animation-delay: -20.84s, -20.84s;
-          transform: rotate(300deg) translateX(560px) rotate(-300deg);
+          animation-delay: -20.84s;
+          transform: rotate(300deg) translateX(548px) rotate(-300deg);
         }
 
         @keyframes spin {
           0% {
-            transform: rotate(0deg) translateX(560px) rotate(0deg);
+            transform: rotate(0deg) translateX(548px) rotate(0deg);
           }
           100% {
-            transform: rotate(360deg) translateX(560px) rotate(-360deg);
+            transform: rotate(360deg) translateX(548px) rotate(-360deg);
           }
         }
-
-        /* Updated opacity and visibility animation to hide at 90 and 270 degrees */
-        @keyframes fadeAndHide {
+          @keyframes fadeAndHide {
           0% {
-            opacity: 1; /* Fully visible at 0 degrees (top) */
+            opacity: 1;
             visibility: visible;
           }
           24% {
-            opacity: 0.1; /* Start fading out just before 90 degrees */
+            opacity: 0.1;
             visibility: visible;
           }
           25% {
-            opacity: 0; /* Hidden at 90 degrees (right) */
+            opacity: 0;
             visibility: hidden;
           }
           26% {
-            opacity: 0.1; /* Start fading in just after 90 degrees */
+            opacity: 0.1;
             visibility: visible;
           }
           50% {
-            opacity: 1; /* Fully visible at 180 degrees (bottom) */
+            opacity: 1;
             visibility: visible;
           }
           74% {
-            opacity: 0.1; /* Start fading out just before 270 degrees */
+            opacity: 0.1;
             visibility: visible;
           }
           75% {
-            opacity: 0; /* Hidden at 270 degrees (left) */
+            opacity: 0;
             visibility: hidden;
           }
           76% {
-            opacity: 0.1; /* Start fading in just after 270 degrees */
+            opacity: 0.1;
             visibility: visible;
           }
           100% {
-            opacity: 1; /* Fully visible again at 360/0 degrees (top) */
+            opacity: 1;
             visibility: visible;
           }
         }
+
+        @media (max-width: 1280px) {
+          .circular-motion {
+            width: 950.65px;
+            height: 951.54px;
+          }
+          .card {
+            transform-origin: 488px 488px;
+            border-radius: 28px;
+            animation: spin 25s linear infinite, fadeAndHide 25s linear infinite;
+          }
+          .card:nth-child(1) {
+            transform: rotate(0deg) translateX(488px) rotate(0deg);
+          }
+          .card:nth-child(2) {
+            transform: rotate(60deg) translateX(488px) rotate(-60deg);
+          }
+          .card:nth-child(3) {
+            transform: rotate(120deg) translateX(488px) rotate(-120deg);
+          }
+          .card:nth-child(4) {
+            transform: rotate(180deg) translateX(488px) rotate(-180deg);
+          }
+          .card:nth-child(5) {
+            transform: rotate(240deg) translateX(488px) rotate(-240deg);
+          }
+          .card:nth-child(6) {
+            transform: rotate(300deg) translateX(488px) rotate(-300deg);
+          }
+
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg) translateX(488px) rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg) translateX(488px) rotate(-360deg);
+            }
+
+          }
+            @keyframes fadeAndHide {
+          0% {
+            opacity: 1;
+            visibility: visible;
+          }
+          24% {
+            opacity: 0.1;
+            visibility: visible;
+          }
+          25% {
+            opacity: 0;
+            visibility: hidden;
+          }
+          26% {
+            opacity: 0.1;
+            visibility: visible;
+          }
+          50% {
+            opacity: 1;
+            visibility: visible;
+          }
+          74% {
+            opacity: 0.1;
+            visibility: visible;
+          }
+          75% {
+            opacity: 0;
+            visibility: hidden;
+          }
+          76% {
+            opacity: 0.1;
+            visibility: visible;
+          }
+          100% {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+        }
+
+          @media (max-width: 1439px) {
+          .circular-motion {
+            width: 950.65px;
+            height: 951.54px;
+          }
+          .card {
+            transform-origin: 488px 488px;
+            border-radius: 28px;
+            animation: spin 25s linear infinite, fadeAndHide 25s linear infinite;
+          }
+          .card:nth-child(1) {
+            transform: rotate(0deg) translateX(488px) rotate(0deg);
+          }
+          .card:nth-child(2) {
+            transform: rotate(60deg) translateX(488px) rotate(-60deg);
+          }
+          .card:nth-child(3) {
+            transform: rotate(120deg) translateX(488px) rotate(-120deg);
+          }
+          .card:nth-child(4) {
+            transform: rotate(180deg) translateX(488px) rotate(-180deg);
+          }
+          .card:nth-child(5) {
+            transform: rotate(240deg) translateX(488px) rotate(-240deg);
+          }
+          .card:nth-child(6) {
+            transform: rotate(300deg) translateX(488px) rotate(-300deg);
+          }
+
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg) translateX(488px) rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg) translateX(488px) rotate(-360deg);
+            }
+          }
+            @keyframes fadeAndHide {
+          0% {
+            opacity: 1;
+            visibility: visible;
+          }
+          24% {
+            opacity: 0.1;
+            visibility: visible;
+          }
+          25% {
+            opacity: 0;
+            visibility: hidden;
+          }
+          26% {
+            opacity: 0.1;
+            visibility: visible;
+          }
+          50% {
+            opacity: 1;
+            visibility: visible;
+          }
+          74% {
+            opacity: 0.1;
+            visibility: visible;
+          }
+          75% {
+            opacity: 0;
+            visibility: hidden;
+          }
+          76% {
+            opacity: 0.1;
+            visibility: visible;
+          }
+          100% {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+        }
+
+        @media (max-width: 1024px) {
+          .circular-motion {
+            width: 806.67px;
+            height: 806.67px;
+          }
+          .card {
+            transform-origin: 414px 414px;
+            border-radius: 28px;
+            animation: spin 25s linear infinite;
+          }
+          .card:nth-child(1) {
+            transform: rotate(0deg) translateX(414px) rotate(0deg);
+          }
+          .card:nth-child(2) {
+            transform: rotate(60deg) translateX(414px) rotate(-60deg);
+          }
+          .card:nth-child(3) {
+            transform: rotate(120deg) translateX(414px) rotate(-120deg);
+          }
+          .card:nth-child(4) {
+            transform: rotate(180deg) translateX(414px) rotate(-180deg);
+          }
+          .card:nth-child(5) {
+            transform: rotate(240deg) translateX(414px) rotate(-240deg);
+          }
+          .card:nth-child(6) {
+            transform: rotate(300deg) translateX(414px) rotate(-300deg);
+          }
+
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg) translateX(414px) rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg) translateX(414px) rotate(-360deg);
+            }
+          }
+        }
+          @media (max-width: 1279px) {
+          .circular-motion {
+            width: 806.67px;
+            height: 806.67px;
+          }
+          .card {
+            transform-origin: 414px 414px;
+            border-radius: 28px;
+            animation: spin 25s linear infinite;
+          }
+          .card:nth-child(1) {
+            transform: rotate(0deg) translateX(414px) rotate(0deg);
+          }
+          .card:nth-child(2) {
+            transform: rotate(60deg) translateX(414px) rotate(-60deg);
+          }
+          .card:nth-child(3) {
+            transform: rotate(120deg) translateX(414px) rotate(-120deg);
+          }
+          .card:nth-child(4) {
+            transform: rotate(180deg) translateX(414px) rotate(-180deg);
+          }
+          .card:nth-child(5) {
+            transform: rotate(240deg) translateX(414px) rotate(-240deg);
+          }
+          .card:nth-child(6) {
+            transform: rotate(300deg) translateX(414px) rotate(-300deg);
+          }
+
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg) translateX(414px) rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg) translateX(414px) rotate(-360deg);
+            }
+          }
+        }
+
+        @media (max-width: 768px) {
+          .circular-motion {
+            width: 605px;
+            height: 605px;
+          }
+          .card {
+            transform-origin: 310px 310px;
+            border-radius: 21px;
+            animation: spin 25s linear infinite;
+          }
+          .card:nth-child(1) {
+            transform: rotate(0deg) translateX(310px) rotate(0deg);
+          }
+          .card:nth-child(2) {
+            transform: rotate(60deg) translateX(310px) rotate(-60deg);
+          }
+          .card:nth-child(3) {
+            transform: rotate(120deg) translateX(310px) rotate(-120deg);
+          }
+          .card:nth-child(4) {
+            transform: rotate(180deg) translateX(310px) rotate(-180deg);
+          }
+          .card:nth-child(5) {
+            transform: rotate(240deg) translateX(310px) rotate(-240deg);
+          }
+          .card:nth-child(6) {
+            transform: rotate(300deg) translateX(310px) rotate(-300deg);
+          }
+
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg) translateX(310px) rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg) translateX(310px) rotate(-360deg);
+            }
+          }
+        }
+           @media (max-width: 640px) {
+          .circular-motion {
+            width: 605px;
+            height: 605px;
+          }
+          .card {
+            transform-origin: 310px 310px;
+            border-radius: 21px;
+            animation: spin 25s linear infinite;
+          }
+          .card:nth-child(1) {
+            transform: rotate(0deg) translateX(310px) rotate(0deg);
+          }
+          .card:nth-child(2) {
+            transform: rotate(60deg) translateX(310px) rotate(-60deg);
+          }
+          .card:nth-child(3) {
+            transform: rotate(120deg) translateX(310px) rotate(-120deg);
+          }
+          .card:nth-child(4) {
+            transform: rotate(180deg) translateX(310px) rotate(-180deg);
+          }
+          .card:nth-child(5) {
+            transform: rotate(240deg) translateX(310px) rotate(-240deg);
+          }
+          .card:nth-child(6) {
+            transform: rotate(300deg) translateX(310px) rotate(-300deg);
+          }
+
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg) translateX(310px) rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg) translateX(310px) rotate(-360deg);
+            }
+          }
+        }
+           @media (max-width: 1023px) {
+          .circular-motion {
+            width: 605px;
+            height: 605px;
+          }
+          .card {
+            transform-origin: 310px 310px;
+            border-radius: 21px;
+            animation: spin 25s linear infinite;
+          }
+          .card:nth-child(1) {
+            transform: rotate(0deg) translateX(310px) rotate(0deg);
+          }
+          .card:nth-child(2) {
+            transform: rotate(60deg) translateX(310px) rotate(-60deg);
+          }
+          .card:nth-child(3) {
+            transform: rotate(120deg) translateX(310px) rotate(-120deg);
+          }
+          .card:nth-child(4) {
+            transform: rotate(180deg) translateX(310px) rotate(-180deg);
+          }
+          .card:nth-child(5) {
+            transform: rotate(240deg) translateX(310px) rotate(-240deg);
+          }
+          .card:nth-child(6) {
+            transform: rotate(300deg) translateX(310px) rotate(-300deg);
+          }
+
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg) translateX(310px) rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg) translateX(310px) rotate(-360deg);
+            }
+          }
+        }
+
+        @media (max-width: 639px) {
+            .circular-motion {
+            width: 273px;
+            height: 290px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .card {
+            border-radius: 9px;
+            transform-origin: 140px 140px;
+            animation: spin 25s linear infinite;
+          }
+
+          .card:nth-child(1) {
+            animation-delay: 0s;
+            transform: rotate(0deg) translateX(140px) rotate(0deg);
+          }
+          .card:nth-child(2) {
+            animation-delay: -4.17s;
+            transform: rotate(60deg) translateX(140px) rotate(-60deg);
+          }
+          .card:nth-child(3) {
+            animation-delay: -8.34s;
+            transform: rotate(120deg) translateX(140px) rotate(-120deg);
+          }
+          .card:nth-child(4) {
+            animation-delay: -12.5s;
+            transform: rotate(180deg) translateX(140px) rotate(-180deg);
+          }
+          .card:nth-child(5) {
+            animation-delay: -16.67s;
+            transform: rotate(240deg) translateX(140px) rotate(-240deg);
+          }
+          .card:nth-child(6) {
+            animation-delay: -20.84s;
+            transform: rotate(300deg) translateX(140px) rotate(-300deg);
+          }
+
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg) translateX(140px) rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg) translateX(140px) rotate(-360deg);
+            }
+          }
+        }
+
+        @media (max-width: 375px) {
+          .circular-motion {
+            width: 273px;
+            height: 290px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .card {
+            border-radius: 9px;
+            transform-origin: 140px 140px;
+            animation: spin 25s linear infinite;
+          }
+
+          .card:nth-child(1) {
+            animation-delay: 0s;
+            transform: rotate(0deg) translateX(140px) rotate(0deg);
+          }
+          .card:nth-child(2) {
+            animation-delay: -4.17s;
+            transform: rotate(60deg) translateX(140px) rotate(-60deg);
+          }
+          .card:nth-child(3) {
+            animation-delay: -8.34s;
+            transform: rotate(120deg) translateX(140px) rotate(-120deg);
+          }
+          .card:nth-child(4) {
+            animation-delay: -12.5s;
+            transform: rotate(180deg) translateX(140px) rotate(-180deg);
+          }
+          .card:nth-child(5) {
+            animation-delay: -16.67s;
+            transform: rotate(240deg) translateX(140px) rotate(-240deg);
+          }
+          .card:nth-child(6) {
+            animation-delay: -20.84s;
+            transform: rotate(300deg) translateX(140px) rotate(-300deg);
+          }
+
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg) translateX(140px) rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg) translateX(140px) rotate(-360deg);
+            }
+          }
+        }
+          
       `}</style>
     </>
   );
