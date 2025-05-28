@@ -52,7 +52,7 @@ export default function Navbar() {
           >
             {/* Logo */}
             <Image
-              src="/Images/logo.png"
+              src="/Images/logo.svg"
               alt="logo"
               width={66}
               height={66}
