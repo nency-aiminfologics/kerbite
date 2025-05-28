@@ -11,7 +11,7 @@ import Frequently from "./Components/Frequently/Frequently";
 import OurTechnology from "./Components/Our Technology/Our Technology";
 import Unlock from "./Components/Unlock/Unlock";
 
-// import FallingChips from "./Components/FallingChips/FallingChips";
+
 
 
 export default function page() {
@@ -28,7 +28,7 @@ export default function page() {
       <Frequently />
       <OurTechnology />
       <Unlock />
-      {/* <FallingChips/> */}
+      
 
     </>
   );

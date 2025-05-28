@@ -53,9 +53,9 @@ export default function OurTechnology() {
                 initial={{ translateY: -100, opacity: 0 }}
                 animate={{ translateY: 0, opacity: 1 }}
                 transition={{ type: 'spring', stiffness: 80, damping: 10, delay: 1 * 0.15 }}
-                className="absolute 2xl:top-[45%] xl:top-[40%] lg:top-[65%] md:top-[75%]
-                2xl:left-[15%] xl:left-[20%] lg:left-[15%] md:left-[8%]
-                 transform 2xl:-rotate-7 xl:-rotate-12 lg:-rotate-26 md:-rotate-9"
+                className="absolute 2xl:top-[45%] xl:top-[40%] lg:top-[67%] md:top-[75%]
+                2xl:left-[15%] xl:left-[20%] lg:left-[9%] md:left-[8%]
+                 transform 2xl:-rotate-7 xl:-rotate-12 lg:-rotate-9 md:-rotate-9"
               >
                 <Image
                   src="/Images/yoga.svg"
@@ -71,9 +71,9 @@ export default function OurTechnology() {
                 initial={{ translateY: -100, opacity: 0 }}
                 animate={{ translateY: 0, opacity: 1 }}
                 transition={{ type: 'spring', stiffness: 80, damping: 10, delay: 2 * 0.15 }}
-                className="absolute 2xl:top-[75%] xl:top-[75%] lg:top-[38%] md:top-[10%] 
-                2xl:left-[5%] xl:left-[7%] lg:left-[35%] md:left-[5%]
-                transform 2xl:-rotate-3 xl:rotate-0 lg:-rotate-32 md:-rotate-20"
+                className="absolute 2xl:top-[75%] xl:top-[75%] lg:top-0 md:top-[10%] 
+                2xl:left-[5%] xl:left-[7%] lg:left-[5%] md:left-[5%]
+                transform 2xl:-rotate-3 xl:rotate-0 lg:-rotate-9 md:-rotate-20"
               >
                 <Image
                   src="/Images/sports.svg"
@@ -143,9 +143,9 @@ export default function OurTechnology() {
                 initial={{ translateY: -100, opacity: 0 }}
                 animate={{ translateY: 0, opacity: 1 }}
                 transition={{ type: 'spring', stiffness: 80, damping: 10, delay: 6 * 0.15 }}
-                className="absolute 2xl:top-[60%] xl:top-[40%] lg:top-[25%]  md:top-[50%]
-                2xl:left-[57%] xl:left-[52%]  lg:left-[20%] md:left-0
-                transform 2xl:-rotate-22 xl:-rotate-16 lg:-rotate-10 md:-rotate-36"
+                className="absolute 2xl:top-[60%] xl:top-[40%] lg:top-[43%]  md:top-[50%]
+                2xl:left-[57%] xl:left-[52%]  lg:left-0 md:left-0
+                transform 2xl:-rotate-22 xl:-rotate-16 lg:-rotate-36 md:-rotate-36"
               >
                 <Image
                   src="/Images/Gluten free brands.svg"
@@ -161,9 +161,9 @@ export default function OurTechnology() {
                 initial={{ translateY: -100, opacity: 0 }}
                 animate={{ translateY: 0, opacity: 1 }}
                 transition={{ type: 'spring', stiffness: 80, damping: 10, delay: 7 * 0.15 }}
-                className="absolute 2xl:top-[25%] xl:top-[71%] lg:top-[60%] md:top-[25%]
-                2xl:left-[70%] xl:left-[65%] md:left-[40%]
-                 transform 2xl:rotate-20 xl:rotate-18 lg:-rotate-9 md:rotate-0"
+                className="absolute 2xl:top-[25%] xl:top-[71%] lg:top-[17%] md:top-[25%]
+                2xl:left-[70%] xl:left-[65%] md:left-[40%] lg:left-[35%]
+                 transform 2xl:rotate-20 xl:rotate-18 lg:rotate-0 md:rotate-0"
                
               >
                 <Image
@@ -180,9 +180,9 @@ export default function OurTechnology() {
                 initial={{ translateY: -100, opacity: 0 }}
                 animate={{ translateY: 0, opacity: 1 }}
                 transition={{ type: 'spring', stiffness: 80, damping: 10, delay: 8 * 0.15 }}
-                className="absolute 2xl:top-[71%] xl:top-[10%] lg:top-[20%] md:top-[15%] 
-                2xl:left-[70%] xl:left-[48%] lg:left-[53%] md:left-[27%]
-                transform 2xl:-rotate-16 xl:rotate-9 lg:rotate-5 md:-rotate-28"
+                className="absolute 2xl:top-[71%] xl:top-[10%] lg:top-[5%] md:top-[15%] 
+                2xl:left-[70%] xl:left-[48%] lg:left-[23%] md:left-[27%]
+                transform 2xl:-rotate-16 xl:rotate-9 lg:-rotate-27 md:-rotate-28"
               >
                 <Image
                   src="/Images/gyms.svg"
@@ -217,9 +217,9 @@ export default function OurTechnology() {
                 initial={{ translateY: -100, opacity: 0 }}
                 animate={{ translateY: 0, opacity: 1 }}
                 transition={{ type: 'spring', stiffness: 80, damping: 10, delay: 10 * 0.15 }}
-                className="absolute 2xl:top-[72%] xl:top-[65%] lg:top-[20%] md:top-[50%]
-                2xl:left-[82%] xl:left-[81%] lg:left-[4%] md:left-[28%]
-                 transform 2xl:-rotate-17 xl:rotate-21 lg:-rotate-25 md:rotate-9"
+                className="absolute 2xl:top-[72%] xl:top-[65%] lg:top-[40%] md:top-[50%]
+                2xl:left-[82%] xl:left-[81%] lg:left-[25%] md:left-[28%]
+                 transform 2xl:-rotate-17 xl:rotate-21 lg:rotate-9 md:rotate-9"
                
               >
                 <Image
