@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function WhatMakes() {
     return (
         <>
-            <div className="2x:py-[100px] xl:py-[90px] lg:py-[80px] md:py-[75px] py-[40px] bg-[#F7F7F7] w-full">
+            <div className="2x:py-[100px] xl:py-[90px] lg:py-[80px] md:py-[75px] py-[40px] bg-[#F7F7F7] w-full ">
                 <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] w-[335px] mx-auto ">
-                    <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[325px] mx-auto ">
+                    <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[325px]   mx-auto ">
 
                         <div className="2xl:w-[893px] xl:w-[794px] lg:w-[546px] md:w-[503px] w-[289px] mx-auto ">
                             <h1 className=" 2xl:text-[40px] xl:text-[36px] lg:text-[36px]  md:text-[34px] text-[20px]
@@ -31,9 +31,9 @@ export default function WhatMakes() {
                              2xl:gap-[25px] xl:gap-[23px] lg:gap-[18px] md:gap-[16px] gap-[20px]">
 
                                 {/* first card */}
-                                <div className="2xl:w-[390px]  xl:w-[346px] lg:w-[378px]  md:w-[326px] w-[325px]
+                                <div className="2xl:w-[390px]  xl:w-[346px] lg:w-[378px]  md:w-[326px] w-[323px]
                                 2xl:rounded-[30px] xl:rounded-[26px] lg:rounded-[30px] md:rounded-[24px] rounded-[30px]
-                                2xl:py-[33px] xl:py-[29px] lg:py-[28px] md:py-[24px] py-[18px]
+                                2xl:py-[33px] xl:py-[29px] lg:py-[28px] md:py-[24px] py-[18px] 
                              bg-[#FFFFFF] border-[1px] border-[#E2E2E2] relative overflow-visible">
 
                                     <div className="overflow-visible flex 2xl:gap-[15px] xl:gap-[15px] lg:gap-[12.88px] md:gap-[11px] gap-[10px]">
@@ -94,7 +94,7 @@ export default function WhatMakes() {
                                 {/* secound card */}
 
                                 <div className="2xl:w-[390px]  xl:w-[346px]  
-                                lg:w-[378px] md:w-[326px]  w-[325px] 
+                                lg:w-[378px] md:w-[326px]  w-[323px] 
                                 2xl:rounded-[30px] xl:rounded-[26px] lg:rounded-[30px] md:rounded-[24px] rounded-[30px]
                                   bg-[#FFFFFF] border-[1px] border-[#E2E2E2]">
 
@@ -188,7 +188,7 @@ export default function WhatMakes() {
 
                                 {/* third card */}
 
-                                <div className="2xl:w-[390px]  xl:w-[346px] w-[325px]
+                                <div className="2xl:w-[390px]  xl:w-[346px] w-[323px]
                                 lg:w-[378px] md:w-[326px]   2xl:py-[33px] xl:py-[32px] lg:py-[36px] md:py-[40px] py-[30px]
                                  2xl:rounded-[30px] xl:rounded-[26px] lg:rounded-[30px] md:rounded-[24px] rounded-[30px]
                             bg-[#FFFFFF] border-[1px] border-[#E2E2E2]">
@@ -272,7 +272,7 @@ export default function WhatMakes() {
 
 
 
-                                <div className="lg:w-[378px] md:w-[326px] w-[325px]
+                                <div className="lg:w-[378px] md:w-[326px] w-[323px]
                                 lg:rounded-[30px] md:rounded-[24px]  rounded-[30px]
                                 lg:py-[24px] md:py-[24px] py-[24px]
                                 bg-[#FFFFFF]  border-[1px] border-[#E2E2E2]
@@ -327,7 +327,7 @@ export default function WhatMakes() {
                             <div className=" flex 2xl:gap-[25px] xl:gap-[22px]">
 
                                 {/* left card */}
-                                <div className="2xl:w-[805px]  xl:w-[716px]  w-[325px] lg:w-[774px] md:w-[668px]
+                                <div className="2xl:w-[805px]  xl:w-[716px]  w-[323px] lg:w-[774px] md:w-[668px]
                                  2xl:py-[27px] xl:py-[24px] lg:py-[23px] md:py-[20px] py-[20px]
                                 2xl:rounded-[30px] xl:rounded-[26px] lg:rounded-[30px] md:rounded-[20px] rounded-[30px]
                             bg-[#FFFFFF] border-[1px] border-[#E2E2E2]">

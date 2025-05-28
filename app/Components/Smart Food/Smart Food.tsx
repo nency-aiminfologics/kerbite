@@ -8,7 +8,7 @@ export default function SmartFood() {
         <>
 
             <div
-                className="bg-cover bg-center bg-no-repeat w-full "
+                className="bg-cover bg-center bg-no-repeat w-full"
                 style={{ backgroundImage: `url("/Images/smart-bg.png")` }}
             >
                 <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] mx-auto 

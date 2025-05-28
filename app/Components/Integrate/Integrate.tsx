@@ -9,7 +9,7 @@ export default function Integrate(){
         <div className="bg-[#1B1A1F] w-full">
             <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] w-[375px]
             mx-auto  2xl:py-[116px] xl:py-[122px] lg:py-[70px] md:py-[60px] py-[45px]">
-                <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[335px] mx-auto ">
+                <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[335px]  mx-auto ">
 
                 <div className="flex 2xl:flex-row xl:flex-row lg:flex-col md:flex-col flex-col justify-between ">
 

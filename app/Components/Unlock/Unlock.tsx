@@ -23,7 +23,7 @@ export default function Unlock() {
 
                         <ul className=" 2xl:text-[17px] xl:text-[16px] lg:text-[20px]  md:text-[18px] text-[16px]
                         2xl:mt-[40px] xl:mt-[35px] lg:mt-[50px] md:mt-[44px] mt-[34px]
-                        2xl:w-full xl:w-full lg:w-full md:w-[211px] md:h-[185px] w-[187px] h-[135px] mx-auto md:text-center text-center
+                        2xl:w-full xl:w-full lg:w-full md:w-[211px] md:h-[185px] w-[187px] h-[135px] 2xl:h-full xl:h-full lg:h-full mx-auto md:text-center text-center
                          geologica font-normal leading-[100%] flex flex-col 2xl:flex-row xl:flex-row lg:flex-row  md:flex-col
                           justify-between text-[#1B1A1F] ">
                             <li>Home</li>

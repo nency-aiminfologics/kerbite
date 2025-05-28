@@ -5,13 +5,13 @@ export default function Home(){
     return(
         <>
        
-       <div className="relative w-screen 2xl:h-[940px] xl:h-[858px] lg:h-[732px] md:h-[549px] h-[424px] overflow-hidden">
+       <div className="relative   2xl:h-[940px] xl:h-[858px] lg:h-[732px] md:h-[549px] h-[424px] overflow-hidden">
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full  h-full object-cover -z-10 "
+        className="absolute inset-0 w-full  h-full object-cover -z-10"
       >
         <source src="/videos/background.mp4" type="video/mp4" />
       

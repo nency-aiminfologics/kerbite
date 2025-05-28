@@ -11,25 +11,28 @@ import Frequently from "./Components/Frequently/Frequently";
 import OurTechnology from "./Components/Our Technology/Our Technology";
 import Unlock from "./Components/Unlock/Unlock";
 
-
-
-
-export default function page() {
+export default function Page() {
   return (
     <>
       <Navbar />
-      <Home />
+      <div id="home">
+        <Home />
+      </div>
       <SmartFood />
-      <WhatMakes />
-      <Scan />
-      <Integrate />
+      <div id="what-makes">
+        <WhatMakes />
+      </div>
+      <div id="scan">
+        <Scan />
+      </div>
+      <div id="integrate">
+        <Integrate />
+      </div>
       <WhatYouGet />
       <Howitsworks />
       <Frequently />
       <OurTechnology />
       <Unlock />
-      
-
     </>
   );
 }
