@@ -477,7 +477,7 @@ function Scan() {
                                                             alt: "gym owners",
                                                             width: 182,
                                                             height: 0,
-                                                            className: "2xl:w-[182px] xl:w-[162px] lg:w-[162px] md:w-[162px] hidden  lg:block md:block 2xl:block xl:block"
+                                                            className: "2xl:w-[300px] xl:w-[250px] lg:w-[162px] md:w-[162px] hidden  lg:block md:block 2xl:block xl:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
                                                             lineNumber: 84,
@@ -508,7 +508,7 @@ function Scan() {
                                                             alt: "sport coaches",
                                                             width: 182,
                                                             height: 0,
-                                                            className: "2xl:w-[211px] xl:w-[189px] lg:w-[189px] md:w-[189px]  hidden  lg:block md:block 2xl:block xl:block"
+                                                            className: "2xl:w-[300px] xl:w-[250px] lg:w-[189px] md:w-[189px]  hidden  lg:block md:block 2xl:block xl:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
                                                             lineNumber: 102,
@@ -539,7 +539,7 @@ function Scan() {
                                                             alt: "nutritions",
                                                             width: 182,
                                                             height: 0,
-                                                            className: "xl:w-[162px] 2xl:w-[182px] lg:w-[162px] md:w-[162px] hidden  lg:block md:block 2xl:block xl:block"
+                                                            className: "2xl:w-[300px] xl:w-[250px]  lg:w-[162px] md:w-[162px] hidden  lg:block md:block 2xl:block xl:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
                                                             lineNumber: 120,
@@ -570,7 +570,7 @@ function Scan() {
                                                             alt: "health-care",
                                                             width: 182,
                                                             height: 0,
-                                                            className: "2xl:w-[200px] xl:w-[178px] lg:w-[178px] md:w-[178px]  hidden  lg:block md:block 2xl:block xl:block"
+                                                            className: "2xl:w-[300px] xl:w-[250px] lg:w-[178px] md:w-[178px]  hidden  lg:block md:block 2xl:block xl:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
                                                             lineNumber: 138,
@@ -601,7 +601,7 @@ function Scan() {
                                                             alt: "wellness & fitness",
                                                             width: 182,
                                                             height: 0,
-                                                            className: "2xl:w-[211px] xl:w-[211px] lg:w-[211px] md:w-[211px]  hidden  lg:block md:block 2xl:block xl:block"
+                                                            className: "2xl:w-[300px] xl:w-[250px] lg:w-[211px] md:w-[211px]  hidden  lg:block md:block 2xl:block xl:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
                                                             lineNumber: 156,
@@ -632,7 +632,7 @@ function Scan() {
                                                             alt: "yoga instructors",
                                                             width: 182,
                                                             height: 0,
-                                                            className: "2xl:w-[200px] xl:w-[194px] lg:w-[194px] md:w-[194px]  hidden  lg:block md:block 2xl:block xl:block"
+                                                            className: "2xl:w-[300px] xl:w-[250px] lg:w-[194px] md:w-[194px]  hidden  lg:block md:block 2xl:block xl:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
                                                             lineNumber: 174,

@@ -1544,10 +1544,6 @@
     border-color: #f3f3f3;
   }
 
-  .border-black {
-    border-color: var(--color-black);
-  }
-
   .bg-\[\#1B1A1F1A\] {
     background-color: #1b1a1f1a;
   }
@@ -7514,6 +7510,12 @@
   }
 
   @media (width >= 80rem) {
+    .xl\:w-\[250px\] {
+      width: 250px;
+    }
+  }
+
+  @media (width >= 80rem) {
     .xl\:w-\[252\.44px\] {
       width: 252.44px;
     }
@@ -7588,6 +7590,12 @@
   @media (width >= 80rem) {
     .xl\:w-\[299px\] {
       width: 299px;
+    }
+  }
+
+  @media (width >= 80rem) {
+    .xl\:w-\[300px\] {
+      width: 300px;
     }
   }
 
