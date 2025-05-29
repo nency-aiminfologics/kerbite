@@ -13,7 +13,7 @@ export default function WhatMakes() {
                             <h1 className=" 2xl:text-[40px] xl:text-[36px] lg:text-[36px]  md:text-[34px] text-[20px]
                             2xl:w-full xl:w-full lg:w-[432px] md:w-[324px] w-[188px]
                          font-bold geologica leading-[130%] mx-auto text-center text-[#000000]">
-                            What Makes This Powerful solution</h1>
+                                What Makes This Powerful solution</h1>
 
                             <p className="2xl:text-[24px] xl:text-[20px] lg:text-[20px] md:text-[18px] text-[14px]
                              2xl:w-[893px] xl:w-[794px] lg:w-[546px] md:w-[503px] w-[289px]
@@ -195,76 +195,85 @@ export default function WhatMakes() {
 
                                     <div className=" 2xl:w-[324px] xl:w-[288px] lg:w-[329px] md:w-[284px] w-[292px]
                                     mx-auto">
+                                        <div className="relative">
 
-                                        <Image src="/Images/card3-bg.png" alt="background" 
-                                        width={295} height={288}
-                                        className="2xl:w-[324px] 2xl:h-[288px] xl:w-[288px] xl:h-[256px] 
-                                        lg:w-[329px] lg:h-[319.26px] md:w-[284px] md:h-[275.64px] absolute" />
+                                            <Image src="/Images/card3-bg.png" alt="background"
+                                                width={295} height={288}
+                                                className="2xl:w-[324px] 2xl:h-[288px] xl:w-[288px] xl:h-[256px] 
+                                        lg:w-[329px] lg:h-[319.26px] md:w-[284px] md:h-[275.64px] " />
 
-                                        <Image src="/Images/k-logo.svg" alt="k-logo" 
-                                        width={34} height={34}
-                                        className="2xl:w-[47px] 2xl:h-[47px] xl:w-[41.78px] xl:h-[41.78px] 
+                                        <div className="absolute top-0 left-0">
+                                            <Image src="/Images/k-logo.svg" alt="k-logo"
+                                                width={34} height={34}
+                                                className="2xl:w-[47px] 2xl:h-[47px] xl:w-[41.78px] xl:h-[41.78px] 
                                         lg:w-[44.22px] lg:h-[44.22px] md:w-[38px] md:h-[38px]
                                          mx-auto" />
 
-                                        <Image src="/Images/Vector 2.svg" alt="vector" width={252} height={55}
-                                            className=" 2xl:w-[274px] 2xl:h-[66px] xl:w-[243.56px] xl:h-[58.67px] 
+                                            <Image src="/Images/Vector 2.svg" alt="vector" width={252} height={55}
+                                                className=" 2xl:w-[274px] 2xl:h-[66px] xl:w-[243.56px] xl:h-[58.67px] 
                                             lg:w-[290.19px] lg:h-[70px] md:w-[241px] md:h-[60px] mx-auto " />
 
-                                        <div className="flex justify-between">
+                                            <div className="flex justify-between ">
 
-                                            <div className="2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px] 
+                                                <div className="2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px] 
                                             lg:w-[50.04px] lg:h-[50.04px]  md:w-[43px] md:h-[43px] w-[40px] h-[40px]
                                             2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[9.27px] md:rounded-[8px]  rounded-[8px]                                        
                                           bg-[#FFFFFF] border-[1px] border-[#F3F3F3]"
-                                                style={{ boxShadow: "0px 4px 20px #0000000F" }}>
+                                                    style={{ boxShadow: "0px 4px 20px #0000000F" }}>
 
-                                                <Image src="/Images/build-green-icon.svg" alt="build-green-icon" 
-                                                width={30} height={30}
-                                                className="2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px]
+                                                    <Image src="/Images/build-green-icon.svg" alt="build-green-icon"
+                                                        width={30} height={30}
+                                                        className="2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px]
                                                 lg:w-[37.24px] lg:h-[37.24px]  md:w-[32px] md:h-[32px]
                                                 2xl:my-[6px] xl:my-[5.33px] lg:my-[5.82px] md:my-[5px] my-[5px] mx-auto " />
-                                            </div>
+                                                </div>
 
-                                            <div className="2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px] 
+                                                <div className="2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px] 
                                             lg:w-[50.04px] lg:h-[50.04px] md:w-[43px] md:h-[43px]  w-[40px] h-[40px]
                                             2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[9.27px] md:rounded-[8px]  rounded-[8px]    
                                              bg-[#FFFFFF] border-[1px] border-[#F3F3F3]"
-                                                style={{ boxShadow: "0px 4px 20px #0000000F" }}>
+                                                    style={{ boxShadow: "0px 4px 20px #0000000F" }}>
 
-                                                <Image src="/Images/build-orange-icon.svg" alt="build-green-icon" 
-                                                width={30} height={30}
-                                                className="2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px]
+                                                    <Image src="/Images/build-orange-icon.svg" alt="build-green-icon"
+                                                        width={30} height={30}
+                                                        className="2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px]
                                                 lg:w-[37.24px] lg:h-[37.24px]  md:w-[32px] md:h-[32px]
                                                 2xl:my-[6px] xl:my-[5.33px] lg:my-[5.82px] md:my-[5px] my-[5px] mx-auto" />
-                                            </div>
+                                                </div>
 
-                                            <div className="2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px] 
+                                                <div className="2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px] 
                                             lg:w-[50.04px] lg:h-[50.04px]  md:w-[43px] md:h-[43px]  w-[40px] h-[40px]
                                             2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[9.27px] md:rounded-[8px]  rounded-[8px]
                                              bg-[#FFFFFF] border-[1px] border-[#F3F3F3]"
-                                                style={{ boxShadow: "0px 4px 20px #0000000F" }}>
+                                                    style={{ boxShadow: "0px 4px 20px #0000000F" }}>
 
-                                                <Image src="/Images/build-blue-icon.png" alt="build-green-icon" width={30} height={30}
-                                                 className="2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px]
+                                                    <Image src="/Images/build-blue-icon.png" alt="build-green-icon" width={30} height={30}
+                                                        className="2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px]
                                                 lg:w-[37.24px] lg:h-[37.24px]   md:w-[32px] md:h-[32px]
                                                 2xl:my-[6px] xl:my-[5.33px] lg:my-[5.82px] md:my-[5px] my-[5px] mx-auto"  />
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div className="2xl:w-[308px] xl:w-[285px] lg:w-[320px] md:w-[277px] w-[277px]
-                                        2xl:mt-[36px] xl:mt-[30px] lg:mt-[45px] md:mt-[39px] mt-[35px] mx-auto"> 
+                                            <div className="2xl:w-[308px] xl:w-[285px] lg:w-[320px] md:w-[277px] w-[277px]
+                                        2xl:mt-[36px] xl:mt-[30px] lg:mt-[45px] md:mt-[39px] mt-[35px] mx-auto">
 
-                                            <h1 className=" 2xl:text-[24px] xl:text-[18px] lg:text-[20px] md:text-[17px] text-[17px]
+                                                <h1 className=" 2xl:text-[24px] xl:text-[18px] lg:text-[20px] md:text-[17px] text-[17px]
                                              text-[#1B1A1F] geologica leading-[100%] font-medium">
-                                                Built for Experts</h1>
-                                            <p className="
+                                                    Built for Experts</h1>
+                                                <p className="
                                             2xl:text-[18px] xl:text-[16px] lg:text-[16px] md:text-[16px] text-[16px]
                                             2xl:mt-[12px] xl:mt-[12px] lg:mt-[20px] md:mt-[16px] mt-[15px]
                                         text-[#7D7C81] font-light geologica leading-[125%] ">
-                                                Perfect for nutritionists, trainers, and coaches to 
-                                                simplify food analysis, improve client outcomes.</p>
+                                                    Perfect for nutritionists, trainers, and coaches to
+                                                    simplify food analysis, improve client outcomes.</p>
+                                            </div>
                                         </div>
+                                        </div>
+
                                     </div>
+
+
+
+
 
                                 </div>
 
@@ -280,38 +289,38 @@ export default function WhatMakes() {
                                     <div className="lg:w-[331px] md:w-[250px] w-[271px]
                                    mx-auto ">
 
-                                    <Image
-                                        src="/Images/fruits.png"
-                                        alt="fruits"
-                                        width={77.56}
-                                        height={77.56}
-                                        className="lg:w-[94.63px] lg:h-[94.63px] 
+                                        <Image
+                                            src="/Images/fruits.png"
+                                            alt="fruits"
+                                            width={77.56}
+                                            height={77.56}
+                                            className="lg:w-[94.63px] lg:h-[94.63px] 
                                         md:w-[71.55px] md:h-[71.55px] mx-auto "
-                                    />
-                                    <div className="lg:w-[331px] md:w-[250px] w-[271] flex justify-between mx-auto ">
-                                        <Image src="/Images/health-1.svg" alt="health-1" width={52.4} height={52.4} 
-                                        className="lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px]" />
+                                        />
+                                        <div className="lg:w-[331px] md:w-[250px] w-[271] flex justify-between mx-auto ">
+                                            <Image src="/Images/health-1.svg" alt="health-1" width={52.4} height={52.4}
+                                                className="lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px]" />
 
-                                        <Image src="/Images/health-2.svg" alt="health-1" width={52.4} height={52.4} 
-                                        className="lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px] lg:mt-[36.84px] md:mt-[27.91px] mt-[30.35px]" />
+                                            <Image src="/Images/health-2.svg" alt="health-1" width={52.4} height={52.4}
+                                                className="lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px] lg:mt-[36.84px] md:mt-[27.91px] mt-[30.35px]" />
 
-                                        <Image src="/Images/health-3.svg" alt="health-1" width={52.4} height={52.4} 
-                                        className="lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px] lg:mt-[36.84px] md:mt-[27.91px] mt-[30.35px]" />
+                                            <Image src="/Images/health-3.svg" alt="health-1" width={52.4} height={52.4}
+                                                className="lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px] lg:mt-[36.84px] md:mt-[27.91px] mt-[30.35px]" />
 
-                                        <Image src="/Images/health-4.svg" alt="health-1" width={52.4} height={52.4}
-                                         className="lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px]" />
-                                    </div>
+                                            <Image src="/Images/health-4.svg" alt="health-1" width={52.4} height={52.4}
+                                                className="lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px]" />
+                                        </div>
 
-                                    <div className=" lg:mt-[32px] lg:w-[311px] md:mt-[35px] mt-[34px]">
-                                        <h1 className="lg:text-[20px] md:text-[17px] text-[17px]
+                                        <div className=" lg:mt-[32px] lg:w-[311px] md:mt-[35px] mt-[34px]">
+                                            <h1 className="lg:text-[20px] md:text-[17px] text-[17px]
                                         leading-[100%] text-[#1B1A1F] font-medium geologica">Instant Health Score</h1>
 
-                                        <p className="lg:text-[16px] md:text-[16px] text-[16px]
+                                            <p className="lg:text-[16px] md:text-[16px] text-[16px]
                                          lg:mt-[20px] md:mt-[16px] mt-[15px]
                                          leading-[125%]  text-[#7D7C81] geologica font-light">
-                                            Each scanned item is rated
-                                            with a simple health score so you can quickly decide what’s right for your body.</p>
-                                    </div>
+                                                Each scanned item is rated
+                                                with a simple health score so you can quickly decide what’s right for your body.</p>
+                                        </div>
                                     </div>
 
                                 </div>
@@ -342,8 +351,8 @@ export default function WhatMakes() {
                                             2xl:rounded-[12px] xl:rounded-[10.67px] lg:rounded-[13.9px] md:rounded-[12px] rounded-[8px]
                                          bg-[#FFFFFF] border-[1px] border-[#F3F3F3]  ">
 
-                                        <Image src="/Images/insights-green.svg" alt="insights-green" width={27.06} height={27.06}
-                                        className="2xl:w-[46px] 2xl:h-[46px] xl:w-[40.59px] xl:h-[40.59px]
+                                                <Image src="/Images/insights-green.svg" alt="insights-green" width={27.06} height={27.06}
+                                                    className="2xl:w-[46px] 2xl:h-[46px] xl:w-[40.59px] xl:h-[40.59px]
                                         lg:w-[41.53px] lg:h-[41.53px] md:w-[35.85px] md:h-[35.85px]
                                         2xl:mt-[9px] xl:mt-[8px] lg:mt-[9.93px] md:mt-[8.57px] mt-[6.67px] mx-auto " />
                                             </div>
@@ -372,48 +381,48 @@ export default function WhatMakes() {
                                          2xl:rounded-[17px] xl:rounded-[15px] lg:rounded-[13px] md:rounded-[11.43px] rounded-[12px]
                                           bg-[#FFFFFF] border-[1.15px] border-[#F3F3F3] mt-[20px] 2xl:mt-0 xl:mt-0 md:mt-0 lg:mt-0">
 
-                                            <div className="flex flex-row 2xl:flex-col xl:flex-col lg:flex-col md:flex-col w-[261px] 
+                                                <div className="flex flex-row 2xl:flex-col xl:flex-col lg:flex-col md:flex-col w-[261px] 
                                             2xl:w-full xl:w-full lg:w-full md:w-full justify-between  mx-auto ">
-                                           
 
-                                                <div className="2xl:w-[55px] 2xl:h-[55px] xl:w-[49px] xl:h-[48px] 
+
+                                                    <div className="2xl:w-[55px] 2xl:h-[55px] xl:w-[49px] xl:h-[48px] 
                                                 lg:w-[46px] lg:h-[46px] md:w-[40px] md:h-[40px] w-[35px] h-[35px]
                                                 2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[8px] md:rounded-[5.38px]  rounded-[8px]
                                                    
                                                 border-[1px] border-[#F3F3F3] bg-[#FFFFFF] 2xl:mx-auto xl:mx-auto lg:mx-auto md:mx-auto mx-0">
-                                                    <Image src="/Images/dairy 1.svg" alt="dairy 1" width={27.62} height={25}
-                                                        className="2xl:w-[46px] 2xl:h-[42px] xl:w-[41.07px] xl:h-[37.17px]
+                                                        <Image src="/Images/dairy 1.svg" alt="dairy 1" width={27.62} height={25}
+                                                            className="2xl:w-[46px] 2xl:h-[42px] xl:w-[41.07px] xl:h-[37.17px]
                                                         lg:w-[39.52px] lg:h-[35.78px] md:w-[34px] md:h-[31px]
                                                          2xl:my-[6px] xl:my-[5px] lg:my-[4.63px] md:my-[4px] my-[5px] mx-auto" />
-                                                </div>
-                                                 <div className="w-[132px] 2xl:w-full xl:w-full lg:w-full md:w-full">
+                                                    </div>
+                                                    <div className="w-[132px] 2xl:w-full xl:w-full lg:w-full md:w-full">
 
-                                                <h1 className="2xl:text-[15px] xl:text-[14px] lg:text-[14px] md:text-[12px] text-[10px]
+                                                        <h1 className="2xl:text-[15px] xl:text-[14px] lg:text-[14px] md:text-[12px] text-[10px]
                                                  2xl:mt-[30px] xl:mt-[28px] lg:mt-[36px] md:mt-[34px]
                                                 2xl:w-[99px] xl:w-[92px] lg:w-[92px] md:w-[79px] w-[66px] 
                                                 font-normal leading-[100%] geologica text-[#1B1A1F] 
                                                 2xl:mx-auto xl:mx-auto md:mx-auto lg:mx-auto ml-[60px]">Dairy Product</h1>
-                                                
 
-                                                <div className="2xl:w-[132.36px] 2xl:h-[11.51px] xl:w-[118px] xl:h-[10.46px] 
+
+                                                        <div className="2xl:w-[132.36px] 2xl:h-[11.51px] xl:w-[118px] xl:h-[10.46px] 
                                                 lg:w-[113px] lg:h-[10.09px] md:w-[97px] md:h-[8.7px] w-[132px] h-[9px]
                                                  2xl:rounded-[23.02px] xl:rounded-[20px] lg:rounded-[20px] md:rounded-[17px] rounded-[23px]
                                                  2xl:mt-[19.77px] xl:mt-[17px] lg:mt-[14px] md:mt-[12.87px] mt-[5px] mx-auto bg-[#1B1A1F1A]">
 
-                                                    <Image src="/Images/mapping dairy.png" alt="mapping dairy.png" width={128} height={5} 
-                                                      className="2xl:w-[123.15px] 2xl:h-[8.05px] xl:w-[109.82px] xl:h-[7.16px] 
+                                                            <Image src="/Images/mapping dairy.png" alt="mapping dairy.png" width={128} height={5}
+                                                                className="2xl:w-[123.15px] 2xl:h-[8.05px] xl:w-[109.82px] xl:h-[7.16px] 
                                                       lg:w-[105.15px] lg:h-[6.87px] md:w-[90.22px] md:h-[5.93px] h-[8px]
                                                       2xl:pt-[1.73px] xl:pt-[1.65px] md:pt-[1.38px] lg:pt-[1.61px] pt-[1px] mx-auto " />
 
-                                                    <div className=" 2xl:text-[13px] xl:text-[11.56px] lg:text-[11.58px] md:text-[10px] text-[10px]
+                                                            <div className=" 2xl:text-[13px] xl:text-[11.56px] lg:text-[11.58px] md:text-[10px] text-[10px]
                                                     2xl:mt-[5.57px] xl:mt-[5.23px] lg:mt-[4.8px] md:mt-[4.14px] mt-[2px]
                                                      geologica font-normal leading-[120%] flex justify-between text-[#7D7C81]">
-                                                        <h1>0</h1>
-                                                        <h1>120</h1>
-                                                        <h1>240</h1>
+                                                                <h1>0</h1>
+                                                                <h1>120</h1>
+                                                                <h1>240</h1>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                </div>
                                                 </div>
 
                                                 <div className="2xl:mt-[74.96px] xl:mt-[65px] lg:mt-[39px] md:mt-[34px] mt-[10px]
@@ -423,8 +432,8 @@ export default function WhatMakes() {
                                                     2xl:text-[15px] xl:text-[14px] lg:text-[15px] md:text-[12px] text-[12px]
                                                     font-normal text-[#1B1A1F] geologica leading-[100%] my-1">Product report</h1>
 
-                                                    <Image src="/Images/dairy-curve.svg" alt="dairy-curve" width={25} height={25} 
-                                                    className="2xl:w-[35px] 2xl:h-[35px] xl:w-[31px] xl:h-[31px]
+                                                    <Image src="/Images/dairy-curve.svg" alt="dairy-curve" width={25} height={25}
+                                                        className="2xl:w-[35px] 2xl:h-[35px] xl:w-[31px] xl:h-[31px]
                                                     lg:w-[32px] lg:h-[32px] md:w-[28px] md:h-[28px]"/>
                                                 </div>
                                             </div>
@@ -456,7 +465,7 @@ export default function WhatMakes() {
                                                  lg:w-[147px] md:w-[127px]  2xl:py-[20px] xl:py-[15px] lg:py-[11px] md:py-[11px] py-[12px]
                                                 2xl:rounded-[11.51px] xl:rounded-[10px] lg:rounded-[10px] md:rounded-[8.82px] rounded-[11.51px]
                                                  bg-[#FFFFFF] border-[1.15px] border-[#F3F3F3] ">
-                                                    
+
                                                     <div className="2xl:w-[89px] xl:w-[83px] lg:w-[83px] md:w-[71px] w-[71px]
                                                     mx-auto">
 
@@ -465,8 +474,8 @@ export default function WhatMakes() {
                                                         2xl:rounded-[25px] xl:rounded-[22.22px] lg:rounded-[19.46px] md:rounded-[16.8px] rounded-[25px]
                                                         2xl:py-[9px] xl:py-[8px] lg:py-[7.2px] md:py-[6.12px] py-[5.04px]
                                                          bg-[#FFD2C050] mx-auto ">
-                                                            <Image src="/Images/total-sugar.svg" alt="total-sugar" width={17.57} height={17.92} 
-                                                            className=" 2xl:w-[32px] 2xl:h-[32px] xl:w-[28.86px] xl:h-[28.86px]  
+                                                            <Image src="/Images/total-sugar.svg" alt="total-sugar" width={17.57} height={17.92}
+                                                                className=" 2xl:w-[32px] 2xl:h-[32px] xl:w-[28.86px] xl:h-[28.86px]  
                                                             lg:w-[25px] lg:h-[25px] md:w-[21.33px] md:h-[21.76px] mx-auto" />
                                                         </div>
 
@@ -492,35 +501,35 @@ export default function WhatMakes() {
                                 bg-[#FFFFFF]  border-[1px] border-[#E2E2E2] relative lg:hidden md:hidden hidden 2xl:block xl:block">
                                     <div className="2xl:w-[325px] xl:w-[289px]  mx-auto ">
 
-                                    <Image
-                                        src="/Images/fruits.png"
-                                        alt="fruits"
-                                        width={83}
-                                        height={83}
-                                        className="2xl:w-[83px] 2xl:h-[83px] xl:w-[80.35px] xl:h-[80.35px]  mx-auto "
-                                    />
-                                    <div className=" 2xl:w-[290px] xl:w-[281px] flex justify-between mx-auto ">
-                                        <Image src="/Images/health-1.svg" alt="health-1" width={56.04} height={56.04} 
-                                        className="2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]" />
+                                        <Image
+                                            src="/Images/fruits.png"
+                                            alt="fruits"
+                                            width={83}
+                                            height={83}
+                                            className="2xl:w-[83px] 2xl:h-[83px] xl:w-[80.35px] xl:h-[80.35px]  mx-auto "
+                                        />
+                                        <div className=" 2xl:w-[290px] xl:w-[281px] flex justify-between mx-auto ">
+                                            <Image src="/Images/health-1.svg" alt="health-1" width={56.04} height={56.04}
+                                                className="2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]" />
 
-                                        <Image src="/Images/health-2.svg" alt="health-1" width={56.04} height={56.04} 
-                                        className="2xl:mt-[32.39px] xl:mt-[31.26px] 2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]" />
+                                            <Image src="/Images/health-2.svg" alt="health-1" width={56.04} height={56.04}
+                                                className="2xl:mt-[32.39px] xl:mt-[31.26px] 2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]" />
 
-                                        <Image src="/Images/health-3.svg" alt="health-1" width={56.04} height={56.04} 
-                                        className="2xl:mt-[32.39px] xl:mt-[31.26px]  2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]" />
+                                            <Image src="/Images/health-3.svg" alt="health-1" width={56.04} height={56.04}
+                                                className="2xl:mt-[32.39px] xl:mt-[31.26px]  2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]" />
 
-                                        <Image src="/Images/health-4.svg" alt="health-1" width={56.04} height={56.04}
-                                         className="2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]" />
-                                    </div>
-                                    <div className="2xl:mt-[40px] xl:mt-[33px]">
-                                        <h1 className=" 2xl:text-[24px] xl:text-[18px] 
+                                            <Image src="/Images/health-4.svg" alt="health-1" width={56.04} height={56.04}
+                                                className="2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]" />
+                                        </div>
+                                        <div className="2xl:mt-[40px] xl:mt-[33px]">
+                                            <h1 className=" 2xl:text-[24px] xl:text-[18px] 
                                         leading-[100%] text-[#1B1A1F] font-medium geologica">Instant Health Score</h1>
 
-                                        <p className="2xl:text-[18px] xl:text-[16px] 2xl:w-[325px] xl:w-[289px] 2xl:mt-[12px] xl:mt-[12px]
+                                            <p className="2xl:text-[18px] xl:text-[16px] 2xl:w-[325px] xl:w-[289px] 2xl:mt-[12px] xl:mt-[12px]
                                          leading-[125%]  text-[#7D7C81] geologica font-light">
-                                            Each scanned item is rated
-                                            with a simple health score so you can quickly decide what’s right for your body.</p>
-                                    </div>
+                                                Each scanned item is rated
+                                                with a simple health score so you can quickly decide what’s right for your body.</p>
+                                        </div>
                                     </div>
 
                                 </div>

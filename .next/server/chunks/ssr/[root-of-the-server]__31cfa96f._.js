@@ -1933,6 +1933,164 @@ function OurTechnology() {
         once: true,
         margin: "0px 0px -100px 0px"
     });
+    // State to store the current screen size, typed as ScreenSize
+    const [screenSize, setScreenSize] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('mobile');
+    // Detect screen size on mount and on resize
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const handleResize = ()=>{
+            const width = window.innerWidth;
+            if (width >= 1440) {
+                setScreenSize('2xl');
+            } else if (width >= 1280) {
+                setScreenSize('xl');
+            } else if (width >= 1024) {
+                setScreenSize('lg');
+            } else if (width >= 768) {
+                setScreenSize('md');
+            } else {
+                setScreenSize('mobile');
+            }
+        };
+        handleResize(); // Initial check
+        window.addEventListener('resize', handleResize);
+        return ()=>window.removeEventListener('resize', handleResize);
+    }, []);
+    // Define final top positions for each chip based on screen size
+    const finalTopPositions = {
+        '2xl': [
+            '62.44%',
+            '68.78%',
+            '84.65%',
+            '79.36%',
+            '87.29%',
+            '71.43%',
+            '76.72%',
+            '58.22%',
+            '82.53%',
+            '58.22%',
+            '83.06%'
+        ],
+        xl: [
+            '68.94%',
+            '71.90%',
+            '86.69%',
+            '78.24%',
+            '87.53%',
+            '58.38%',
+            '71.90%',
+            '85.00%',
+            '59.22%',
+            '65.56%',
+            '82.46%'
+        ],
+        lg: [
+            '88.17%',
+            '83.46%',
+            '57.00%',
+            '78.70%',
+            '80.67%',
+            '68.84%',
+            '73.97%',
+            '63.71%',
+            '58.97%',
+            '60.94%',
+            '72.78%'
+        ],
+        md: [
+            '87.48%',
+            '87.48%',
+            '59.33%',
+            '78.82%',
+            '76.65%',
+            '89.65%',
+            '76.65%',
+            '65.83%',
+            '61.50%',
+            '61.50%',
+            '76.65%'
+        ],
+        mobile: [
+            '90.77%',
+            '62.56%',
+            '45.64%',
+            '81.18%',
+            '56.92%',
+            '65.38%',
+            '71.03%',
+            '54.10%',
+            '49.02%',
+            '45.64%',
+            '81.74%'
+        ]
+    };
+    // Define final rotation values for each chip based on screen size
+    const finalRotations = {
+        '2xl': [
+            -25,
+            -7,
+            -3,
+            -15,
+            0,
+            0,
+            -22,
+            20,
+            -16,
+            30,
+            -17
+        ],
+        xl: [
+            -25,
+            -12,
+            0,
+            -23,
+            0,
+            14,
+            -16,
+            18,
+            9,
+            16,
+            21
+        ],
+        lg: [
+            0,
+            -9,
+            -9,
+            17,
+            -20,
+            5,
+            -36,
+            0,
+            -27,
+            13,
+            9
+        ],
+        md: [
+            0,
+            -9,
+            -20,
+            -22,
+            -16,
+            -15,
+            -36,
+            0,
+            -28,
+            14,
+            9
+        ],
+        mobile: [
+            0,
+            -13,
+            -8,
+            -19,
+            -14,
+            0,
+            5,
+            -23,
+            -15,
+            9,
+            -22
+        ]
+    };
     // Trigger animations sequentially when the section comes into view
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         if (isInView) {
@@ -1940,18 +2098,43 @@ function OurTechnology() {
                 control.start({
                     translateY: 0,
                     opacity: 1,
+                    top: [
+                        '0%',
+                        finalTopPositions[screenSize][index]
+                    ],
+                    rotate: [
+                        0,
+                        finalRotations[screenSize][index]
+                    ],
                     transition: {
-                        type: 'spring',
-                        stiffness: 80,
-                        damping: 10,
-                        delay: index * 0.15
+                        top: {
+                            duration: 0.8,
+                            ease: 'easeOut',
+                            delay: index * 0.15
+                        },
+                        rotate: {
+                            duration: 0.8,
+                            ease: 'easeOut',
+                            delay: index * 0.15
+                        },
+                        translateY: {
+                            type: 'spring',
+                            stiffness: 80,
+                            damping: 10,
+                            delay: index * 0.15
+                        },
+                        opacity: {
+                            duration: 0.5,
+                            delay: index * 0.15
+                        }
                     }
                 });
             });
         }
     }, [
         isInView,
-        controls
+        controls,
+        screenSize
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1970,7 +2153,7 @@ function OurTechnology() {
                                     children: "Ready to integrate?"
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 117,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1978,7 +2161,7 @@ function OurTechnology() {
                                     children: "Supercharge Your App with Our Technology"
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 120,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1988,30 +2171,32 @@ function OurTechnology() {
                                         children: "Get free trial"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 124,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 123,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                            lineNumber: 42,
+                            lineNumber: 116,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "2xl:w-[1117.82px] 2xl:h-[247.4px] xl:w-[1070.58px] xl:h-[226.45px] lg:w-[814px] lg:h-[189px] md:w-[644.83px] md:h-[244.25px] w-[304px] h-[396px] 2xl:left-[8%] xl:left-[3.5%] lg:left-[5%] md:left-[2%] left-[3%] 2xl:top-[45%] xl:top-[55%] lg:top-[57%] md:top-[55%] top-[40%] absolute right-0 flex z-10",
+                            className: "2xl:w-[1117.82px] xl:w-[1070.58px] lg:w-[814px] md:w-[644.83px] w-[304px] h-full  2xl:left-[8%] xl:left-[3.5%] lg:left-[5%] md:left-[2%] left-[3%] top-0 absolute right-0 flex z-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
                                         translateY: -100,
-                                        opacity: 0
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
                                     },
                                     animate: controls[0],
-                                    className: "absolute 2xl:top-[33%] xl:top-[33%] lg:top-[79%] md:top-[75%] top-[90%] 2xl:left-0 xl:left-0 lg:left-[33%] md:left-[34%] left-[15%] transform 2xl:-rotate-25 xl:-rotate-25 lg:rotate-0",
+                                    className: "absolute 2xl:top-[33%] xl:top-[33%] lg:top-[79%] md:top-[75%] top-[90%]  2xl:left-0 xl:left-0 lg:left-[33%] md:left-[34%] left-[15%] transform",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/Images/Vegan.svg",
                                         alt: "Vegan",
@@ -2020,122 +2205,7 @@ function OurTechnology() {
                                         className: "2xl:w-[276.74px] xl:w-[276.74px] lg:w-[233.03px] md:w-[233px] w-[209px]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 66,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 61,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    initial: {
-                                        translateY: -100,
-                                        opacity: 0
-                                    },
-                                    animate: controls[1],
-                                    className: "absolute 2xl:top-[45%] xl:top-[40%] lg:top-[67%] md:top-[75%] top-[40%] 2xl:left-[15%] xl:left-[20%] lg:left-[9%] md:left-[8%] left-0 transform 2xl:-rotate-7 xl:-rotate-12 lg:-rotate-9 md:-rotate-9 -rotate-13",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/Images/yoga.svg",
-                                        alt: "yoga",
-                                        width: 198.5,
-                                        height: 54,
-                                        className: "2xl:w-[198.5px] xl:w-[198.5px] lg:w-[162.9px] md:w-[163px] w-[147px]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 81,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 76,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    initial: {
-                                        translateY: -100,
-                                        opacity: 0
-                                    },
-                                    animate: controls[2],
-                                    className: "absolute 2xl:top-[75%] xl:top-[75%] lg:top-0 md:top-[10%] 2xl:left-[5%] xl:left-[7%] lg:left-[5%] md:left-[5%] left-[2%] transform 2xl:-rotate-3 xl:rotate-0 lg:-rotate-9 md:-rotate-20 -rotate-8",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/Images/sports.svg",
-                                        alt: "sports",
-                                        width: 182,
-                                        height: 54,
-                                        className: "2xl:w-[182px] xl:w-[182px] lg:w-[141.95px] md:w-[142px] w-[127px]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 96,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 91,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    initial: {
-                                        translateY: -100,
-                                        opacity: 0
-                                    },
-                                    animate: controls[3],
-                                    className: "absolute 2xl:top-[65%] xl:top-[55%] lg:top-[55%] md:top-[55%] top-[73%] 2xl:left-[23%] xl:left-[29%] lg:left-[50%] md:left-[70%] left-[43%] transform 2xl:-rotate-15 xl:-rotate-23 lg:rotate-17 md:-rotate-22 -rotate-19",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/Images/organic.svg",
-                                        alt: "organic",
-                                        width: 246.11,
-                                        height: 54,
-                                        className: "2xl:w-[246.11px] xl:w-[246.11px] lg:w-[196px] md:w-[196px] w-[175px]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 111,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 106,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    initial: {
-                                        translateY: -100,
-                                        opacity: 0
-                                    },
-                                    animate: controls[4],
-                                    className: "absolute 2xl:top-[80%] xl:top-[77%] lg:top-[60%] md:top-[50%] top-[30%] 2xl:left-[39%] xl:left-[43%] lg:left-[78%] md:left-[55%] left-[50%] 2xl:rotate-0 xl:rotate-0 lg:-rotate-20 md:-rotate-16 -rotate-14",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/Images/fitnes.svg",
-                                        alt: "fitnes",
-                                        width: 200,
-                                        height: 0,
-                                        className: "2xl:w-[200px] xl:w-[200px] lg:w-[145px] md:w-[145px] w-[140px]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 126,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 121,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    initial: {
-                                        translateY: -100,
-                                        opacity: 0
-                                    },
-                                    animate: controls[5],
-                                    className: "absolute 2xl:top-[50%] xl:top-[8%] lg:top-[30%] md:top-[80%] top-[45%] 2xl:left-[47%] xl:left-[30%] lg:left-[66%] md:left-[78%] left-[60%] 2xl:rotate-0 xl:rotate-14 lg:rotate-5 md:-rotate-15 rotate-0",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/Images/Dietitians.svg",
-                                        alt: "Dietitians",
-                                        width: 151.56,
-                                        height: 0,
-                                        className: "2xl:w-[151.56px] xl:w-[151.56px] lg:w-[121px] md:w-[121px] w-[117px]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 142,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
@@ -2146,10 +2216,137 @@ function OurTechnology() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
                                         translateY: -100,
-                                        opacity: 0
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
+                                    },
+                                    animate: controls[1],
+                                    className: "absolute 2xl:top-[45%] xl:top-[40%] lg:top-[67%] md:top-[75%] top-[40%]  2xl:left-[15%] xl:left-[20%] lg:left-[9%] md:left-[8%] left-0 transform",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/Images/yoga.svg",
+                                        alt: "yoga",
+                                        width: 198.5,
+                                        height: 54,
+                                        className: "2xl:w-[198.5px] xl:w-[198.5px] lg:w-[162.9px] md:w-[163px] w-[147px]"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                        lineNumber: 158,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                    lineNumber: 152,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        translateY: -100,
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
+                                    },
+                                    animate: controls[2],
+                                    className: "absolute 2xl:top-[75%] xl:top-[75%] lg:top-0 md:top-[10%]  2xl:left-[5%] xl:left-[7%] lg:left-[5%] md:left-[5%] left-[2%] transform",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/Images/sports.svg",
+                                        alt: "sports",
+                                        width: 182,
+                                        height: 54,
+                                        className: "2xl:w-[182px] xl:w-[182px] lg:w-[141.95px] md:w-[142px] w-[127px]"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                        lineNumber: 174,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                    lineNumber: 168,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        translateY: -100,
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
+                                    },
+                                    animate: controls[3],
+                                    className: "absolute 2xl:top-[65%] xl:top-[55%] lg:top-[55%] md:top-[55%] top-[73%]  2xl:left-[23%] xl:left-[29%] lg:left-[50%] md:left-[70%] left-[43%] transform",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/Images/organic.svg",
+                                        alt: "organic",
+                                        width: 246.11,
+                                        height: 54,
+                                        className: "2xl:w-[246.11px] xl:w-[246.11px] lg:w-[196px] md:w-[196px] w-[175px]"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                        lineNumber: 190,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                    lineNumber: 184,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        translateY: -100,
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
+                                    },
+                                    animate: controls[4],
+                                    className: "absolute 2xl:top-[80%] xl:top-[77%] lg:top-[60%] md:top-[50%] top-[30%]  2xl:left-[39%] xl:left-[43%] lg:left-[78%] md:left-[55%] left-[50%]",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/Images/fitnes.svg",
+                                        alt: "fitnes",
+                                        width: 200,
+                                        height: 0,
+                                        className: "2xl:w-[200px] xl:w-[200px] lg:w-[145px] md:w-[145px] w-[140px]"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                        lineNumber: 206,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                    lineNumber: 200,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        translateY: -100,
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
+                                    },
+                                    animate: controls[5],
+                                    className: "absolute 2xl:top-[50%] xl:top-[8%] lg:top-[30%] md:top-[80%] top-[45%]  2xl:left-[47%] xl:left-[30%] lg:left-[66%] md:left-[78%] left-[60%]",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/Images/Dietitians.svg",
+                                        alt: "Dietitians",
+                                        width: 151.56,
+                                        height: 0,
+                                        className: "2xl:w-[151.56px] xl:w-[151.56px] lg:w-[121px] md:w-[121px] w-[117px]"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                        lineNumber: 222,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
+                                    lineNumber: 216,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        translateY: -100,
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
                                     },
                                     animate: controls[6],
-                                    className: "absolute 2xl:top-[60%] xl:top-[40%] lg:top-[43%] md:top-[50%] top-[55%] 2xl:left-[57%] xl:left-[52%] lg:left-0 md:left-0 left-[15%] transform 2xl:-rotate-22 xl:-rotate-16 lg:-rotate-36 md:-rotate-36 rotate-5",
+                                    className: "absolute 2xl:top-[60%] xl:top-[40%] lg:top-[43%] md:top-[50%] top-[55%]  2xl:left-[57%] xl:left-[52%] lg:left-0 md:left-0 left-[15%] transform",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/Images/Gluten free brands.svg",
                                         alt: "Gluten free brands",
@@ -2158,21 +2355,23 @@ function OurTechnology() {
                                         className: "2xl:w-[224.42px] xl:w-[224.42px] lg:w-[179px] md:w-[179px] w-[179px]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 238,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 151,
+                                    lineNumber: 232,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
                                         translateY: -100,
-                                        opacity: 0
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
                                     },
                                     animate: controls[7],
-                                    className: "absolute 2xl:top-[25%] xl:top-[71%] lg:top-[17%] md:top-[25%] top-[25%] 2xl:left-[70%] xl:left-[65%] md:left-[40%] lg:left-[45%] left-[8%] transform 2xl:rotate-20 xl:rotate-18 lg:rotate-0 md:rotate-0 -rotate-23",
+                                    className: "absolute 2xl:top-[25%] xl:top-[71%] lg:top-[17%] md:top-[25%] top-[25%]  2xl:left-[70%] xl:left-[65%] md:left-[40%] lg:left-[45%] left-[8%] transform",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/Images/TeleNutrition .svg",
                                         alt: "TeleNutrition",
@@ -2181,21 +2380,23 @@ function OurTechnology() {
                                         className: "2xl:w-[192.95px] xl:w-[192.95px] lg:w-[145px] md:w-[145px] w-[132px]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 254,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 166,
+                                    lineNumber: 248,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
                                         translateY: -100,
-                                        opacity: 0
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
                                     },
                                     animate: controls[8],
-                                    className: "absolute 2xl:top-[71%] xl:top-[10%] lg:top-[5%] md:top-[15%] top-[16%] 2xl:left-[70%] xl:left-[48%] lg:left-[23%] md:left-[27%] left-0 transform 2xl:-rotate-16 xl:rotate-9 lg:-rotate-27 md:-rotate-28 -rotate-15",
+                                    className: "absolute 2xl:top-[71%] xl:top-[10%] lg:top-[5%] md:top-[15%] top-[16%]  2xl:left-[70%] xl:left-[48%] lg:left-[23%] md:left-[27%] left-0 transform",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/Images/gyms.svg",
                                         alt: "gym",
@@ -2204,21 +2405,23 @@ function OurTechnology() {
                                         className: "2xl:w-[139px] xl:w-[139px] lg:w-[101px] md:w-[101px] w-[95px]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 186,
+                                        lineNumber: 270,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 181,
+                                    lineNumber: 264,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
                                         translateY: -100,
-                                        opacity: 0
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
                                     },
                                     animate: controls[9],
-                                    className: "absolute 2xl:top-[25%] xl:top-[25%] lg:top-[10%] md:top-[15%] top-[10%] 2xl:left-[81%] xl:left-[75%] lg:left-[75%] md:left-[65%] left-[40%] transform 2xl:rotate-30 xl:rotate-16 lg:rotate-13 md:rotate-14 rotate-9",
+                                    className: "absolute 2xl:top-[25%] xl:top-[25%] lg:top-[10%] md:top-[15%] top-[10%]  2xl:left-[81%] xl:left-[75%] lg:left-[75%] md:left-[65%] left-[40%] transform",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/Images/Modern Paleo Brands.svg",
                                         alt: "Modern Paleo Brands",
@@ -2227,21 +2430,23 @@ function OurTechnology() {
                                         className: "2xl:w-[239px] xl:w-[239px] lg:w-[202px] md:w-[202px] w-[179px]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 201,
+                                        lineNumber: 286,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 196,
+                                    lineNumber: 280,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
                                         translateY: -100,
-                                        opacity: 0
+                                        opacity: 0,
+                                        top: '0%',
+                                        rotate: 0
                                     },
                                     animate: controls[10],
-                                    className: "absolute 2xl:top-[72%] xl:top-[65%] lg:top-[40%] md:top-[50%] top-[74%] 2xl:left-[82%] xl:left-[81%] lg:left-[27%] md:left-[28%] left-0 transform 2xl:-rotate-17 xl:rotate-21 lg:rotate-9 md:rotate-9 -rotate-22",
+                                    className: "absolute 2xl:top-[72%] xl:top-[65%] lg:top-[40%] md:top-[50%] top-[74%]  2xl:left-[82%] xl:left-[81%] lg:left-[27%] md:left-[28%] left-0 transform",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/Images/Health Coaches.svg",
                                         alt: "gym owners icon",
@@ -2250,34 +2455,34 @@ function OurTechnology() {
                                         className: "2xl:w-[200px] xl:w-[200px] lg:w-[161.97px] md:w-[162px] w-[142px]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                        lineNumber: 216,
+                                        lineNumber: 302,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                                    lineNumber: 211,
+                                    lineNumber: 296,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                            lineNumber: 57,
+                            lineNumber: 131,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                    lineNumber: 38,
+                    lineNumber: 112,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-                lineNumber: 37,
+                lineNumber: 111,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/Components/Our Technology/Our Technology.tsx",
-            lineNumber: 36,
+            lineNumber: 110,
             columnNumber: 7
         }, this)
     }, void 0, false);

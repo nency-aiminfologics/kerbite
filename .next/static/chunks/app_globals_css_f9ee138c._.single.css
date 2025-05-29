@@ -329,6 +329,10 @@
     top: 45%;
   }
 
+  .top-\[50\%\] {
+    top: 50%;
+  }
+
   .top-\[55\%\] {
     top: 55%;
   }
@@ -1229,6 +1233,10 @@
     cursor: pointer;
   }
 
+  .resize {
+    resize: both;
+  }
+
   .list-disc {
     list-style-type: disc;
   }
@@ -1448,6 +1456,10 @@
 
   .border-\[\#F3F3F3\] {
     border-color: #f3f3f3;
+  }
+
+  .border-white {
+    border-color: var(--color-white);
   }
 
   .bg-\[\#1B1A1F1A\] {
@@ -8173,6 +8185,12 @@
   }
 
   @media (width >= 96rem) {
+    .\32 xl\:top-0 {
+      top: calc(var(--spacing) * 0);
+    }
+  }
+
+  @media (width >= 96rem) {
     .\32 xl\:top-\[10\%\] {
       top: 10%;
     }
@@ -8187,6 +8205,12 @@
   @media (width >= 96rem) {
     .\32 xl\:top-\[33\%\] {
       top: 33%;
+    }
+  }
+
+  @media (width >= 96rem) {
+    .\32 xl\:top-\[38\%\] {
+      top: 38%;
     }
   }
 
@@ -8215,6 +8239,12 @@
   }
 
   @media (width >= 96rem) {
+    .\32 xl\:top-\[70\%\] {
+      top: 70%;
+    }
+  }
+
+  @media (width >= 96rem) {
     .\32 xl\:top-\[71\%\] {
       top: 71%;
     }
@@ -8239,8 +8269,20 @@
   }
 
   @media (width >= 96rem) {
+    .\32 xl\:top-\[78\%\] {
+      top: 78%;
+    }
+  }
+
+  @media (width >= 96rem) {
     .\32 xl\:top-\[80\%\] {
       top: 80%;
+    }
+  }
+
+  @media (width >= 96rem) {
+    .\32 xl\:top-\[90\%\] {
+      top: 90%;
     }
   }
 
@@ -8987,6 +9029,12 @@
   @media (width >= 96rem) {
     .\32 xl\:h-\[247\.4px\] {
       height: 247.4px;
+    }
+  }
+
+  @media (width >= 96rem) {
+    .\32 xl\:h-\[247px\] {
+      height: 247px;
     }
   }
 
