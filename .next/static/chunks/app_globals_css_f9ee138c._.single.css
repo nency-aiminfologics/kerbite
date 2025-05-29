@@ -7272,18 +7272,6 @@
   }
 
   @media (width >= 80rem) {
-    .xl\:w-\[162px\] {
-      width: 162px;
-    }
-  }
-
-  @media (width >= 80rem) {
-    .xl\:w-\[178px\] {
-      width: 178px;
-    }
-  }
-
-  @media (width >= 80rem) {
     .xl\:w-\[182px\] {
       width: 182px;
     }
@@ -7292,12 +7280,6 @@
   @media (width >= 80rem) {
     .xl\:w-\[183px\] {
       width: 183px;
-    }
-  }
-
-  @media (width >= 80rem) {
-    .xl\:w-\[189px\] {
-      width: 189px;
     }
   }
 
@@ -7340,12 +7322,6 @@
   @media (width >= 80rem) {
     .xl\:w-\[210\.89px\] {
       width: 210.89px;
-    }
-  }
-
-  @media (width >= 80rem) {
-    .xl\:w-\[211px\] {
-      width: 211px;
     }
   }
 
@@ -7496,12 +7472,6 @@
   @media (width >= 80rem) {
     .xl\:w-\[299px\] {
       width: 299px;
-    }
-  }
-
-  @media (width >= 80rem) {
-    .xl\:w-\[300px\] {
-      width: 300px;
     }
   }
 
@@ -9365,12 +9335,6 @@
   @media (width >= 96rem) {
     .\32 xl\:w-\[200px\] {
       width: 200px;
-    }
-  }
-
-  @media (width >= 96rem) {
-    .\32 xl\:w-\[211px\] {
-      width: 211px;
     }
   }
 

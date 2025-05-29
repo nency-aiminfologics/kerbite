@@ -8,7 +8,7 @@ export default function Unlock() {
                 <div className=" 2xl:pt-[50px] xl:pt-[44px]  lg:pt-[70px] md:pt-[60px] pt-[20px]">
                     <div className="2xl:w-[692px] xl:w-[635px] lg:w-[743px] md:w-[441px]  mx-auto ">
 
-                        <Image src="/Images/logo.png" alt="logo" width={57} height={57}
+                        <Image src="/Images/logo.svg" alt="logo" width={57} height={57}
                             className="2xl:w-[101px] 2xl:h-[101px] xl:w-[89px] xl:h-[89px]
                         lg:w-[125px] lg:h-[125px] md:w-[113px] md:h-[113px]
                          mx-auto"/>
