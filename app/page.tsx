@@ -29,7 +29,9 @@ export default function Page() {
         <Integrate />
       </div>
       <WhatYouGet />
+      <div id="how-its-works">
       <Howitsworks />
+      </div>
       <Frequently />
       <OurTechnology />
       <Unlock />

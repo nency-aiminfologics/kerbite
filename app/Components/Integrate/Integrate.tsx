@@ -34,8 +34,8 @@ export default function Integrate(){
                                 Supercharge it with our food scanning technology!</h1>
                     </div>
 
-                    <Image src="/Images/integrate.png" alt="integrate" width={331} height={169}
-                     className="lg:w-[867px] lg:h-[443px] md:w-[656px] md:h-[335px]
+                    <Image src="/Images/integrate.png" alt="integrate" width={588} height={300}
+                     className="lg:w-[867px] lg:h-[443px] md:w-[656px] md:h-[335px] 
                      lg:mt-[60px] md:mt-[41px] w-[90%] mx-auto lg:block md:block 2xl:hidden xl:hidden"/>
 
                 </div>

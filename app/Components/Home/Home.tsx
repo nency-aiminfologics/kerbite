@@ -9,6 +9,7 @@ export default function Home() {
           loop
           muted
           playsInline
+          preload="auto"
           className="absolute inset-0 w-[100%] h-full object-cover -z-10"
         >
           <source src="/videos/background.mp4" type="video/mp4" />
@@ -51,6 +52,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
+
     </>
   );
 }
