@@ -692,7 +692,7 @@ function WhatMakes() {
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/What Makes/What Makes.tsx",
                                                             lineNumber: 43,
-                                                            columnNumber: 40
+                                                            columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "2xl:w-[233px] 2xl:h-[174px] xl:w-[207px] xl:h-[155px] lg:w-[249px] lg:h-[186px] md:w-[215px] md:h-[160px] sm:w-[200px] sm:h-[150px] w-[193px] h-[162px] 2xl:rounded-[10px] xl:rounded-[9px] lg:rounded-[10.42px] md:rounded-[9px] rounded-[12px] bg-[#FFFFFF] border-[1px] border-[#F3F3F3] ",
@@ -913,136 +913,145 @@ function WhatMakes() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "2xl:w-[390px]  xl:w-[346px] w-[318px] mx-auto lg:w-[378px] md:w-[326px] sm:w-[280px]  2xl:py-[33px] xl:py-[32px] lg:py-[36px] md:py-[40px] sm:py-[20px] py-[30px] 2xl:rounded-[30px] xl:rounded-[26px] lg:rounded-[30px] md:rounded-[24px] rounded-[30px] bg-[#FFFFFF] border-[1px] border-[#E2E2E2]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: " 2xl:w-[324px] xl:w-[288px] lg:w-[329px] md:w-[284px] sm:w-[260px] w-[292px] mx-auto ",
+                                                className: " 2xl:w-[324px] xl:w-[288px] lg:w-[329px] md:w-[284px] sm:w-[260px] w-[292px] mx-auto relative",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                         src: "/Images/card3-bg.png",
                                                         alt: "background",
                                                         width: 295,
                                                         height: 288,
-                                                        className: "2xl:w-[324px] 2xl:h-[288px] xl:w-[288px] xl:h-[256px]  lg:w-[329px] lg:h-[319.26px] md:w-[284px] md:h-[275.64px] sm:w-[260px] sm:h-[250px]  absolute"
+                                                        className: "2xl:w-[324px] 2xl:h-[288px] xl:w-[288px] xl:h-[256px]  lg:w-[329px] lg:h-[319.26px] md:w-[284px] md:h-[275.64px] sm:w-[260px] sm:h-[250px]   "
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
                                                         lineNumber: 201,
                                                         columnNumber: 41
                                                     }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/k-logo.svg",
-                                                        alt: "k-logo",
-                                                        width: 34,
-                                                        height: 34,
-                                                        className: "2xl:w-[47px] 2xl:h-[47px] xl:w-[41.78px] xl:h-[41.78px]  lg:w-[44.22px] lg:h-[44.22px] md:w-[38px] md:h-[38px] sm:w-[35px] sm:h-[35px] mx-auto"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 206,
-                                                        columnNumber: 41
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/Vector 2.svg",
-                                                        alt: "vector",
-                                                        width: 252,
-                                                        height: 55,
-                                                        className: " 2xl:w-[274px] 2xl:h-[66px] xl:w-[243.56px] xl:h-[58.67px]  lg:w-[290.19px] lg:h-[70px] md:w-[241px] md:h-[60px] sm:w-[230px] sm:h-[60px] mx-auto "
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 212,
-                                                        columnNumber: 41
-                                                    }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "flex justify-between",
+                                                        className: "absolute top-0 left-0",
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px]  lg:w-[50.04px] lg:h-[50.04px]  md:w-[43px] md:h-[43px] w-[40px] h-[40px] sm:w-[40px] sm:h-[40px] 2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[9.27px] md:rounded-[8px]  rounded-[8px]                                         bg-[#FFFFFF] border-[1px] border-[#F3F3F3]",
-                                                                style: {
-                                                                    boxShadow: "0px 4px 20px #0000000F"
-                                                                },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                    src: "/Images/build-green-icon.svg",
-                                                                    alt: "build-green-icon",
-                                                                    width: 30,
-                                                                    height: 30,
-                                                                    className: "2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px] lg:w-[37.24px] lg:h-[37.24px]  md:w-[32px] md:h-[32px] sm:w-[32px] sm:h-[32px] sm:my-[3px] 2xl:my-[6px] xl:my-[5.33px] lg:my-[5.82px] md:my-[5px] my-[5px] mx-auto "
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                    lineNumber: 224,
-                                                                    columnNumber: 49
-                                                                }, this)
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/k-logo.svg",
+                                                                alt: "k-logo",
+                                                                width: 34,
+                                                                height: 34,
+                                                                className: "2xl:w-[47px] 2xl:h-[47px] xl:w-[41.78px] xl:h-[41.78px]  lg:w-[44.22px] lg:h-[44.22px] md:w-[38px] md:h-[38px] sm:w-[35px] sm:h-[35px] mx-auto"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 218,
+                                                                lineNumber: 207,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/Vector 2.svg",
+                                                                alt: "vector",
+                                                                width: 252,
+                                                                height: 55,
+                                                                className: " 2xl:w-[274px] 2xl:h-[66px] xl:w-[243.56px] xl:h-[58.67px]  lg:w-[290.19px] lg:h-[70px] md:w-[241px] md:h-[60px] sm:w-[230px] sm:h-[60px] mx-auto "
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What Makes/What Makes.tsx",
+                                                                lineNumber: 213,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px] sm:w-[40px] sm:h-[40px] lg:w-[50.04px] lg:h-[50.04px] md:w-[43px] md:h-[43px]  w-[40px] h-[40px] 2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[9.27px] md:rounded-[8px]  rounded-[8px]     bg-[#FFFFFF] border-[1px] border-[#F3F3F3]",
-                                                                style: {
-                                                                    boxShadow: "0px 4px 20px #0000000F"
-                                                                },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                    src: "/Images/build-orange-icon.svg",
-                                                                    alt: "build-green-icon",
-                                                                    width: 30,
-                                                                    height: 30,
-                                                                    className: "2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px] lg:w-[37.24px] lg:h-[37.24px]  md:w-[32px] md:h-[32px] sm:w-[32px] sm:h-[32px] sm:my-[3px] 2xl:my-[6px] xl:my-[5.33px] lg:my-[5.82px] md:my-[5px] my-[5px] mx-auto"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                    lineNumber: 237,
-                                                                    columnNumber: 49
-                                                                }, this)
-                                                            }, void 0, false, {
+                                                                className: "flex justify-between",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px]  lg:w-[50.04px] lg:h-[50.04px]  md:w-[43px] md:h-[43px] w-[40px] h-[40px] sm:w-[40px] sm:h-[40px] 2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[9.27px] md:rounded-[8px]  rounded-[8px]                                         bg-[#FFFFFF] border-[1px] border-[#F3F3F3]",
+                                                                        style: {
+                                                                            boxShadow: "0px 4px 20px #0000000F"
+                                                                        },
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                                            src: "/Images/build-green-icon.svg",
+                                                                            alt: "build-green-icon",
+                                                                            width: 30,
+                                                                            height: 30,
+                                                                            className: "2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px] lg:w-[37.24px] lg:h-[37.24px]  md:w-[32px] md:h-[32px] sm:w-[32px] sm:h-[32px] sm:my-[3px] 2xl:my-[6px] xl:my-[5.33px] lg:my-[5.82px] md:my-[5px] my-[5px] mx-auto "
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/Components/What Makes/What Makes.tsx",
+                                                                            lineNumber: 225,
+                                                                            columnNumber: 53
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What Makes/What Makes.tsx",
+                                                                        lineNumber: 219,
+                                                                        columnNumber: 49
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px] sm:w-[40px] sm:h-[40px] lg:w-[50.04px] lg:h-[50.04px] md:w-[43px] md:h-[43px]  w-[40px] h-[40px] 2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[9.27px] md:rounded-[8px]  rounded-[8px]     bg-[#FFFFFF] border-[1px] border-[#F3F3F3]",
+                                                                        style: {
+                                                                            boxShadow: "0px 4px 20px #0000000F"
+                                                                        },
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                                            src: "/Images/build-orange-icon.svg",
+                                                                            alt: "build-green-icon",
+                                                                            width: 30,
+                                                                            height: 30,
+                                                                            className: "2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px] lg:w-[37.24px] lg:h-[37.24px]  md:w-[32px] md:h-[32px] sm:w-[32px] sm:h-[32px] sm:my-[3px] 2xl:my-[6px] xl:my-[5.33px] lg:my-[5.82px] md:my-[5px] my-[5px] mx-auto"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/Components/What Makes/What Makes.tsx",
+                                                                            lineNumber: 238,
+                                                                            columnNumber: 53
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What Makes/What Makes.tsx",
+                                                                        lineNumber: 232,
+                                                                        columnNumber: 49
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px]  lg:w-[50.04px] lg:h-[50.04px]  md:w-[43px] md:h-[43px]  w-[40px] h-[40px] sm:w-[40px] sm:h-[40px] 2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[9.27px] md:rounded-[8px]  rounded-[8px] bg-[#FFFFFF] border-[1px] border-[#F3F3F3]",
+                                                                        style: {
+                                                                            boxShadow: "0px 4px 20px #0000000F"
+                                                                        },
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                                            src: "/Images/build-blue-icon.png",
+                                                                            alt: "build-green-icon",
+                                                                            width: 30,
+                                                                            height: 30,
+                                                                            className: "2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px]  lg:w-[37.24px] lg:h-[37.24px]   md:w-[32px] md:h-[32px] sm:w-[32px] sm:h-[32px] sm:my-[3px] 2xl:my-[6px] xl:my-[5.33px] lg:my-[5.82px] md:my-[5px] my-[5px] mx-auto"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/Components/What Makes/What Makes.tsx",
+                                                                            lineNumber: 251,
+                                                                            columnNumber: 53
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What Makes/What Makes.tsx",
+                                                                        lineNumber: 245,
+                                                                        columnNumber: 49
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 231,
+                                                                lineNumber: 217,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "2xl:w-[53px] 2xl:h-[53px] xl:w-[47.11px] xl:h-[47.11px]  lg:w-[50.04px] lg:h-[50.04px]  md:w-[43px] md:h-[43px]  w-[40px] h-[40px] sm:w-[40px] sm:h-[40px] 2xl:rounded-[8px] xl:rounded-[8px] lg:rounded-[9.27px] md:rounded-[8px]  rounded-[8px] bg-[#FFFFFF] border-[1px] border-[#F3F3F3]",
-                                                                style: {
-                                                                    boxShadow: "0px 4px 20px #0000000F"
-                                                                },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                    src: "/Images/build-blue-icon.png",
-                                                                    alt: "build-green-icon",
-                                                                    width: 30,
-                                                                    height: 30,
-                                                                    className: "2xl:w-[40px] 2xl:h-[40px] xl:w-[35.56px] xl:h-[35.56px]  lg:w-[37.24px] lg:h-[37.24px]   md:w-[32px] md:h-[32px] sm:w-[32px] sm:h-[32px] sm:my-[3px] 2xl:my-[6px] xl:my-[5.33px] lg:my-[5.82px] md:my-[5px] my-[5px] mx-auto"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                    lineNumber: 250,
-                                                                    columnNumber: 49
-                                                                }, this)
-                                                            }, void 0, false, {
+                                                                className: "2xl:w-[308px] xl:w-[285px] lg:w-[320px] md:w-[277px] w-[277px] sm:w-[261px]  2xl:mt-[36px] xl:mt-[30px] lg:mt-[45px] md:mt-[39px] mt-[35px] sm:mt-[39px] mx-auto",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                        className: " 2xl:text-[24px] xl:text-[18px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[17px] text-[#1B1A1F] geologica leading-[100%] font-medium",
+                                                                        children: "Built for Experts"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What Makes/What Makes.tsx",
+                                                                        lineNumber: 260,
+                                                                        columnNumber: 49
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        className: " 2xl:text-[18px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[15px] text-[16px] 2xl:mt-[12px] xl:mt-[12px] lg:mt-[20px]  md:mt-[16px] mt-[15px] text-[#7D7C81] font-light geologica leading-[125%] ",
+                                                                        children: "Perfect for nutritionists, trainers, and coaches to simplify food analysis, improve client outcomes."
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What Makes/What Makes.tsx",
+                                                                        lineNumber: 263,
+                                                                        columnNumber: 49
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 244,
+                                                                lineNumber: 257,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 216,
-                                                        columnNumber: 41
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "2xl:w-[308px] xl:w-[285px] lg:w-[320px] md:w-[277px] w-[277px] sm:w-[261px]  2xl:mt-[36px] xl:mt-[30px] lg:mt-[45px] md:mt-[39px] mt-[35px] sm:mt-[39px] mx-auto",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                className: " 2xl:text-[24px] xl:text-[18px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[17px] text-[#1B1A1F] geologica leading-[100%] font-medium",
-                                                                children: "Built for Experts"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 259,
-                                                                columnNumber: 45
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: " 2xl:text-[18px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[15px] text-[16px] 2xl:mt-[12px] xl:mt-[12px] lg:mt-[20px]  md:mt-[16px] mt-[15px] text-[#7D7C81] font-light geologica leading-[125%] ",
-                                                                children: "Perfect for nutritionists, trainers, and coaches to simplify food analysis, improve client outcomes."
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 262,
-                                                                columnNumber: 45
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 256,
+                                                        lineNumber: 205,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
@@ -1069,8 +1078,8 @@ function WhatMakes() {
                                                         className: "lg:w-[94.63px] lg:h-[94.63px]  md:w-[71.55px] md:h-[71.55px] sm:w-[65px] sm:h-[65px] mx-auto "
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 285,
-                                                        columnNumber: 37
+                                                        lineNumber: 286,
+                                                        columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "lg:w-[331px] md:w-[250px] sm:w-[250px] w-[271]  flex justify-between mx-auto ",
@@ -1083,8 +1092,8 @@ function WhatMakes() {
                                                                 className: "lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px] sm:w-[45px] sm:h-[45px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 294,
-                                                                columnNumber: 41
+                                                                lineNumber: 295,
+                                                                columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                                 src: "/Images/health-2.svg",
@@ -1094,8 +1103,8 @@ function WhatMakes() {
                                                                 className: "lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px] sm:w-[45px] sm:h-[45px] lg:mt-[36.84px] md:mt-[27.91px] mt-[30.35px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 297,
-                                                                columnNumber: 41
+                                                                lineNumber: 298,
+                                                                columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                                 src: "/Images/health-3.svg",
@@ -1105,8 +1114,8 @@ function WhatMakes() {
                                                                 className: "lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px] sm:w-[45px] sm:h-[45px] lg:mt-[36.84px] md:mt-[27.91px] mt-[30.35px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 301,
-                                                                columnNumber: 41
+                                                                lineNumber: 302,
+                                                                columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                                 src: "/Images/health-4.svg",
@@ -1116,14 +1125,14 @@ function WhatMakes() {
                                                                 className: "lg:w-[63.92px] lg:h-[63.92px] md:w-[48.31px] md:h-[48.31px] sm:w-[45px] sm:h-[45px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 305,
-                                                                columnNumber: 41
+                                                                lineNumber: 306,
+                                                                columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 293,
-                                                        columnNumber: 37
+                                                        lineNumber: 294,
+                                                        columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: " lg:mt-[32px] lg:w-[311px]  md:mt-[45px] mt-[34px] sm:mt-[30px]",
@@ -1133,32 +1142,32 @@ function WhatMakes() {
                                                                 children: "Instant Health Score"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 310,
-                                                                columnNumber: 41
+                                                                lineNumber: 311,
+                                                                columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "lg:text-[16px] md:text-[16px] text-[16px] sm:text-[15px] lg:mt-[20px] md:mt-[16px] mt-[15px]  leading-[125%]  text-[#7D7C81] geologica font-light",
                                                                 children: "Each scanned item is rated with a simple health score so you can quickly decide what’s right for your body."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 313,
-                                                                columnNumber: 41
+                                                                lineNumber: 314,
+                                                                columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 309,
-                                                        columnNumber: 37
+                                                        lineNumber: 310,
+                                                        columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                lineNumber: 282,
+                                                lineNumber: 283,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                            lineNumber: 277,
+                                            lineNumber: 278,
                                             columnNumber: 33
                                         }, this)
                                     ]
@@ -1188,12 +1197,12 @@ function WhatMakes() {
                                                                     className: "2xl:w-[46px] 2xl:h-[46px] xl:w-[40.59px] xl:h-[40.59px] lg:w-[41.53px] lg:h-[41.53px] md:w-[35.85px] md:h-[35.85px] sm:w-[35.85px] sm:h-[35.85px] 2xl:mt-[9px] xl:mt-[8px] lg:mt-[9.93px] md:mt-[8.57px] mt-[6.67px] mx-auto "
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                    lineNumber: 350,
-                                                                    columnNumber: 41
+                                                                    lineNumber: 351,
+                                                                    columnNumber: 49
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 345,
+                                                                lineNumber: 346,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1201,7 +1210,7 @@ function WhatMakes() {
                                                                 children: "Insights & Reports"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 355,
+                                                                lineNumber: 356,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1209,13 +1218,13 @@ function WhatMakes() {
                                                                 children: "Get insights into food quality, calories, and health ratings to make data-backed decisions for your clients."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 361,
+                                                                lineNumber: 362,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 343,
+                                                        lineNumber: 344,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1237,13 +1246,13 @@ function WhatMakes() {
                                                                                     className: "2xl:w-[46px] 2xl:h-[42px] xl:w-[41.07px] xl:h-[37.17px] lg:w-[39.52px] lg:h-[35.78px] md:w-[34px] md:h-[31px] sm:w-[34px] sm:h-[31px] 2xl:my-[6px] xl:my-[5px] lg:my-[4.63px] md:my-[4px] sm:my-[4px] my-[5px] mx-auto"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                    lineNumber: 390,
-                                                                                    columnNumber: 53
+                                                                                    lineNumber: 391,
+                                                                                    columnNumber: 57
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                lineNumber: 385,
-                                                                                columnNumber: 49
+                                                                                lineNumber: 386,
+                                                                                columnNumber: 53
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 className: "w-[132px] 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full",
@@ -1253,8 +1262,8 @@ function WhatMakes() {
                                                                                         children: "Dairy Product"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                        lineNumber: 397,
-                                                                                        columnNumber: 49
+                                                                                        lineNumber: 398,
+                                                                                        columnNumber: 57
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                         className: "2xl:w-[132.36px] 2xl:h-[11.51px] xl:w-[118px] xl:h-[10.46px]  lg:w-[113px] lg:h-[10.09px] md:w-[97px] md:h-[8.7px] sm:w-[97px] sm:h-[8.7px] w-[132px] h-[9px] 2xl:rounded-[23.02px] xl:rounded-[20px] lg:rounded-[20px] md:rounded-[17px] sm:rounded-[17px] rounded-[23px] 2xl:mt-[19.77px] xl:mt-[17px] lg:mt-[14px] md:mt-[12.87px] sm:mt-[12.87px] mt-[5px] mx-auto bg-[#1B1A1F1A]",
@@ -1267,8 +1276,8 @@ function WhatMakes() {
                                                                                                 className: "2xl:w-[123.15px] 2xl:h-[8.05px] xl:w-[109.82px] xl:h-[7.16px]  lg:w-[105.15px] lg:h-[6.87px] md:w-[90.22px] md:h-[5.93px] h-[8px] 2xl:pt-[1.73px] xl:pt-[1.65px] md:pt-[1.38px] lg:pt-[1.61px] pt-[1px] mx-auto "
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                                lineNumber: 409,
-                                                                                                columnNumber: 53
+                                                                                                lineNumber: 410,
+                                                                                                columnNumber: 61
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                                 className: " 2xl:text-[13px] xl:text-[11.56px] lg:text-[11.58px] md:text-[10px] sm:text-[10px] text-[10px] 2xl:mt-[5.57px] xl:mt-[5.23px] lg:mt-[4.8px] md:mt-[4.14px] sm:mt-[4.14px] mt-[2px] geologica font-normal leading-[120%] flex justify-between text-[#7D7C81]",
@@ -1277,46 +1286,46 @@ function WhatMakes() {
                                                                                                         children: "0"
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                                        lineNumber: 417,
-                                                                                                        columnNumber: 57
+                                                                                                        lineNumber: 418,
+                                                                                                        columnNumber: 65
                                                                                                     }, this),
                                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                                                                         children: "120"
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                                        lineNumber: 418,
-                                                                                                        columnNumber: 57
+                                                                                                        lineNumber: 419,
+                                                                                                        columnNumber: 65
                                                                                                     }, this),
                                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                                                                         children: "240"
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                                        lineNumber: 419,
-                                                                                                        columnNumber: 57
+                                                                                                        lineNumber: 420,
+                                                                                                        columnNumber: 65
                                                                                                     }, this)
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                                lineNumber: 414,
-                                                                                                columnNumber: 53
+                                                                                                lineNumber: 415,
+                                                                                                columnNumber: 61
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                        lineNumber: 404,
-                                                                                        columnNumber: 49
+                                                                                        lineNumber: 405,
+                                                                                        columnNumber: 57
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                lineNumber: 395,
-                                                                                columnNumber: 50
+                                                                                lineNumber: 396,
+                                                                                columnNumber: 53
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                        lineNumber: 381,
-                                                                        columnNumber: 45
+                                                                        lineNumber: 382,
+                                                                        columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         className: "2xl:mt-[74.96px] xl:mt-[65px] lg:mt-[39px] md:mt-[34px] sm:mt-[34px] mt-[10px] 2xl:mx-[16px] xl:mx-[14px] lg:mx-[15px] md:mx-[12px] mx-[12px]  flex justify-between",
@@ -1326,7 +1335,7 @@ function WhatMakes() {
                                                                                 children: "Product report"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                lineNumber: 428,
+                                                                                lineNumber: 429,
                                                                                 columnNumber: 53
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1337,19 +1346,19 @@ function WhatMakes() {
                                                                                 className: "2xl:w-[35px] 2xl:h-[35px] xl:w-[31px] xl:h-[31px] lg:w-[32px] lg:h-[32px] md:w-[28px] md:h-[28px] sm:w-[28px] sm:h-[28px]"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                lineNumber: 432,
+                                                                                lineNumber: 433,
                                                                                 columnNumber: 53
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                        lineNumber: 425,
+                                                                        lineNumber: 426,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 375,
+                                                                lineNumber: 376,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1365,7 +1374,7 @@ function WhatMakes() {
                                                                                     children: "Recommended daily intake"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                    lineNumber: 449,
+                                                                                    lineNumber: 450,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1373,18 +1382,18 @@ function WhatMakes() {
                                                                                     children: "23.9 % "
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                    lineNumber: 453,
+                                                                                    lineNumber: 454,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                            lineNumber: 446,
+                                                                            lineNumber: 447,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                        lineNumber: 441,
+                                                                        lineNumber: 442,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1402,12 +1411,12 @@ function WhatMakes() {
                                                                                         className: " 2xl:w-[32px] 2xl:h-[32px] xl:w-[28.86px] xl:h-[28.86px]   lg:w-[25px] lg:h-[25px] md:w-[21.33px] md:h-[21.76px] mx-auto"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                        lineNumber: 474,
+                                                                                        lineNumber: 475,
                                                                                         columnNumber: 61
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                    lineNumber: 469,
+                                                                                    lineNumber: 470,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1415,7 +1424,7 @@ function WhatMakes() {
                                                                                     children: "Total Sugars"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                    lineNumber: 479,
+                                                                                    lineNumber: 480,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1423,41 +1432,41 @@ function WhatMakes() {
                                                                                     children: "15.0 g"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                                    lineNumber: 484,
+                                                                                    lineNumber: 485,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                            lineNumber: 466,
+                                                                            lineNumber: 467,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                        lineNumber: 461,
+                                                                        lineNumber: 462,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 439,
+                                                                lineNumber: 440,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 371,
+                                                        lineNumber: 372,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                lineNumber: 339,
+                                                lineNumber: 340,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                            lineNumber: 334,
+                                            lineNumber: 335,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1473,8 +1482,8 @@ function WhatMakes() {
                                                         className: "2xl:w-[83px] 2xl:h-[83px] xl:w-[80.35px] xl:h-[80.35px]  mx-auto "
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 501,
-                                                        columnNumber: 37
+                                                        lineNumber: 502,
+                                                        columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: " 2xl:w-[290px] xl:w-[281px] flex justify-between mx-auto ",
@@ -1487,8 +1496,8 @@ function WhatMakes() {
                                                                 className: "2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 509,
-                                                                columnNumber: 41
+                                                                lineNumber: 510,
+                                                                columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                                 src: "/Images/health-2.svg",
@@ -1498,8 +1507,8 @@ function WhatMakes() {
                                                                 className: "2xl:mt-[32.39px] xl:mt-[31.26px] 2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 512,
-                                                                columnNumber: 41
+                                                                lineNumber: 513,
+                                                                columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                                 src: "/Images/health-3.svg",
@@ -1509,8 +1518,8 @@ function WhatMakes() {
                                                                 className: "2xl:mt-[32.39px] xl:mt-[31.26px]  2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 515,
-                                                                columnNumber: 41
+                                                                lineNumber: 516,
+                                                                columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                                 src: "/Images/health-4.svg",
@@ -1520,14 +1529,14 @@ function WhatMakes() {
                                                                 className: "2xl:w-[56.04px] 2xl:h-[56.04px] xl:w-[54.26px] xl:h-[54.26px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 518,
-                                                                columnNumber: 41
+                                                                lineNumber: 519,
+                                                                columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 508,
-                                                        columnNumber: 37
+                                                        lineNumber: 509,
+                                                        columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "2xl:mt-[40px] xl:mt-[33px]",
@@ -1537,38 +1546,38 @@ function WhatMakes() {
                                                                 children: "Instant Health Score"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 522,
-                                                                columnNumber: 41
+                                                                lineNumber: 523,
+                                                                columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "2xl:text-[18px] xl:text-[16px] 2xl:w-[325px] xl:w-[289px] 2xl:mt-[12px] xl:mt-[12px] leading-[125%]  text-[#7D7C81] geologica font-light",
                                                                 children: "Each scanned item is rated with a simple health score so you can quickly decide what’s right for your body."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                                lineNumber: 525,
-                                                                columnNumber: 41
+                                                                lineNumber: 526,
+                                                                columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                        lineNumber: 521,
-                                                        columnNumber: 37
+                                                        lineNumber: 522,
+                                                        columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                                lineNumber: 499,
+                                                lineNumber: 500,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                            lineNumber: 497,
+                                            lineNumber: 498,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/Components/What Makes/What Makes.tsx",
-                                    lineNumber: 331,
+                                    lineNumber: 332,
                                     columnNumber: 29
                                 }, this)
                             ]
