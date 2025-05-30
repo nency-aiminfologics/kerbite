@@ -212,7 +212,7 @@ export default function Howitsworks() {
                                                 </div>
                                             </div>
                                             <div className="md:w-[345px] w-[279px] border border-[#7D7C814D] 
-                                  absolute bottom-0 z-20 rounded-b-[20px] bg-[#ffffff]">
+                                  absolute bottom-0 z-20 rounded-b-[15px] bg-[#ffffff]">
                                                 <div className="md:w-[267px] w-[280px] mx-4 md:my-[24px] my-[15px]">
                                                     <h1 className="text-[#1DD673] geologica font-normal md:text-[14px] text-[12px] leading-[100%]">Step 1</h1>
                                                     <h1 className="text-[#1B1A1F] geologica font-bold md:text-[24px] text-[20px] leading-[100%] 
@@ -302,7 +302,7 @@ export default function Howitsworks() {
                                                 </div>
                                             </div>
                                             <div className="md:w-[345px] w-[279px] border border-[#7D7C814D] 
-                                  absolute bottom-0 z-20 rounded-b-[20px] bg-[#ffffff]">
+                                  absolute bottom-0 z-20 rounded-b-[15px] bg-[#ffffff]">
                                                 <div className="md:w-[267px] w-[280px] mx-4 md:my-[24px] my-[15px]">
                                                     <h1 className="text-[#FDCB26] geologica font-normal md:text-[14px] text-[12px] leading-[100%]">Step 3</h1>
                                                     <h1 className="text-[#1B1A1F] geologica font-bold md:text-[24px] text-[20px] leading-[100%] 

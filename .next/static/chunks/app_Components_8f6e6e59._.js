@@ -1284,7 +1284,7 @@ function Howitsworks() {
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "md:w-[345px] w-[279px] border border-[#7D7C814D]  absolute bottom-0 z-20 rounded-b-[20px] bg-[#ffffff]",
+                                                            className: "md:w-[345px] w-[279px] border border-[#7D7C814D]  absolute bottom-0 z-20 rounded-b-[15px] bg-[#ffffff]",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "md:w-[267px] w-[280px] mx-4 md:my-[24px] my-[15px]",
                                                                 children: [
@@ -1622,7 +1622,7 @@ function Howitsworks() {
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "md:w-[345px] w-[279px] border border-[#7D7C814D]  absolute bottom-0 z-20 rounded-b-[20px] bg-[#ffffff]",
+                                                            className: "md:w-[345px] w-[279px] border border-[#7D7C814D]  absolute bottom-0 z-20 rounded-b-[15px] bg-[#ffffff]",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "md:w-[267px] w-[280px] mx-4 md:my-[24px] my-[15px]",
                                                                 children: [
