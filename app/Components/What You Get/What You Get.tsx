@@ -5,9 +5,9 @@ export default function WhatYouGet() {
     return (
         <>
             <div className="bg-[#C7FFE14D] w-full">
-                <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] w-[375px] mx-auto    
+                <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] w-[100%] mx-auto    
                 2xl:py-[94.37px] xl:py-[84px] lg:py-[80px] md:py-[70px] py-[50px]">
-                    <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[335px] mx-auto  ">
+                    <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[90%]  mx-auto ">
  
                          {/* 1440 1280 screen */}
 
@@ -81,9 +81,9 @@ export default function WhatYouGet() {
 
                             <div className="flex lg:flex-row md:flex-row flex-col justify-between">
                                 {/* left side */}
-                               <div className="lg:w-[420px] md:w-[435px] w-[335px]">
+                               <div className="lg:w-[420px] md:w-[435px]">
 
-                                <div className="lg:w-[420px] md:w-[422px] w-[303px]">
+                                <div className="lg:w-[420px] md:w-[422px] ">
                                     <h1 className=" lg:text-[36px] md:text-[34px] text-[20px]
                                     text-[#1B1A1F] font-bold geologica leading-[100%] ">What You Get</h1>
 
@@ -97,7 +97,7 @@ export default function WhatYouGet() {
                                 </div>
                                 <div className="block lg:hidden md:hidden">
                                 <Image src="/Images/what-scan.png" alt="what-scan" width={163} height={0} 
-                                className="mx-auto mt-[35px]"/>
+                                className=" mx-auto mt-[35px] w-[40%]"/>
                             </div>
 
                                 <div className="lg:w-[418px] md:w-[435px]  lg:mt-[45px] md:mt-[37px] mt-[35px]">
@@ -132,12 +132,13 @@ export default function WhatYouGet() {
 
                             <div className="flex lg:flex-row md:flex-row flex-col justify-between lg:mt-[48px] md:mt-[52px] mt-[35px]">
 
-                                 <div className="lg:w-[420px] lg:h-[407px] md:w-[279px] md:h-[271px] w-[335px] h-[319px]  ">
-                                    <div className="bg-[#FFF3CEB2] lg:w-[416.99px] lg:h-[223.77px] md:w-[277px] md:h-[149px] w-[335px] h-[176.4px]
+                                 <div className="lg:w-[420px] lg:h-[407px] md:w-[279px] md:h-[271px] w-[90%] h-[319px]  mx-auto">
+                                    <div className="bg-[#FFF3CEB2] lg:w-[416.99px] lg:h-[223.77px] md:w-[277px] md:h-[149px] w-[100%] h-[176.4px]
                                    lg:rounded-[19.49px] md:rounded-[13px] rounded-[15.21px] mt-[142.6px] lg:mt-[183.23px] md:mt-[122px] relative">
 
                                     <Image src="/Images/what-1.png" alt="" width={233.33} height={0} 
-                                    className="lg:w-[233.33px] md:w-[155px] w-[182px]  bottom-[0px] left-[23%] z-10 absolute " />
+                                    className="lg:w-[233.33px] md:w-[155px] w-[182px]  bottom-[0px]  z-10 
+                                    h-auto absolute top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
 
                                     </div>
                                     
@@ -146,12 +147,13 @@ export default function WhatYouGet() {
                                 </div>
 
                                
-                                <div className="lg:w-[420px] lg:h-[407px] md:w-[279px] md:h-[271px] mt-[35px] lg:mt-0 md:mt-0">
-                                    <div className="bg-[#FFD2C0B2] lg:w-[416.99px] lg:h-[223.77px] md:w-[277px] md:h-[149px] w-[335px] h-[176.4px]
+                                <div className="lg:w-[420px] lg:h-[407px] md:w-[279px] md:h-[271px]  w-[90%] h-[319px]  mt-[35px] mx-auto lg:mt-0 md:mt-0">
+                                    <div className="bg-[#FFD2C0B2] lg:w-[416.99px] lg:h-[223.77px] md:w-[277px] md:h-[149px] w-[100%] h-[176.4px]
                                    lg:rounded-[19.49px] md:rounded-[13px] rounded-[15.21px] mt-[142.6px] lg:mt-[183.23px] md:mt-[122px] relative">
 
                                       <Image src="/Images/what-2.png" alt="" width={233.33} height={0} 
-                                     className="lg:w-[233.33px] md:w-[155px] w-[182px]   bottom-[0px] left-[23%] z-10 absolute" />
+                                     className="lg:w-[233.33px] md:w-[155px] w-[182px]   z-10
+                                      h-auto absolute top-7 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
 
                                     </div>
                                   
@@ -169,6 +171,9 @@ export default function WhatYouGet() {
                 </div>
 
             </div>
+
+
+           
         </>
     )
 }

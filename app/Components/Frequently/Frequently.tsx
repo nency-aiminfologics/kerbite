@@ -92,9 +92,9 @@ export default function Frequently() {
   return (
     <>
       <div className="bg-[#F7F7F7] w-full">
-        <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] w-[375px] h-[800px] md:h-[720px]  2xl:h-[800px] xl:h-[800px] lg:h-[800px]
+        <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] w-[100%] h-auto md:h-[720px]  2xl:h-[800px] xl:h-[800px] lg:h-[800px]
           2xl:py-[75px] xl:py-[95px] lg:py-[100px] md:py-[50px] py-[40px] mx-auto">
-          <div className='2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[335px] mx-auto '>
+          <div className='2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[90%] mx-auto '>
 
           <div className="2xl:w-[308px] 2xl:h-[54px] xl:w-[308px] xl:h-[54px] w-[265px] h-[46px]
           lg:w-[276px] lg:h-[54px] md:w-[276px] md:h-[54px] bg-[#ffffff] 
@@ -122,12 +122,12 @@ export default function Frequently() {
 
           <h1 className="2xl:text-[40px] xl:text-[36px] lg:text-[36px] md:text-[34px] text-[20px]
           2xl:mt-[40px] xl:mt-[30px] lg:mt-[30px] md:mt-[30px] mt-[20px]
-          text-[#1B1A1F] geologica font-bold w-[190px] lg:w-full md:w-full 2xl:w-full xl:w-full mx-auto
+          text-[#1B1A1F] geologica font-bold w-[50%] lg:w-full md:w-full 2xl:w-full xl:w-full mx-auto
            leading-[130%] text-center ">
             Quick Help for Easy Integration
           </h1>
 
-          <div className="2xl:w-[866px] xl:w-[866px] lg:w-[668px] md:w-[668px] w-[335px] mx-auto
+          <div className="2xl:w-[866px] xl:w-[866px] lg:w-[668px] md:w-[668px] w-[90%] mx-auto
            2xl:mt-[65px] xl:mt-[70px] lg:mt-[53px] md:mt-[55px] mt-[30px]">
             <div className="flex flex-col 2xl:gap-[15px] xl:gap-[15px] lg:gap-[15px] md:gap-[15px] gap-[15px]">
               {filteredFAQs.map((item) => (

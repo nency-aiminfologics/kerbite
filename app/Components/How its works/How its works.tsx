@@ -11,7 +11,7 @@ import Slider from "react-slick";
 export default function Howitsworks() {
 
     var settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 2.1,
@@ -28,6 +28,12 @@ export default function Howitsworks() {
             {
                 breakpoint: 767,
                 settings: {
+                    slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 639,
+                settings: {
                     slidesToShow: 1,
                 },
             },
@@ -39,7 +45,7 @@ export default function Howitsworks() {
             <div className="w-full">
 
                 <div className="2xl:w-[1440px] xl:w-[1280px]  2xl:py-[115px]  xl:py-[103px] lg:py-[80px] md:py-[60px]   py-[80px]
-                      mx-auto hidden md:hidden 2xl:block xl:block lg:block">
+                      mx-auto hidden md:hidden sm:hidden 2xl:block xl:block lg:block">
                     <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto ">
                         <h1 className="text-[#1B1A1F] font-bold geologica 
                 2xl:text-[40px] xl:text-[36px] md:text-[34px] lg:text-[45.33px] leading-[130%] text-center">How its works</h1>
@@ -249,14 +255,15 @@ export default function Howitsworks() {
 
 
 
-                    <div className=" md:w-full w-[335px] mx-auto ">
-                        <div className="md:w-[240px] w-[140px] mx-auto">
+                    <div className=" md:w-full sm:w-full w-[335px] mx-auto ">
+                        <div className="">
                             <h1 className="text-[#1B1A1F] font-bold geologica 
-                md:text-[34px] text-[20px] leading-[130%] ">How its works</h1>
+                md:text-[34px] text-[20px] leading-[130%] text-center ">How its works</h1>
 
 
                         </div>
-                        <div className="mt-[40px] md:w-full  w-[279px] mx-auto md:mx-0">
+                        <div className="mt-[40px]">
+                        <div className=" md:w-full sm:w-full  w-[279px] mx-auto md:mx-0">
                             {/* first card */}
                             <Slider {...settings}>
                                 <div className="md:w-[345px]  w-[279px] ">
@@ -278,7 +285,7 @@ export default function Howitsworks() {
 
 
                                         </div>
-                                        <div className="md:mt-[414px] mt-[43vh]  md:w-[345px] w-[279px] border border-[#7D7C814D] 
+                                        <div className="md:mt-[414px] mt-[47vh]  md:w-[345px] w-[279px] border border-[#7D7C814D] 
                                   absolute top-[5%]  z-20 rounded-b-[20px] bg-[#ffffff]   ">
                                             <div className="md:w-[267px] w-[280px] mx-4  md:my-[24px] my-[15px] ">
 
@@ -295,6 +302,7 @@ export default function Howitsworks() {
 
                                     </div>
                                 </div>
+                                
 
 
                                 {/* secound card */}
@@ -412,7 +420,7 @@ export default function Howitsworks() {
 
 
 
-                                        <div className=" md:mt-[414px] mt-[43vh]  md:w-[345px] w-[279px] border border-[#7D7C814D] 
+                                        <div className=" md:mt-[414px] mt-[47vh]  md:w-[345px] w-[279px] border border-[#7D7C814D] 
                                   absolute top-[5%]  z-20 rounded-b-[20px] bg-[#ffffff]  ">
                                             <div className="md:w-[267px] w-[280px] mx-4  md:my-[24px] my-[15px] ">
 
@@ -437,6 +445,7 @@ export default function Howitsworks() {
 
 
                             </Slider>
+                        </div>
                         </div>
                     </div>
                 </div>
