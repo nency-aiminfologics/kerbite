@@ -63,7 +63,8 @@ function Navbar() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: `2xl:w-[964px] xl:w-[964px] lg:w-[885px] md:w-[664px] w-full 2xl:h-[93px] 
-                xl:h-[93px] lg:h-[82px] md:h-[62px] h-[56px] 2xl:mt-[44px] xl:mt-[40px] lg:mt-[20px] md:mt-[15px] mt-[10px] 2xl:rounded-[20px] xl:rounded-[20px] lg:rounded-[18px] md:rounded-[15px] rounded-[12px] mx-auto px-4 flex justify-between items-center transition-all duration-300 ${isScrolled ? "bg-white shadow-custom" : "bg-[#FFFFFF1A] backdrop-blur-[4px]"}`,
+                xl:h-[93px] lg:h-[82px] md:h-[62px] h-[56px] 2xl:mt-[44px] xl:mt-[40px] lg:mt-[20px]
+                 md:mt-[15px] mt-[10px] 2xl:rounded-[20px] xl:rounded-[20px] lg:rounded-[18px] md:rounded-[15px] rounded-[12px] mx-auto px-4 flex justify-between items-center transition-all duration-300 ${isScrolled ? "bg-white shadow-custom" : "bg-[#FFFFFF1A] backdrop-blur-[4px]"}`,
                         style: isScrolled ? {
                             boxShadow: "0px 4px 30px #D8D8D866"
                         } : {},
@@ -76,7 +77,7 @@ function Navbar() {
                                 className: "2xl:my-[13px] xl:my-[13px] lg:my-[16px] md:my-[12px] my-[8px] 2xl:w-[66px]  2xl:h-[66px] xl:w-[66px] xl:h-[66px] lg:w-[50.67px] lg:h-[50.67px] md:w-[38px] md:h-[38px] w-[38px] h-[38px]"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -89,7 +90,7 @@ function Navbar() {
                                         children: "Home"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -98,7 +99,7 @@ function Navbar() {
                                         children: "Features"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 79,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -107,7 +108,7 @@ function Navbar() {
                                         children: "Who It's For"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 87,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -116,23 +117,25 @@ function Navbar() {
                                         children: "Integrate With Your App"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                lineNumber: 64,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 className: `bg-[#1B1A1F] 2xl:w-[141px] 2xl:h-[56px] xl:w-[141px] xl:h-[56px] lg:w-[137.33px] 
                 lg:h-[56px] md:w-[100px] md:h-[42px] hidden 2xl:block xl:block lg:block md:block 2xl:rounded-[15px] 
-                xl:rounded-[15px] lg:rounded-[12px] md:rounded-[8px] 2xl:text-[15px] xl:text-[15px] lg:text-[15px] md:text-[13px] leading-[100%] 2xl:my-[19px] xl:my-[19px] lg:my-[13.33px] md:my-[10px] geologica font-medium transition-colors duration-300 ${isScrolled ? "text-white" : "text-[#FFFFFF]"}`,
+                xl:rounded-[15px] lg:rounded-[12px] md:rounded-[8px] 2xl:text-[15px] xl:text-[15px] 
+                lg:text-[15px] md:text-[13px] leading-[100%] 2xl:my-[19px] xl:my-[19px] lg:my-[13.33px]
+                 md:my-[10px] geologica font-medium transition-colors duration-300 ${isScrolled ? "text-white" : "text-[#FFFFFF]"}`,
                                 children: "Get free trial"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                lineNumber: 105,
+                                lineNumber: 106,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -145,7 +148,7 @@ function Navbar() {
                                         children: "X"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 125,
                                         columnNumber: 19
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/Images/menu.svg",
@@ -154,17 +157,17 @@ function Navbar() {
                                         height: 25
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 127,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 120,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                lineNumber: 116,
+                                lineNumber: 119,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -174,26 +177,29 @@ function Navbar() {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: `fixed top-0 right-0 h-screen w-[80vw] bg-[#FFFFFF] shadow-lg z-40 px-12 py-5 text-[#1B1A1F] text-base font-medium geologica flex flex-col transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out`,
+                        className: `fixed top-0 right-0 h-screen w-[80vw]  bg-[#FFFFFF] 
+              shadow-lg z-40  py-8 text-[#1B1A1F] text-base font-medium geologica flex flex-col transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex justify-end",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: ()=>setIsOpen(false),
-                                    className: "text-black text-2xl font-bold",
-                                    children: "X"
+                                className: " w-[270px] flex justify-end ",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/Images/close-icon.svg",
+                                    alt: "close-icon",
+                                    width: 30,
+                                    height: 30,
+                                    onClick: ()=>setIsOpen(false)
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 143,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                lineNumber: 137,
+                                lineNumber: 141,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col space-y-4 mt-8",
+                                className: "flex flex-col space-y-4 mt-8 px-12",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         onClick: ()=>scrollToSection("home"),
@@ -201,7 +207,7 @@ function Navbar() {
                                         children: "Home"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 149,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -210,7 +216,7 @@ function Navbar() {
                                         children: "Features"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 154,
+                                        lineNumber: 155,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -219,7 +225,7 @@ function Navbar() {
                                         children: "Who It's For"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 160,
+                                        lineNumber: 161,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -228,27 +234,27 @@ function Navbar() {
                                         children: "Integrate With Your App"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                        lineNumber: 166,
+                                        lineNumber: 167,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                lineNumber: 147,
+                                lineNumber: 148,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "bg-[#1B1A1F] text-[#FFFFFF] px-4 py-2 rounded-md w-full mt-10",
+                                className: "bg-[#1B1A1F] text-[#FFFFFF] px-4 py-2 rounded-md w-[200px] mx-auto mt-10",
                                 children: "Get free trial"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                                lineNumber: 175,
+                                lineNumber: 176,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/Components/Navbar/Navbar.tsx",
-                        lineNumber: 131,
+                        lineNumber: 134,
                         columnNumber: 11
                     }, this)
                 ]
@@ -288,22 +294,22 @@ function Scan() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-b289cafc66bc09e9" + " " + "w-full bg-[#ffffff] overflow-hidden ",
+                className: "jsx-3546d71337834941" + " " + "w-full bg-[#ffffff] overflow-hidden ",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-b289cafc66bc09e9" + " " + "2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px]  w-[100%] mx-auto overflow-hidden  ",
+                    className: "jsx-3546d71337834941" + " " + "2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px]  w-[100%] mx-auto overflow-hidden  ",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-b289cafc66bc09e9" + " " + "2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px]  w-[90%] mx-auto  ",
+                        className: "jsx-3546d71337834941" + " " + "2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px]  w-[90%] mx-auto  ",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-b289cafc66bc09e9" + " " + "2xl:w-[1068px] xl:w-[950.65px] lg:w-[806.67px] md:w-[605px] sm:w-[500px]  w-[273px]  py-[50px] lg:py-[90px] md:py-[70px] 2xl:py-0 xl:py-0 mx-auto relative",
+                            className: "jsx-3546d71337834941" + " " + "2xl:w-[1068px] xl:w-[950.65px] lg:w-[806.67px] md:w-[605px] sm:w-[500px]  w-[273px]  py-[50px] lg:py-[90px] md:py-[70px] 2xl:py-0 xl:py-0 mx-auto relative",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-b289cafc66bc09e9" + " " + "lg:w-[646px]  md:w-[484px] sm:w-[400px] w-[273px] md:mt-[70px] mx-auto 2xl:hidden xl:hidden lg:block md:block ",
+                                    className: "jsx-3546d71337834941" + " " + "lg:w-[646px]  md:w-[484px] sm:w-[400px] w-[273px] md:mt-[70px] mx-auto 2xl:hidden xl:hidden lg:block md:block ",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-b289cafc66bc09e9" + " " + "lg:w-[448px] md:w-[434px] sm:w-[380px]  w-[266px] sm:text-[32px] text-[20px] lg:text-[36px] md:text-[34px] text-[#000000] leading-[100%] font-semibold geologica flex justify-between mx-auto",
+                                            className: "jsx-3546d71337834941" + " " + "lg:w-[448px] md:w-[434px] sm:w-[380px]  w-[266px] sm:text-[32px] text-[20px] lg:text-[36px] md:text-[34px] text-[#000000] leading-[100%] font-semibold geologica flex justify-between mx-auto",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "jsx-b289cafc66bc09e9",
+                                                    className: "jsx-3546d71337834941",
                                                     children: "Analyze."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
@@ -311,7 +317,7 @@ function Scan() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "jsx-b289cafc66bc09e9",
+                                                    className: "jsx-3546d71337834941",
                                                     children: "Scan."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
@@ -319,7 +325,7 @@ function Scan() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "jsx-b289cafc66bc09e9",
+                                                    className: "jsx-3546d71337834941",
                                                     children: "Results."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
@@ -333,7 +339,7 @@ function Scan() {
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-b289cafc66bc09e9" + " " + "lg:text-[20px] md:text-[16px] sm:text-[16px] text-[14px] lg:mt-[20px] md:mt-[24px] sm:mt-[22px]  mt-[15px] text-[#7D7C81] leading-[100%] geologica text-center",
+                                            className: "jsx-3546d71337834941" + " " + "lg:text-[20px] md:text-[16px] sm:text-[16px] text-[14px] lg:mt-[20px] md:mt-[24px] sm:mt-[22px]  mt-[15px] text-[#7D7C81] leading-[100%] geologica text-center",
                                             children: "Helping health professionals guide clients to better nutrition is challenging. Endless food options, misleading labels, and confusing choices."
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
@@ -350,10 +356,10 @@ function Scan() {
                                     style: {
                                         backgroundImage: "url('/Images/animation-bg.png')"
                                     },
-                                    className: "jsx-b289cafc66bc09e9" + " " + "bg-cover bg-center bg-no-repeat w-[273px] h-[273px] sm:w-[500px] sm:h-[500px] sm:mt-[40px]  2xl:mt-0 xl:mt-0 2xl:w-[1068px] 2xl:h-[1069px] xl:w-[950.65px] xl:h-[951.54px] md:w-[605px] md:h-[605px] md:mt-[50px] mt-[50px] lg:w-[806.67px] lg:h-[806.67px] lg:mt-[80px]",
+                                    className: "jsx-3546d71337834941" + " " + "bg-cover bg-center bg-no-repeat w-[273px] h-[273px]  sm:w-[500px] sm:h-[500px] sm:mt-[40px]  2xl:mt-0 xl:mt-0 2xl:w-[1068px] 2xl:h-[1069px] xl:w-[950.65px] xl:h-[951.54px] md:w-[605px] md:h-[605px] md:mt-[50px] mt-[50px] lg:w-[806.67px] lg:h-[806.67px] lg:mt-[80px]",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-b289cafc66bc09e9" + " " + "w-[64px] h-[64px] my-[110px] mx-[107px] sm:mx-[200px] sm:my-[200px]  lg:w-[210px] lg:h-[210px]  sm:w-[100px] sm:h-[100px] sm:rounded-[70px] md:w-[157px] md:h-[157px] lg:rounded-[106.67px] rounded-[32px] md:rounded-[80px]  p-[13.44px] lg:p-[44.14px] md:p-[33px] lg:my-[299.67px] md:my-[225px] lg:mx-[297px] md:mx-[223px] absolute bg-[#1B1A1F] 2xl:hidden xl:hidden lg:block md:block",
+                                            className: "jsx-3546d71337834941" + " " + "w-[64px] h-[64px] my-[110px] mx-[107px] sm:mx-[200px] sm:my-[200px]  lg:w-[210px] lg:h-[210px]  sm:w-[100px] sm:h-[100px] sm:rounded-[70px] md:w-[157px] md:h-[157px] lg:rounded-[106.67px] rounded-[32px] md:rounded-[80px]  p-[13.44px] lg:p-[44.14px] md:p-[33px] lg:my-[299.67px] md:my-[225px] lg:mx-[297px] md:mx-[223px] absolute bg-[#1B1A1F] 2xl:hidden xl:hidden lg:block md:block",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/Images/logo.svg",
                                                 alt: "Green circular icon with a checkmark",
@@ -371,10 +377,10 @@ function Scan() {
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-b289cafc66bc09e9" + " " + "2xl:w-[592px] xl:w-[527px] 2xl:mx-[238px] xl:mx-[211px] xl:my-[330px] 2xl:my-[351px] absolute hidden lg:hidden md:hidden 2xl:block xl:block",
+                                            className: "jsx-3546d71337834941" + " " + "2xl:w-[592px] xl:w-[527px] 2xl:mx-[238px] xl:mx-[211px] xl:my-[330px] 2xl:my-[351px] absolute hidden lg:hidden md:hidden 2xl:block xl:block",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "2xl:text-[40px] xl:text-[36px] font-semibold text-center leading-[100%] text-[#000000]",
+                                                    className: "jsx-3546d71337834941" + " " + "2xl:text-[40px] xl:text-[36px] font-semibold text-center leading-[100%] text-[#000000]",
                                                     children: "Scan."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
@@ -382,10 +388,10 @@ function Scan() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "flex 2xl:w-[454px] xl:w-[405.48px] justify-between 2xl:mt-[13px] xl:mt-[10.7px] mx-auto",
+                                                    className: "jsx-3546d71337834941" + " " + "flex 2xl:w-[454px] xl:w-[405.48px] justify-between 2xl:mt-[13px] xl:mt-[10.7px] mx-auto",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                            className: "jsx-b289cafc66bc09e9" + " " + "2xl:text-[40px] xl:text-[36px] 2xl:mt-[25px] xl:mt-[22px] font-semibold text-center text-[#000000] leading-[100%]",
+                                                            className: "jsx-3546d71337834941" + " " + "2xl:text-[40px] xl:text-[36px] 2xl:mt-[25px] xl:mt-[22px] font-semibold text-center text-[#000000] leading-[100%]",
                                                             children: "Analyze."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
@@ -393,7 +399,7 @@ function Scan() {
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-b289cafc66bc09e9" + " " + "2xl:w-[100px] 2xl:h-[100px] xl:w-[89px] xl:h-[89px] 2xl:rounded-[50px] xl:rounded-[44.51px] bg-[#1B1A1F]",
+                                                            className: "jsx-3546d71337834941" + " " + "2xl:w-[100px] 2xl:h-[100px] xl:w-[89px] xl:h-[89px] 2xl:rounded-[50px] xl:rounded-[44.51px] bg-[#1B1A1F]",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                 src: "/Images/logo.svg",
                                                                 alt: "Green circular icon with a checkmark",
@@ -412,7 +418,7 @@ function Scan() {
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                            className: "jsx-b289cafc66bc09e9" + " " + "text-[#000000] 2xl:text-[40px] xl:text-[36px] font-semibold text-center leading-[100%] 2xl:mt-[25px] xl:mt-[22px]",
+                                                            className: "jsx-3546d71337834941" + " " + "text-[#000000] 2xl:text-[40px] xl:text-[36px] font-semibold text-center leading-[100%] 2xl:mt-[25px] xl:mt-[22px]",
                                                             children: "Results."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
@@ -426,7 +432,7 @@ function Scan() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "text-[#7D7C81] 2xl:w-[592px] xl:w-[527px] 2xl:text-[20px] xl:text-[20px] leading-[100%] 2xl:mt-[30px] xl:mt-[27.3px] text-center",
+                                                    className: "jsx-3546d71337834941" + " " + "text-[#7D7C81] 2xl:w-[592px] xl:w-[527px] 2xl:text-[20px] xl:text-[20px] leading-[100%] 2xl:mt-[30px] xl:mt-[27.3px] text-center",
                                                     children: "Helping health professionals guide clients to better nutrition is challenging. Endless food options, misleading labels, and confusing choices."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
@@ -434,9 +440,9 @@ function Scan() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "flex justify-center",
+                                                    className: "jsx-3546d71337834941" + " " + "flex justify-center",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "jsx-b289cafc66bc09e9" + " " + ([
+                                                        className: "jsx-3546d71337834941" + " " + ([
                                                             "2xl:w-[249px] 2xl:h-[61px] xl:w-[239px] xl:h-[51px]",
                                                             "2xl:text-[17px] xl:text-[16px] 2xl:rounded-[15px] xl:rounded-[14px]",
                                                             "flex items-center justify-center",
@@ -460,10 +466,10 @@ function Scan() {
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-b289cafc66bc09e9" + " " + "circular-motion flex justify-center items-center",
+                                            className: "jsx-3546d71337834941" + " " + "circular-motion flex justify-center items-center",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "card absolute",
+                                                    className: "jsx-3546d71337834941" + " " + "card absolute",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/Images/gym owners.svg",
@@ -494,7 +500,7 @@ function Scan() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "card absolute",
+                                                    className: "jsx-3546d71337834941" + " " + "card absolute",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/Images/sport coaches.svg",
@@ -525,7 +531,7 @@ function Scan() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "card absolute",
+                                                    className: "jsx-3546d71337834941" + " " + "card absolute",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/Images/nutritions.svg",
@@ -535,7 +541,7 @@ function Scan() {
                                                             className: "2xl:w-[300px] xl:w-[250px]  lg:w-[162px] md:w-[162px] hidden  lg:block md:block 2xl:block xl:block sm:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                            lineNumber: 120,
+                                                            lineNumber: 121,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -546,17 +552,17 @@ function Scan() {
                                                             className: "lg:hidden sm:hidden md:hidden block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                            lineNumber: 127,
+                                                            lineNumber: 128,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                    lineNumber: 119,
+                                                    lineNumber: 120,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "card absolute",
+                                                    className: "jsx-3546d71337834941" + " " + "card absolute",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/Images/health-care.svg",
@@ -566,7 +572,7 @@ function Scan() {
                                                             className: "2xl:w-[300px] xl:w-[250px] lg:w-[178px] md:w-[178px]  hidden  lg:block md:block 2xl:block xl:block sm:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                            lineNumber: 138,
+                                                            lineNumber: 139,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -577,17 +583,17 @@ function Scan() {
                                                             className: "lg:hidden md:hidden sm:hidden block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                            lineNumber: 145,
+                                                            lineNumber: 146,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 138,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "card absolute",
+                                                    className: "jsx-3546d71337834941" + " " + "card absolute",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/Images/Wellness & Fitness.svg",
@@ -597,7 +603,7 @@ function Scan() {
                                                             className: "2xl:w-[300px] xl:w-[250px] lg:w-[211px] md:w-[211px]  hidden  lg:block md:block 2xl:block xl:block sm:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                            lineNumber: 156,
+                                                            lineNumber: 157,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -608,17 +614,17 @@ function Scan() {
                                                             className: " block md:hidden lg:hidden sm:hidden"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                            lineNumber: 163,
+                                                            lineNumber: 164,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                    lineNumber: 155,
+                                                    lineNumber: 156,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-b289cafc66bc09e9" + " " + "card absolute",
+                                                    className: "jsx-3546d71337834941" + " " + "card absolute",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/Images/Yoga instructors.svg",
@@ -628,7 +634,7 @@ function Scan() {
                                                             className: "2xl:w-[300px] xl:w-[250px] lg:w-[194px] md:w-[194px]  hidden  lg:block md:block 2xl:block xl:block sm:block"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                            lineNumber: 174,
+                                                            lineNumber: 175,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -639,13 +645,13 @@ function Scan() {
                                                             className: " block md:hidden lg:hidden sm:hidden"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                            lineNumber: 181,
+                                                            lineNumber: 182,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/Components/Scan./Scan.tsx",
-                                                    lineNumber: 173,
+                                                    lineNumber: 174,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
@@ -682,8 +688,8 @@ function Scan() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "b289cafc66bc09e9",
-                children: ".circular-motion.jsx-b289cafc66bc09e9{justify-content:center;align-items:center;width:1068px;height:1068px;display:flex;position:relative}.card.jsx-b289cafc66bc09e9{transform-origin:548px 548px;animation:25s linear infinite spin,25s linear infinite fadeAndHide;position:absolute}.card.jsx-b289cafc66bc09e9:first-child{animation-delay:0s;transform:rotate(0)translate(548px)rotate(0)}.card.jsx-b289cafc66bc09e9:nth-child(2){animation-delay:-4.17s;transform:rotate(60deg)translate(548px)rotate(-60deg)}.card.jsx-b289cafc66bc09e9:nth-child(3){animation-delay:-8.34s;transform:rotate(120deg)translate(548px)rotate(-120deg)}.card.jsx-b289cafc66bc09e9:nth-child(4){animation-delay:-12.5s;transform:rotate(180deg)translate(548px)rotate(-180deg)}.card.jsx-b289cafc66bc09e9:nth-child(5){animation-delay:-16.67s;transform:rotate(240deg)translate(548px)rotate(-240deg)}.card.jsx-b289cafc66bc09e9:nth-child(6){animation-delay:-20.84s;transform:rotate(300deg)translate(548px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(548px)rotate(0)}to{transform:rotate(360deg)translate(548px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}@media (width<=1537px){.circular-motion.jsx-b289cafc66bc09e9{width:950.65px;height:951.54px}.card.jsx-b289cafc66bc09e9{transform-origin:488px 488px;border-radius:28px;animation:25s linear infinite spin,25s linear infinite fadeAndHide}.card.jsx-b289cafc66bc09e9:first-child{transform:rotate(0)translate(488px)rotate(0)}.card.jsx-b289cafc66bc09e9:nth-child(2){transform:rotate(60deg)translate(488px)rotate(-60deg)}.card.jsx-b289cafc66bc09e9:nth-child(3){transform:rotate(120deg)translate(488px)rotate(-120deg)}.card.jsx-b289cafc66bc09e9:nth-child(4){transform:rotate(180deg)translate(488px)rotate(-180deg)}.card.jsx-b289cafc66bc09e9:nth-child(5){transform:rotate(240deg)translate(488px)rotate(-240deg)}.card.jsx-b289cafc66bc09e9:nth-child(6){transform:rotate(300deg)translate(488px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(488px)rotate(0)}to{transform:rotate(360deg)translate(488px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}}@media (width<=1439px){.circular-motion.jsx-b289cafc66bc09e9{width:950.65px;height:951.54px}.card.jsx-b289cafc66bc09e9{transform-origin:488px 488px;border-radius:28px;animation:25s linear infinite spin,25s linear infinite fadeAndHide}.card.jsx-b289cafc66bc09e9:first-child{transform:rotate(0)translate(488px)rotate(0)}.card.jsx-b289cafc66bc09e9:nth-child(2){transform:rotate(60deg)translate(488px)rotate(-60deg)}.card.jsx-b289cafc66bc09e9:nth-child(3){transform:rotate(120deg)translate(488px)rotate(-120deg)}.card.jsx-b289cafc66bc09e9:nth-child(4){transform:rotate(180deg)translate(488px)rotate(-180deg)}.card.jsx-b289cafc66bc09e9:nth-child(5){transform:rotate(240deg)translate(488px)rotate(-240deg)}.card.jsx-b289cafc66bc09e9:nth-child(6){transform:rotate(300deg)translate(488px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(488px)rotate(0)}to{transform:rotate(360deg)translate(488px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}}@media (width<=1279px){.circular-motion.jsx-b289cafc66bc09e9{width:806.67px;height:806.67px}.card.jsx-b289cafc66bc09e9{transform-origin:414px 414px;border-radius:28px;animation:25s linear infinite spin}.card.jsx-b289cafc66bc09e9:first-child{transform:rotate(0)translate(414px)rotate(0)}.card.jsx-b289cafc66bc09e9:nth-child(2){transform:rotate(60deg)translate(414px)rotate(-60deg)}.card.jsx-b289cafc66bc09e9:nth-child(3){transform:rotate(120deg)translate(414px)rotate(-120deg)}.card.jsx-b289cafc66bc09e9:nth-child(4){transform:rotate(180deg)translate(414px)rotate(-180deg)}.card.jsx-b289cafc66bc09e9:nth-child(5){transform:rotate(240deg)translate(414px)rotate(-240deg)}.card.jsx-b289cafc66bc09e9:nth-child(6){transform:rotate(300deg)translate(414px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(414px)rotate(0)}to{transform:rotate(360deg)translate(414px)rotate(-360deg)}}}@media (width<=1023px){.circular-motion.jsx-b289cafc66bc09e9{width:605px;height:650px}.card.jsx-b289cafc66bc09e9{transform-origin:310px 310px;border-radius:21px;animation:25s linear infinite spin}.card.jsx-b289cafc66bc09e9:first-child{transform:rotate(0)translate(310px)rotate(0)}.card.jsx-b289cafc66bc09e9:nth-child(2){transform:rotate(60deg)translate(310px)rotate(-60deg)}.card.jsx-b289cafc66bc09e9:nth-child(3){transform:rotate(120deg)translate(310px)rotate(-120deg)}.card.jsx-b289cafc66bc09e9:nth-child(4){transform:rotate(180deg)translate(310px)rotate(-180deg)}.card.jsx-b289cafc66bc09e9:nth-child(5){transform:rotate(240deg)translate(310px)rotate(-240deg)}.card.jsx-b289cafc66bc09e9:nth-child(6){transform:rotate(300deg)translate(310px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(310px)rotate(0)}to{transform:rotate(360deg)translate(310px)rotate(-360deg)}}}@media (width<=767px){.circular-motion.jsx-b289cafc66bc09e9{width:500px;height:550px}.card.jsx-b289cafc66bc09e9{transform-origin:250px 250px;border-radius:9px;animation:25s linear infinite spin}.card.jsx-b289cafc66bc09e9:first-child{animation-delay:0s;transform:rotate(0)translate(250px)rotate(0)}.card.jsx-b289cafc66bc09e9:nth-child(2){animation-delay:-4.17s;transform:rotate(60deg)translate(250px)rotate(-60deg)}.card.jsx-b289cafc66bc09e9:nth-child(3){animation-delay:-8.34s;transform:rotate(120deg)translate(250px)rotate(-120deg)}.card.jsx-b289cafc66bc09e9:nth-child(4){animation-delay:-12.5s;transform:rotate(180deg)translate(250px)rotate(-180deg)}.card.jsx-b289cafc66bc09e9:nth-child(5){animation-delay:-16.67s;transform:rotate(240deg)translate(250px)rotate(-240deg)}.card.jsx-b289cafc66bc09e9:nth-child(6){animation-delay:-20.84s;transform:rotate(300deg)translate(250px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(250px)rotate(0)}to{transform:rotate(360deg)translate(250px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}}@media (width<=639px){.circular-motion.jsx-b289cafc66bc09e9{justify-content:center;align-items:center;width:273px;height:330px;display:flex}.card.jsx-b289cafc66bc09e9{transform-origin:140px 140px;border-radius:9px;animation:25s linear infinite spin}.card.jsx-b289cafc66bc09e9:first-child{animation-delay:0s;transform:rotate(0)translate(140px)rotate(0)}.card.jsx-b289cafc66bc09e9:nth-child(2){animation-delay:-4.17s;transform:rotate(60deg)translate(140px)rotate(-60deg)}.card.jsx-b289cafc66bc09e9:nth-child(3){animation-delay:-8.34s;transform:rotate(120deg)translate(140px)rotate(-120deg)}.card.jsx-b289cafc66bc09e9:nth-child(4){animation-delay:-12.5s;transform:rotate(180deg)translate(140px)rotate(-180deg)}.card.jsx-b289cafc66bc09e9:nth-child(5){animation-delay:-16.67s;transform:rotate(240deg)translate(140px)rotate(-240deg)}.card.jsx-b289cafc66bc09e9:nth-child(6){animation-delay:-20.84s;transform:rotate(300deg)translate(140px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(140px)rotate(0)}to{transform:rotate(360deg)translate(140px)rotate(-360deg)}}}"
+                id: "3546d71337834941",
+                children: ".circular-motion.jsx-3546d71337834941{justify-content:center;align-items:center;width:1068px;height:1068px;display:flex;position:relative}.card.jsx-3546d71337834941{transform-origin:548px 548px;animation:25s linear infinite spin,25s linear infinite fadeAndHide;position:absolute}.card.jsx-3546d71337834941:first-child{animation-delay:0s;transform:rotate(0)translate(548px)rotate(0)}.card.jsx-3546d71337834941:nth-child(2){animation-delay:-4.17s;transform:rotate(60deg)translate(548px)rotate(-60deg)}.card.jsx-3546d71337834941:nth-child(3){animation-delay:-8.34s;transform:rotate(120deg)translate(548px)rotate(-120deg)}.card.jsx-3546d71337834941:nth-child(4){animation-delay:-12.5s;transform:rotate(180deg)translate(548px)rotate(-180deg)}.card.jsx-3546d71337834941:nth-child(5){animation-delay:-16.67s;transform:rotate(240deg)translate(548px)rotate(-240deg)}.card.jsx-3546d71337834941:nth-child(6){animation-delay:-20.84s;transform:rotate(300deg)translate(548px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(548px)rotate(0)}to{transform:rotate(360deg)translate(548px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}@media (width<=1537px){.circular-motion.jsx-3546d71337834941{width:950.65px;height:951.54px}.card.jsx-3546d71337834941{transform-origin:488px 488px;border-radius:28px;animation:25s linear infinite spin,25s linear infinite fadeAndHide}.card.jsx-3546d71337834941:first-child{transform:rotate(0)translate(488px)rotate(0)}.card.jsx-3546d71337834941:nth-child(2){transform:rotate(60deg)translate(488px)rotate(-60deg)}.card.jsx-3546d71337834941:nth-child(3){transform:rotate(120deg)translate(488px)rotate(-120deg)}.card.jsx-3546d71337834941:nth-child(4){transform:rotate(180deg)translate(488px)rotate(-180deg)}.card.jsx-3546d71337834941:nth-child(5){transform:rotate(240deg)translate(488px)rotate(-240deg)}.card.jsx-3546d71337834941:nth-child(6){transform:rotate(300deg)translate(488px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(488px)rotate(0)}to{transform:rotate(360deg)translate(488px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}}@media (width<=1439px){.circular-motion.jsx-3546d71337834941{width:950.65px;height:951.54px}.card.jsx-3546d71337834941{transform-origin:488px 488px;border-radius:28px;animation:25s linear infinite spin,25s linear infinite fadeAndHide}.card.jsx-3546d71337834941:first-child{transform:rotate(0)translate(488px)rotate(0)}.card.jsx-3546d71337834941:nth-child(2){transform:rotate(60deg)translate(488px)rotate(-60deg)}.card.jsx-3546d71337834941:nth-child(3){transform:rotate(120deg)translate(488px)rotate(-120deg)}.card.jsx-3546d71337834941:nth-child(4){transform:rotate(180deg)translate(488px)rotate(-180deg)}.card.jsx-3546d71337834941:nth-child(5){transform:rotate(240deg)translate(488px)rotate(-240deg)}.card.jsx-3546d71337834941:nth-child(6){transform:rotate(300deg)translate(488px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(488px)rotate(0)}to{transform:rotate(360deg)translate(488px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}}@media (width<=1279px){.circular-motion.jsx-3546d71337834941{width:806.67px;height:806.67px}.card.jsx-3546d71337834941{transform-origin:414px 414px;border-radius:28px;animation:25s linear infinite spin}.card.jsx-3546d71337834941:first-child{transform:rotate(0)translate(414px)rotate(0)}.card.jsx-3546d71337834941:nth-child(2){transform:rotate(60deg)translate(414px)rotate(-60deg)}.card.jsx-3546d71337834941:nth-child(3){transform:rotate(120deg)translate(414px)rotate(-120deg)}.card.jsx-3546d71337834941:nth-child(4){transform:rotate(180deg)translate(414px)rotate(-180deg)}.card.jsx-3546d71337834941:nth-child(5){transform:rotate(240deg)translate(414px)rotate(-240deg)}.card.jsx-3546d71337834941:nth-child(6){transform:rotate(300deg)translate(414px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(414px)rotate(0)}to{transform:rotate(360deg)translate(414px)rotate(-360deg)}}}@media (width<=1023px){.circular-motion.jsx-3546d71337834941{width:605px;height:650px}.card.jsx-3546d71337834941{transform-origin:310px 310px;border-radius:21px;animation:25s linear infinite spin}.card.jsx-3546d71337834941:first-child{transform:rotate(0)translate(310px)rotate(0)}.card.jsx-3546d71337834941:nth-child(2){transform:rotate(60deg)translate(310px)rotate(-60deg)}.card.jsx-3546d71337834941:nth-child(3){transform:rotate(120deg)translate(310px)rotate(-120deg)}.card.jsx-3546d71337834941:nth-child(4){transform:rotate(180deg)translate(310px)rotate(-180deg)}.card.jsx-3546d71337834941:nth-child(5){transform:rotate(240deg)translate(310px)rotate(-240deg)}.card.jsx-3546d71337834941:nth-child(6){transform:rotate(300deg)translate(310px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(310px)rotate(0)}to{transform:rotate(360deg)translate(310px)rotate(-360deg)}}}@media (width<=767px){.circular-motion.jsx-3546d71337834941{width:500px;height:550px}.card.jsx-3546d71337834941{transform-origin:250px 250px;border-radius:9px;animation:25s linear infinite spin}.card.jsx-3546d71337834941:first-child{animation-delay:0s;transform:rotate(0)translate(250px)rotate(0)}.card.jsx-3546d71337834941:nth-child(2){animation-delay:-4.17s;transform:rotate(60deg)translate(250px)rotate(-60deg)}.card.jsx-3546d71337834941:nth-child(3){animation-delay:-8.34s;transform:rotate(120deg)translate(250px)rotate(-120deg)}.card.jsx-3546d71337834941:nth-child(4){animation-delay:-12.5s;transform:rotate(180deg)translate(250px)rotate(-180deg)}.card.jsx-3546d71337834941:nth-child(5){animation-delay:-16.67s;transform:rotate(240deg)translate(250px)rotate(-240deg)}.card.jsx-3546d71337834941:nth-child(6){animation-delay:-20.84s;transform:rotate(300deg)translate(250px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(250px)rotate(0)}to{transform:rotate(360deg)translate(250px)rotate(-360deg)}}@keyframes fadeAndHide{0%{opacity:1;visibility:visible}24%{opacity:.1;visibility:visible}25%{opacity:0;visibility:hidden}26%{opacity:.1;visibility:visible}50%{opacity:1;visibility:visible}74%{opacity:.1;visibility:visible}75%{opacity:0;visibility:hidden}76%{opacity:.1;visibility:visible}to{opacity:1;visibility:visible}}}@media (width<=639px){.circular-motion.jsx-3546d71337834941{justify-content:center;align-items:center;width:273px;height:330px;display:flex}.card.jsx-3546d71337834941{transform-origin:140px 140px;border-radius:9px;animation:25s linear infinite spin}.card.jsx-3546d71337834941:first-child,.card.jsx-3546d71337834941:nth-child(3),.card.jsx-3546d71337834941:nth-child(5),.card.jsx-3546d71337834941:nth-child(2),.card.jsx-3546d71337834941:nth-child(4),.card.jsx-3546d71337834941:nth-child(6){width:153px;height:153px}.card.jsx-3546d71337834941:first-child{animation-delay:0s;transform:rotate(0)translate(140px)rotate(0)}.card.jsx-3546d71337834941:nth-child(2){animation-delay:-4.17s;transform:rotate(60deg)translate(100px)rotate(-60deg)}.card.jsx-3546d71337834941:nth-child(3){animation-delay:-8.34s;transform:rotate(120deg)translate(140px)rotate(-120deg)}.card.jsx-3546d71337834941:nth-child(4){animation-delay:-12.5s;transform:rotate(180deg)translate(140px)rotate(-180deg)}.card.jsx-3546d71337834941:nth-child(5){animation-delay:-16.67s;transform:rotate(240deg)translate(140px)rotate(-240deg)}.card.jsx-3546d71337834941:nth-child(6){animation-delay:-20.84s;transform:rotate(300deg)translate(140px)rotate(-300deg)}@keyframes spin{0%{transform:rotate(0)translate(140px)rotate(0)}to{transform:rotate(360deg)translate(140px)rotate(-360deg)}}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
@@ -700,21 +706,27 @@ __turbopack_context__.s({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-slick/lib/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 'use client';
 ;
 ;
 ;
 ;
 ;
+;
 function Howitsworks() {
-    var settings = {
-        dots: true,
+    const [currentSlide, setCurrentSlide] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
+    // Explicitly type the ref as Slider from react-slick
+    const sliderRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const settings = {
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 2.1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
+        afterChange: (index)=>setCurrentSlide(index),
         responsive: [
             {
                 breakpoint: 1023,
@@ -736,6 +748,15 @@ function Howitsworks() {
             }
         ]
     };
+    // Total number of slides (we have 3 slides: Scan, Analyse, Instant Results)
+    const totalSlides = 3;
+    // Handler to navigate to a specific slide when a dot is clicked
+    const goToSlide = (index)=>{
+        if (sliderRef.current) {
+            sliderRef.current.slickGoTo(index); // Now TypeScript recognizes slickGoTo
+            setCurrentSlide(index);
+        }
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full",
@@ -743,14 +764,14 @@ function Howitsworks() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "2xl:w-[1440px] xl:w-[1280px] 2xl:py-[115px] xl:py-[103px] lg:py-[80px] md:py-[60px] py-[80px] mx-auto hidden md:hidden sm:hidden 2xl:block xl:block lg:block",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto ",
+                        className: "2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "text-[#1B1A1F] font-bold geologica  2xl:text-[40px] xl:text-[36px] md:text-[34px] lg:text-[45.33px] leading-[130%] text-center",
                                 children: "How its works"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                lineNumber: 45,
+                                lineNumber: 62,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -769,7 +790,7 @@ function Howitsworks() {
                                                     className: "2xl:w-[388px] 2xl:h-[655px] xl:w-[345px] xl:h-[582px] lg:w-[298px] lg:h-[548px]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 54,
+                                                    lineNumber: 71,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -781,20 +802,20 @@ function Howitsworks() {
                                                             alt: "how-1",
                                                             width: 211,
                                                             height: 0,
-                                                            className: "2xl:w-[271px] xl:w-[241.89px] lg:w-[213px] absolute z-10 2xl:top-[10%] xl:top-[10%] lg:top-[17%] 2xl:left-[15%] xl:left-[15%] lg:left-[14%]"
+                                                            className: "2xl:w-[271px] xl:w-[241.89px] lg:w-[213px] absolute z-10 2xl:top-[10%]08%] xl:top-[10%] lg:top-[17%] 2xl:left-[15%] xl:left-[15%] lg:left-[14%]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 62,
+                                                            lineNumber: 79,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 74,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 56,
+                                                    lineNumber: 73,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -807,7 +828,7 @@ function Howitsworks() {
                                                                 children: "Step 1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 72,
+                                                                lineNumber: 89,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -815,7 +836,7 @@ function Howitsworks() {
                                                                 children: "Scan"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 74,
+                                                                lineNumber: 91,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -823,29 +844,29 @@ function Howitsworks() {
                                                                 children: "Use the app to scan food products with a barcode or live camera."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 76,
+                                                                lineNumber: 93,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                        lineNumber: 71,
+                                                        lineNumber: 88,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 84,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 70,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 69,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -859,7 +880,7 @@ function Howitsworks() {
                                                 className: "2xl:w-[388px] 2xl:h-[655px] xl:w-[345px] xl:h-[582px] lg:w-[298px] lg:h-[548px]"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                lineNumber: 87,
+                                                lineNumber: 104,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -872,7 +893,7 @@ function Howitsworks() {
                                                             children: "Step 2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 92,
+                                                            lineNumber: 109,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -880,7 +901,7 @@ function Howitsworks() {
                                                             children: "Analyse"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 111,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -888,18 +909,18 @@ function Howitsworks() {
                                                             children: "Our AI processes the data and delivers a complete health analysis."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 96,
+                                                            lineNumber: 113,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 108,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 106,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -916,7 +937,7 @@ function Howitsworks() {
                                                                 className: "2xl:w-[271px] 2xl:h-[445px] xl:w-[240.89px] xl:h-[397px] lg:w-[217px]   absolute z-10 top-[10%] 2xl:left-[15%] xl:left-[15%] lg:left-[14%]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 107,
+                                                                lineNumber: 124,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -936,7 +957,7 @@ function Howitsworks() {
                                                                                 className: "2xl:w-[42px] 2xl:h-[42px] xl:w-[37.33px] xl:h-[37.33px] lg:w-[32.2px] lg:h-[32.2px]"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 117,
+                                                                                lineNumber: 134,
                                                                                 columnNumber: 53
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -944,13 +965,13 @@ function Howitsworks() {
                                                                                 children: "Carbs"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 119,
+                                                                                lineNumber: 136,
                                                                                 columnNumber: 53
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 116,
+                                                                        lineNumber: 133,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -964,7 +985,7 @@ function Howitsworks() {
                                                                                 className: "2xl:w-[42px] 2xl:h-[42px] xl:w-[37.33px] xl:h-[37.33px] lg:w-[32.2px] lg:h-[32.2px]"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 123,
+                                                                                lineNumber: 140,
                                                                                 columnNumber: 53
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -972,13 +993,13 @@ function Howitsworks() {
                                                                                 children: "Protein"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 125,
+                                                                                lineNumber: 142,
                                                                                 columnNumber: 53
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 122,
+                                                                        lineNumber: 139,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -992,7 +1013,7 @@ function Howitsworks() {
                                                                                 className: "2xl:w-[42px] 2xl:h-[42px] xl:w-[37.33px] xl:h-[37.33px] lg:w-[32.2px] lg:h-[32.2px]"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 129,
+                                                                                lineNumber: 146,
                                                                                 columnNumber: 53
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1000,13 +1021,13 @@ function Howitsworks() {
                                                                                 children: "Sodium"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 131,
+                                                                                lineNumber: 148,
                                                                                 columnNumber: 53
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 128,
+                                                                        lineNumber: 145,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1020,7 +1041,7 @@ function Howitsworks() {
                                                                                 className: "2xl:w-[42px] 2xl:h-[42px] xl:w-[37.33px] xl:h-[37.33px] lg:w-[32.2px] lg:h-[32.2px]"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 135,
+                                                                                lineNumber: 152,
                                                                                 columnNumber: 53
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1028,41 +1049,41 @@ function Howitsworks() {
                                                                                 children: "Fat"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 137,
+                                                                                lineNumber: 154,
                                                                                 columnNumber: 53
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 134,
+                                                                        lineNumber: 151,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 110,
+                                                                lineNumber: 127,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 123,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 120,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 119,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 103,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1078,7 +1099,7 @@ function Howitsworks() {
                                                     className: "2xl:w-[388px] 2xl:h-[655px] xl:w-[345px] xl:h-[582px] lg:w-[298px] lg:h-[548px]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 166,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1095,7 +1116,7 @@ function Howitsworks() {
                                                                     className: "2xl:w-[271px] 2xl:h-[430px] xl:w-[240.89px] xl:h-[400px] lg:w-[209px] absolute z-10 top-0 left-[15%]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                    lineNumber: 156,
+                                                                    lineNumber: 173,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1111,28 +1132,28 @@ function Howitsworks() {
                                                                         className: "2xl:w-[237px] 2xl:h-[50px] xl:w-[210.89px] xl:h-[43.89px] lg:w-[200px] lg:h-[41px] 2xl:mx-[18px] xl:mx-[16px] lg:mx-[12px] 2xl:my-[3px] xl:my-[3.56px] lg:my-[3px]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 162,
+                                                                        lineNumber: 179,
                                                                         columnNumber: 53
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                    lineNumber: 159,
+                                                                    lineNumber: 176,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 155,
+                                                            lineNumber: 172,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 169,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 168,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1141,66 +1162,66 @@ function Howitsworks() {
                                                         className: "xl:w-[267px] 2xl:w-[300px] lg:w-[250px] 2xl:mx-4 xl:mx-4 lg:mx-3 lg:my-3 2xl:my-6 xl:my-6",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                className: "text-[#1DD673] geologica font-normal 2xl:text-[14px] xl:text-[14px] lg:text-[13px] leading-[100%]",
-                                                                children: "Step 1"
+                                                                className: "text-[#FDCB26] geologica font-normal 2xl:text-[14px] xl:text-[14px] lg:text-[13px] leading-[100%]",
+                                                                children: "Step 3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 175,
+                                                                lineNumber: 192,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                                 className: "text-[#1B1A1F] geologica font-bold 2xl:text-[28px] xl:text-[24px] lg:text-[24px] leading-[100%]  2xl:mt-[15px] xl:mt-[11px] lg:mt-[10px]",
-                                                                children: "Scan"
+                                                                children: "Instant Results"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 177,
+                                                                lineNumber: 194,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "text-[#7D7C81] geologica font-light 2xl:w-[300px] xl:w-[266px] lg:w-[250px] 2xl:text-[18px] xl:text-[16px] lg:text-[15px] leading-[125%]  2xl:mt-[10px] xl:mt-[5px] lg:mt-[10px]",
-                                                                children: "Use the app to scan food products with a barcode or live camera."
+                                                                children: "Instantly see a health report with nutrient and processing details."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 179,
+                                                                lineNumber: 196,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                        lineNumber: 174,
+                                                        lineNumber: 191,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 170,
+                                                    lineNumber: 187,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 165,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 164,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                lineNumber: 48,
+                                lineNumber: 65,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                        lineNumber: 44,
+                        lineNumber: 61,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                    lineNumber: 42,
+                    lineNumber: 59,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1214,482 +1235,502 @@ function Howitsworks() {
                                     children: "How its works"
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                    lineNumber: 195,
+                                    lineNumber: 212,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                lineNumber: 194,
+                                lineNumber: 211,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mt-[40px]",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "md:w-full sm:w-full w-[279px] mx-auto md:mx-0",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        ...settings,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "md:w-[345px] w-[279px]",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            ...settings,
+                                            ref: sliderRef,
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "md:w-[345px] w-[279px]",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "relative",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/how-bg-1.png",
+                                                                alt: "/Images/how-bg-1.png",
+                                                                width: 279,
+                                                                height: 518,
+                                                                className: "md:w-[345px] md:h-[582px] h-[518px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                lineNumber: 221,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "absolute top-0 left-0 z-10",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "bg-[#1DD673] md:w-[217.78px] md:h-[360.89px] w-[190px] h-[315px] md:rounded-[16px] rounded-[14px] md:mx-[63.11px] mx-[43px] md:mt-[31.11px] mt-[45px]",
+                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                        src: "/Images/how-1.png",
+                                                                        alt: "how-1",
+                                                                        width: 211,
+                                                                        height: 0,
+                                                                        className: "md:w-[70.5%] absolute z-10 md:top-[10%] top-[15%] md:left-[15%] left-[13%]"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                        lineNumber: 227,
+                                                                        columnNumber: 53
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                    lineNumber: 224,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                lineNumber: 223,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "md:w-[345px] w-[279px] border border-[#7D7C814D]  absolute bottom-0 z-20 rounded-b-[15px] bg-[#ffffff]",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "md:w-[267px] w-[280px] mx-4 md:my-[24px] my-[15px]",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                            className: "text-[#1DD673] geologica font-normal md:text-[14px] text-[12px] leading-[100%]",
+                                                                            children: "Step 1"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                            lineNumber: 234,
+                                                                            columnNumber: 53
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                            className: "text-[#1B1A1F] geologica font-bold md:text-[24px] text-[20px] leading-[100%]  md:mt-[12px] mt-[11px]",
+                                                                            children: "Scan"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                            lineNumber: 235,
+                                                                            columnNumber: 53
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                            className: "text-[#7D7C81] geologica font-light md:text-[16px] text-[14px] leading-[125%] md:mt-[3px] mt-[4px] w-[234px] md:w-[268px]",
+                                                                            children: "Use the app to scan food products with a barcode or live camera."
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                            lineNumber: 237,
+                                                                            columnNumber: 53
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                    lineNumber: 233,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                lineNumber: 231,
+                                                                columnNumber: 45
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                        lineNumber: 220,
+                                                        columnNumber: 41
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                    lineNumber: 219,
+                                                    columnNumber: 37
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "relative",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            src: "/Images/how-bg-1.png",
-                                                            alt: "/Images/how-bg-1.png",
+                                                            src: "/Images/how-bg-2.png",
+                                                            alt: "/Images/how-bg-2.png",
                                                             width: 279,
                                                             height: 518,
                                                             className: "md:w-[345px] md:h-[582px] h-[518px]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 204,
-                                                            columnNumber: 45
+                                                            lineNumber: 247,
+                                                            columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "absolute top-0 left-0 z-10",
+                                                            className: "absolute top-[1px] left-[5%] z-20 rounded-t-[20px] md:w-[300px] w-[260px] bg-[#ffffff]",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "bg-[#1DD673] md:w-[217.78px] md:h-[360.89px] w-[190px] h-[315px] md:rounded-[16px] rounded-[14px] md:mx-[63.11px] mx-[43px] md:mt-[31.11px] mt-[45px]",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    src: "/Images/how-1.png",
-                                                                    alt: "how-1",
-                                                                    width: 211,
-                                                                    height: 0,
-                                                                    className: "md:w-[70.5%] absolute z-10 md:top-[10%] top-[15%] md:left-[15%] left-[13%]"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                    lineNumber: 210,
-                                                                    columnNumber: 53
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 207,
-                                                                columnNumber: 49
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 206,
-                                                            columnNumber: 45
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "md:w-[345px] w-[279px] border border-[#7D7C814D]  absolute bottom-0 z-20 rounded-b-[15px] bg-[#ffffff]",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "md:w-[267px] w-[280px] mx-4 md:my-[24px] my-[15px]",
+                                                                className: "md:w-[267px] w-[280px] md:my-[24px] my-[15px]",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                        className: "text-[#1DD673] geologica font-normal md:text-[14px] text-[12px] leading-[100%]",
-                                                                        children: "Step 1"
+                                                                        className: "text-[#FF733D] geologica font-normal md:text-[14px] text-[12px] leading-[100%]",
+                                                                        children: "Step 2"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 217,
-                                                                        columnNumber: 53
+                                                                        lineNumber: 251,
+                                                                        columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                                         className: "text-[#1B1A1F] geologica font-bold md:text-[24px] text-[20px] leading-[100%]  md:mt-[12px] mt-[11px]",
-                                                                        children: "Scan"
+                                                                        children: "Analyse"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 218,
-                                                                        columnNumber: 53
+                                                                        lineNumber: 252,
+                                                                        columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         className: "text-[#7D7C81] geologica font-light md:text-[16px] text-[14px] leading-[125%] md:mt-[3px] mt-[4px] w-[234px] md:w-[268px]",
-                                                                        children: "Use the app to scan food products with a barcode or live camera."
+                                                                        children: "Our AI processes the data and delivers a complete health analysis."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 220,
-                                                                        columnNumber: 53
+                                                                        lineNumber: 254,
+                                                                        columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 216,
-                                                                columnNumber: 49
+                                                                lineNumber: 250,
+                                                                columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 214,
-                                                            columnNumber: 45
+                                                            lineNumber: 249,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "absolute z-10 md:top-[25%] top-[25%] left-0",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "bg-[#FF733D] md:w-[217.78px] md:h-[360.89px] w-[190px] h-[315px] md:rounded-[16px] rounded-[14px] mt-[7%] md:mt-[4%] md:mx-[63.11px] mx-[43px]",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            src: "/Images/how-2.png",
+                                                                            alt: "how-1",
+                                                                            width: 211,
+                                                                            height: 0,
+                                                                            className: "md:w-[70.5%] absolute z-10 md:top-[6%] top-[8%] md:left-[15%] left-[13%]"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                            lineNumber: 263,
+                                                                            columnNumber: 53
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                            className: "md:w-[252.44px] md:h-[70.22px] w-[217px] h-[60.36px] bg-[#FFFFFF] md:rounded-[8px] rounded-[6.68px] flex  md:gap-[22.22px] gap-[19.1px] top-[96%] left-[8%] absolute z-20 md:px-[16px] px-[13.75px] md:py-[5.33px] py-[8px]",
+                                                                            style: {
+                                                                                boxShadow: "0px 0px 50px #0000001F"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                                    className: "md:w-[36.67px] md:h-[59.03px] w-[31.52px] h-[50.99px]",
+                                                                                    children: [
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                            src: "/Images/carbs.svg",
+                                                                                            alt: "carbs",
+                                                                                            width: 32.09,
+                                                                                            height: 0,
+                                                                                            className: "md:w-[37.33px] md:h-[37.33px]"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                            lineNumber: 270,
+                                                                                            columnNumber: 61
+                                                                                        }, this),
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                                            className: "text-[#111827] geologica text-center font-normal leading-[150%] md:text-[10.67px] text-[9.17px] md:mt-[5.7px] mt-[4.9px]",
+                                                                                            children: "Carbs"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                            lineNumber: 272,
+                                                                                            columnNumber: 61
+                                                                                        }, this)
+                                                                                    ]
+                                                                                }, void 0, true, {
+                                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                    lineNumber: 269,
+                                                                                    columnNumber: 57
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                                    className: "md:w-[36.67px] md:h-[59.03px] w-[31.52px] h-[50.99px]",
+                                                                                    children: [
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                            src: "/Images/Protein.svg",
+                                                                                            alt: "carbs",
+                                                                                            width: 32.09,
+                                                                                            height: 0,
+                                                                                            className: "md:w-[37.33px] md:h-[37.33px]"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                            lineNumber: 276,
+                                                                                            columnNumber: 61
+                                                                                        }, this),
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                                            className: "text-[#111827] geologica text-center font-normal leading-[150%] md:text-[10.67px] text-[9.17px] md:mt-[5.7px] mt-[4.9px]",
+                                                                                            children: "Protein"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                            lineNumber: 278,
+                                                                                            columnNumber: 61
+                                                                                        }, this)
+                                                                                    ]
+                                                                                }, void 0, true, {
+                                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                    lineNumber: 275,
+                                                                                    columnNumber: 57
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                                    className: "md:w-[36.67px] md:h-[59.03px] w-[31.52px] h-[50.99px]",
+                                                                                    children: [
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                            src: "/Images/Sodium.svg",
+                                                                                            alt: "carbs",
+                                                                                            width: 32.09,
+                                                                                            height: 0,
+                                                                                            className: "md:w-[37.33px] md:h-[37.33px]"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                            lineNumber: 282,
+                                                                                            columnNumber: 61
+                                                                                        }, this),
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                                            className: "text-[#111827] geologica text-center font-normal leading-[150%] md:text-[10.67px] text-[9.17px] md:mt-[5.7px] mt-[4.9px]",
+                                                                                            children: "Sodium"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                            lineNumber: 284,
+                                                                                            columnNumber: 61
+                                                                                        }, this)
+                                                                                    ]
+                                                                                }, void 0, true, {
+                                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                    lineNumber: 281,
+                                                                                    columnNumber: 57
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                                    className: "md:w-[36.67px] md:h-[59.03px] w-[31.52px] h-[50.99px]",
+                                                                                    children: [
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                            src: "/Images/Fat.svg",
+                                                                                            alt: "carbs",
+                                                                                            width: 32.09,
+                                                                                            height: 0,
+                                                                                            className: "md:w-[37.33px] md:h-[37.33px]"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                            lineNumber: 288,
+                                                                                            columnNumber: 61
+                                                                                        }, this),
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                                            className: "text-[#111827] geologica text-center font-normal leading-[150%] md:text-[10.67px] text-[9.17px] md:mt-[5.7px] mt-[4.9px]",
+                                                                                            children: "Fat"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                            lineNumber: 290,
+                                                                                            columnNumber: 61
+                                                                                        }, this)
+                                                                                    ]
+                                                                                }, void 0, true, {
+                                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                    lineNumber: 287,
+                                                                                    columnNumber: 57
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                            lineNumber: 265,
+                                                                            columnNumber: 53
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                    lineNumber: 262,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                lineNumber: 260,
+                                                                columnNumber: 45
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                            lineNumber: 259,
+                                                            columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 203,
-                                                    columnNumber: 41
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                lineNumber: 202,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "relative",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/how-bg-2.png",
-                                                        alt: "/Images/how-bg-2.png",
-                                                        width: 279,
-                                                        height: 518,
-                                                        className: "md:w-[345px] md:h-[582px] h-[518px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                        lineNumber: 230,
-                                                        columnNumber: 41
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute top-[1px] left-[5%] z-20 rounded-t-[20px] md:w-[300px] w-[260px] bg-[#ffffff]",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "md:w-[267px] w-[280px] md:my-[24px] my-[15px]",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                    className: "text-[#FF733D] geologica font-normal md:text-[14px] text-[12px] leading-[100%]",
-                                                                    children: "Step 2"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                    lineNumber: 234,
-                                                                    columnNumber: 49
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                    className: "text-[#1B1A1F] geologica font-bold md:text-[24px] text-[20px] leading-[100%]  md:mt-[12px] mt-[11px]",
-                                                                    children: "Analyse"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                    lineNumber: 235,
-                                                                    columnNumber: 49
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-[#7D7C81] geologica font-light md:text-[16px] text-[14px] leading-[125%] md:mt-[3px] mt-[4px] w-[234px] md:w-[268px]",
-                                                                    children: "Our AI processes the data and delivers a complete health analysis."
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                    lineNumber: 237,
-                                                                    columnNumber: 49
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 233,
-                                                            columnNumber: 45
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                        lineNumber: 232,
-                                                        columnNumber: 41
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute z-10 md:top-[25%] top-[25%] left-0",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "bg-[#FF733D] md:w-[217.78px] md:h-[360.89px] w-[190px] h-[315px] md:rounded-[16px] rounded-[14px] mt-[7%] md:mt-[4%] md:mx-[63.11px] mx-[43px]",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                        src: "/Images/how-2.png",
-                                                                        alt: "how-1",
-                                                                        width: 211,
-                                                                        height: 0,
-                                                                        className: "md:w-[70.5%] absolute z-10 md:top-[6%] top-[8%] md:left-[15%] left-[13%]"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 246,
-                                                                        columnNumber: 53
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "md:w-[252.44px] md:h-[70.22px] w-[217px] h-[60.36px] bg-[#FFFFFF] md:rounded-[8px] rounded-[6.68px] flex  md:gap-[22.22px] gap-[19.1px] top-[96%] left-[8%] absolute z-20 md:px-[16px] px-[13.75px] md:py-[5.33px] py-[8px]",
-                                                                        style: {
-                                                                            boxShadow: "0px 0px 50px #0000001F"
-                                                                        },
+                                                    lineNumber: 246,
+                                                    columnNumber: 37
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "md:w-[345px] md:h-[582px] w-[279px] h-[518px]",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "relative",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Images/how-bg-3.png",
+                                                                alt: "/Images/how-bg-3.png",
+                                                                width: 279,
+                                                                height: 518,
+                                                                className: "md:w-[345px] md:h-[582px] h-[518px]"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                lineNumber: 302,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "absolute top-0 left-0 z-10",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "bg-[#FDCB26] md:w-[217.78px] w-[190px] h-[315px] md:rounded-[16px] rounded-[14px] md:mx-[63.11px] mx-[44px] md:mt-[6.5vh] mt-[1vh]",
+                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "md:w-[36.67px] md:h-[59.03px] w-[31.52px] h-[50.99px]",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                                        src: "/Images/carbs.svg",
-                                                                                        alt: "carbs",
-                                                                                        width: 32.09,
-                                                                                        height: 0,
-                                                                                        className: "md:w-[37.33px] md:h-[37.33px]"
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                        lineNumber: 253,
-                                                                                        columnNumber: 61
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                                        className: "text-[#111827] geologica text-center font-normal leading-[150%] md:text-[10.67px] text-[9.17px] md:mt-[5.7px] mt-[4.9px]",
-                                                                                        children: "Carbs"
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                        lineNumber: 255,
-                                                                                        columnNumber: 61
-                                                                                    }, this)
-                                                                                ]
-                                                                            }, void 0, true, {
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                src: "/Images/how-3.png",
+                                                                                alt: "how-3",
+                                                                                width: 211,
+                                                                                height: 0,
+                                                                                className: "md:w-[70.5%] absolute z-10 top-0 md:left-[15%] left-[13%]"
+                                                                            }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 252,
+                                                                                lineNumber: 309,
                                                                                 columnNumber: 57
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "md:w-[36.67px] md:h-[59.03px] w-[31.52px] h-[50.99px]",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                                        src: "/Images/Protein.svg",
-                                                                                        alt: "carbs",
-                                                                                        width: 32.09,
-                                                                                        height: 0,
-                                                                                        className: "md:w-[37.33px] md:h-[37.33px]"
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                        lineNumber: 259,
-                                                                                        columnNumber: 61
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                                        className: "text-[#111827] geologica text-center font-normal leading-[150%] md:text-[10.67px] text-[9.17px] md:mt-[5.7px] mt-[4.9px]",
-                                                                                        children: "Protein"
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                        lineNumber: 261,
-                                                                                        columnNumber: 61
-                                                                                    }, this)
-                                                                                ]
-                                                                            }, void 0, true, {
+                                                                                className: "md:w-[242.67px] md:h-[51.56px] w-[205.03px] md:rounded-[8px] rounded-[6.67px] absolute z-20 left-[7%] md:top-[65%] top-[67%] bg-[#FFFFFF]",
+                                                                                style: {
+                                                                                    boxShadow: "0px 4px 50px #0000001F"
+                                                                                },
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    src: "/Images/how-processing.svg",
+                                                                                    alt: "how-processing",
+                                                                                    width: 178.21,
+                                                                                    height: 0,
+                                                                                    className: "md:w-[210.89px] md:mx-[16px] md:my-[3.56px] mx-[13.52px] my-[3px]"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                                    lineNumber: 314,
+                                                                                    columnNumber: 61
+                                                                                }, this)
+                                                                            }, void 0, false, {
                                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 258,
-                                                                                columnNumber: 57
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "md:w-[36.67px] md:h-[59.03px] w-[31.52px] h-[50.99px]",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                                        src: "/Images/Sodium.svg",
-                                                                                        alt: "carbs",
-                                                                                        width: 32.09,
-                                                                                        height: 0,
-                                                                                        className: "md:w-[37.33px] md:h-[37.33px]"
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                        lineNumber: 265,
-                                                                                        columnNumber: 61
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                                        className: "text-[#111827] geologica text-center font-normal leading-[150%] md:text-[10.67px] text-[9.17px] md:mt-[5.7px] mt-[4.9px]",
-                                                                                        children: "Sodium"
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                        lineNumber: 267,
-                                                                                        columnNumber: 61
-                                                                                    }, this)
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 264,
-                                                                                columnNumber: 57
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "md:w-[36.67px] md:h-[59.03px] w-[31.52px] h-[50.99px]",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                                        src: "/Images/Fat.svg",
-                                                                                        alt: "carbs",
-                                                                                        width: 32.09,
-                                                                                        height: 0,
-                                                                                        className: "md:w-[37.33px] md:h-[37.33px]"
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                        lineNumber: 271,
-                                                                                        columnNumber: 61
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                                        className: "text-[#111827] geologica text-center font-normal leading-[150%] md:text-[10.67px] text-[9.17px] md:mt-[5.7px] mt-[4.9px]",
-                                                                                        children: "Fat"
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                        lineNumber: 273,
-                                                                                        columnNumber: 61
-                                                                                    }, this)
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 270,
+                                                                                lineNumber: 311,
                                                                                 columnNumber: 57
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 248,
+                                                                        lineNumber: 308,
                                                                         columnNumber: 53
                                                                     }, this)
-                                                                ]
-                                                            }, void 0, true, {
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                    lineNumber: 305,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            }, void 0, false, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 245,
-                                                                columnNumber: 49
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 243,
-                                                            columnNumber: 45
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                        lineNumber: 242,
-                                                        columnNumber: 41
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                lineNumber: 229,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "md:w-[345px] md:h-[582px] w-[279px] h-[518px]",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "relative",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            src: "/Images/how-bg-3.png",
-                                                            alt: "/Images/how-bg-3.png",
-                                                            width: 279,
-                                                            height: 518,
-                                                            className: "md:w-[345px] md:h-[582px] h-[518px]"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 285,
-                                                            columnNumber: 45
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "absolute top-0 left-0 z-10",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "bg-[#FDCB26] md:w-[217.78px] w-[190px] h-[315px] md:rounded-[16px] rounded-[14px] md:mx-[63.11px] mx-[44px] md:mt-[6.5vh] mt-[1vh]",
+                                                                lineNumber: 304,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "md:w-[345px] w-[279px] border border-[#7D7C814D]  absolute bottom-0 z-20 rounded-b-[15px] bg-[#ffffff]",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "md:w-[267px] w-[280px] mx-4 md:my-[24px] my-[15px]",
                                                                     children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            src: "/Images/how-3.png",
-                                                                            alt: "how-3",
-                                                                            width: 211,
-                                                                            height: 0,
-                                                                            className: "md:w-[70.5%] absolute z-10 top-0 md:left-[15%] left-[13%]"
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                            className: "text-[#FDCB26] geologica font-normal md:text-[14px] text-[12px] leading-[100%]",
+                                                                            children: "Step 3"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                            lineNumber: 292,
-                                                                            columnNumber: 57
+                                                                            lineNumber: 324,
+                                                                            columnNumber: 53
                                                                         }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "md:w-[242.67px] md:h-[51.56px] w-[205.03px] md:rounded-[8px] rounded-[6.67px] absolute z-20 left-[7%] md:top-[65%] top-[67%] bg-[#FFFFFF]",
-                                                                            style: {
-                                                                                boxShadow: "0px 4px 50px #0000001F"
-                                                                            },
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                                src: "/Images/how-processing.svg",
-                                                                                alt: "how-processing",
-                                                                                width: 178.21,
-                                                                                height: 0,
-                                                                                className: "md:w-[210.89px] md:mx-[16px] md:my-[3.56px] mx-[13.52px] my-[3px]"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                                lineNumber: 297,
-                                                                                columnNumber: 61
-                                                                            }, this)
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                            className: "text-[#1B1A1F] geologica font-bold md:text-[24px] text-[20px] leading-[100%]  md:mt-[12px] mt-[11px]",
+                                                                            children: "Instant Results"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                            lineNumber: 294,
-                                                                            columnNumber: 57
+                                                                            lineNumber: 325,
+                                                                            columnNumber: 53
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                            className: "text-[#7D7C81] geologica font-light md:text-[16px] text-[14px] leading-[125%] md:mt-[3px] mt-[4px] w-[234px] md:w-[268px]",
+                                                                            children: "Instantly see a health report with nutrient and processing details."
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                                            lineNumber: 327,
+                                                                            columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                    lineNumber: 291,
-                                                                    columnNumber: 53
+                                                                    lineNumber: 323,
+                                                                    columnNumber: 49
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 288,
-                                                                columnNumber: 49
+                                                                lineNumber: 321,
+                                                                columnNumber: 45
                                                             }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 287,
-                                                            columnNumber: 45
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "md:w-[345px] w-[279px] border border-[#7D7C814D]  absolute bottom-0 z-20 rounded-b-[15px] bg-[#ffffff]",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "md:w-[267px] w-[280px] mx-4 md:my-[24px] my-[15px]",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                        className: "text-[#FDCB26] geologica font-normal md:text-[14px] text-[12px] leading-[100%]",
-                                                                        children: "Step 3"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 307,
-                                                                        columnNumber: 53
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                                        className: "text-[#1B1A1F] geologica font-bold md:text-[24px] text-[20px] leading-[100%]  md:mt-[12px] mt-[11px]",
-                                                                        children: "Instant Results"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 308,
-                                                                        columnNumber: 53
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                        className: "text-[#7D7C81] geologica font-light md:text-[16px] text-[14px] leading-[125%] md:mt-[3px] mt-[4px] w-[234px] md:w-[268px]",
-                                                                        children: "Instantly see a health report with nutrient and processing details."
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                        lineNumber: 310,
-                                                                        columnNumber: 53
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                                lineNumber: 306,
-                                                                columnNumber: 49
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                            lineNumber: 304,
-                                                            columnNumber: 45
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                        lineNumber: 301,
+                                                        columnNumber: 41
+                                                    }, this)
+                                                }, void 0, false, {
                                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                    lineNumber: 284,
-                                                    columnNumber: 41
+                                                    lineNumber: 300,
+                                                    columnNumber: 37
                                                 }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                                lineNumber: 283,
-                                                columnNumber: 37
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                        lineNumber: 201,
-                                        columnNumber: 33
-                                    }, this)
-                                }, void 0, false, {
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                            lineNumber: 217,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex justify-center mt-[20px] space-x-[5px]",
+                                            children: Array.from({
+                                                length: totalSlides
+                                            }).map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                    onClick: ()=>goToSlide(index),
+                                                    className: `w-[8px] h-[8px] rounded-full ${currentSlide === index ? "bg-[#1DD673] w-[30px] h-[8px]" : "bg-[#7D7C814D] w-[8px] h-[8px]"} transition-all duration-300`
+                                                }, index, false, {
+                                                    fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                                    lineNumber: 339,
+                                                    columnNumber: 41
+                                                }, this))
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/Components/How its works/How its works.tsx",
+                                            lineNumber: 337,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                    lineNumber: 199,
+                                    lineNumber: 216,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/How its works/How its works.tsx",
-                                lineNumber: 198,
+                                lineNumber: 215,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/Components/How its works/How its works.tsx",
-                        lineNumber: 193,
+                        lineNumber: 210,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/Components/How its works/How its works.tsx",
-                    lineNumber: 192,
+                    lineNumber: 209,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/Components/How its works/How its works.tsx",
-            lineNumber: 41,
+            lineNumber: 58,
             columnNumber: 13
         }, this)
     }, void 0, false);
@@ -2628,22 +2669,22 @@ function Unlock() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        onClick: ()=>scrollToSection("integrate"),
-                                        className: "cursor-pointer hover:text-[#1DD673] transition-colors",
-                                        children: "Integrate With Your App"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                        lineNumber: 64,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         onClick: ()=>scrollToSection("how-its-works"),
                                         className: "cursor-pointer hover:text-[#1DD673] transition-colors",
                                         children: "How its work"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 65,
                                         columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        onClick: ()=>scrollToSection("integrate"),
+                                        className: "cursor-pointer hover:text-[#1DD673] transition-colors",
+                                        children: "Integrate With Your App"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/Components/Unlock/Unlock.tsx",
+                                        lineNumber: 71,
+                                        columnNumber: 16
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -2656,11 +2697,11 @@ function Unlock() {
                                 children: "Unlock the Power of Smart Scanning"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                lineNumber: 77,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "2xl:w-[170.4px] xl:w-[152px] lg:w-[266px] md:w-[226px] w-[144px] 2xl:mt-[40px] xl:mt-[35px] lg:mt-[50px] md:mt-[54px] mt-[30px] mx-auto flex justify-between",
+                                className: "2xl:w-[170.4px] xl:w-[152px] lg:w-[266px] md:w-[226px] w-[144px] 2xl:mt-[40px] xl:mt-[35px] lg:mt-[50px] md:mt-[54px] mt-[40px] mx-auto flex justify-between",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/Images/Small-components/Icons/linkedin.svg",
@@ -2670,7 +2711,7 @@ function Unlock() {
                                         className: "2xl:w-[48px] 2xl:h-[48px] xl:w-[43px] xl:h-[43px] lg:w-[70px] lg:h-[70px] md:w-[62px] md:h-[62px]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2681,7 +2722,7 @@ function Unlock() {
                                         className: "2xl:w-[48px] 2xl:h-[48px] xl:w-[43px] xl:h-[43px] lg:w-[70px] lg:h-[70px] md:w-[62px] md:h-[62px]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 100,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2692,13 +2733,13 @@ function Unlock() {
                                         className: "2xl:w-[48px] 2xl:h-[48px] xl:w-[43px] xl:h-[43px] lg:w-[70px] lg:h-[70px] md:w-[62px] md:h-[62px]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 108,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                lineNumber: 86,
+                                lineNumber: 87,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -2708,7 +2749,7 @@ function Unlock() {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "2xl:mt-[31px] xl:mt-[37.44px] lg:mt-[70px] md:mt-[40px] mt-[35px]",
+                        className: "2xl:mt-[31px] xl:mt-[37.44px] lg:mt-[70px] md:mt-[40px] mt-[40px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "lg:w-[870px] md:w-[295px] w-[262px] h-[93px] md:h-[109px] lg:h-0 flex lg:flex-row md:flex-col flex-col 2xl:hidden xl:hidden lg:text-[18x] md:text-[17px] text-[15px] text-[#1B1A1F] leading-[130%] justify-between tracking-[-2%] font-light geologica mx-auto",
@@ -2720,27 +2761,27 @@ function Unlock() {
                                                 children: "Terms of service"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 129,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                 children: "Privacy Policy"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 130,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 126,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         children: "© 2025 Scanveri. All rights reserved."
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                        lineNumber: 131,
+                                        lineNumber: 132,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -2748,13 +2789,13 @@ function Unlock() {
                                         children: "Built for Innovators."
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 133,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                lineNumber: 119,
+                                lineNumber: 120,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2771,12 +2812,12 @@ function Unlock() {
                                                 className: "w-full object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 139,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 137,
+                                            lineNumber: 138,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2786,12 +2827,12 @@ function Unlock() {
                                                 children: "Terms of service Privacy Policy"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                lineNumber: 144,
+                                                lineNumber: 145,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 140,
+                                            lineNumber: 141,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2802,12 +2843,12 @@ function Unlock() {
                                                     children: "© 2025 Scanveri. All rights reserved."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                    lineNumber: 147,
+                                                    lineNumber: 148,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {}, void 0, false, {
                                                     fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                    lineNumber: 153,
+                                                    lineNumber: 154,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2818,13 +2859,13 @@ function Unlock() {
                                                     className: "w-full object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                    lineNumber: 154,
+                                                    lineNumber: 155,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 146,
+                                            lineNumber: 147,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2834,12 +2875,12 @@ function Unlock() {
                                                 children: "Built for Innovators."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                lineNumber: 160,
+                                                lineNumber: 161,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 156,
+                                            lineNumber: 157,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2852,17 +2893,17 @@ function Unlock() {
                                                 className: "w-full object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 164,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 162,
+                                            lineNumber: 163,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 165,
+                                            lineNumber: 166,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2875,17 +2916,17 @@ function Unlock() {
                                                 className: "w-full object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                lineNumber: 167,
+                                                lineNumber: 168,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 167,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 169,
+                                            lineNumber: 170,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2898,34 +2939,34 @@ function Unlock() {
                                                 className: "w-full object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                                lineNumber: 171,
+                                                lineNumber: 172,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 170,
+                                            lineNumber: 171,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
                                             fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                            lineNumber: 173,
+                                            lineNumber: 174,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                    lineNumber: 136,
+                                    lineNumber: 137,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                                lineNumber: 135,
+                                lineNumber: 136,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/Components/Unlock/Unlock.tsx",
-                        lineNumber: 118,
+                        lineNumber: 119,
                         columnNumber: 11
                     }, this)
                 ]

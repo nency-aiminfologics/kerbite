@@ -22,7 +22,7 @@ export default function Scan() {
 
               {/* Background and Circular Motion Container */}
               <div
-                className="bg-cover bg-center bg-no-repeat w-[273px] h-[273px] sm:w-[500px] sm:h-[500px] sm:mt-[40px]  2xl:mt-0 xl:mt-0 2xl:w-[1068px] 2xl:h-[1069px] xl:w-[950.65px] xl:h-[951.54px] md:w-[605px] md:h-[605px] md:mt-[50px] mt-[50px] lg:w-[806.67px] lg:h-[806.67px] lg:mt-[80px]"
+                className="bg-cover bg-center bg-no-repeat w-[273px] h-[273px]  sm:w-[500px] sm:h-[500px] sm:mt-[40px]  2xl:mt-0 xl:mt-0 2xl:w-[1068px] 2xl:h-[1069px] xl:w-[950.65px] xl:h-[951.54px] md:w-[605px] md:h-[605px] md:mt-[50px] mt-[50px] lg:w-[806.67px] lg:h-[806.67px] lg:mt-[80px]"
                 style={{ backgroundImage: "url('/Images/animation-bg.png')" }}
               >
                 {/* Logo */}
@@ -113,6 +113,7 @@ export default function Scan() {
                       height={40}
                       className=" lg:hidden md:hidden sm:hidden block"
                     />
+                  
                   </div>
 
                   {/* Card 3: Nutritions */}
@@ -613,11 +614,24 @@ export default function Scan() {
             justify-content: center;
             align-items: center;
           }
+            
 
           .card {
             border-radius: 9px;
             transform-origin: 140px 140px;
             animation: spin 25s linear infinite;
+          }
+            .card:nth-child(1),
+          .card:nth-child(3),
+          .card:nth-child(5) {
+            width: 153px;
+            height: 153px;
+          }
+            .card:nth-child(2),
+          .card:nth-child(4),
+          .card:nth-child(6) {
+            width: 153px;
+            height: 153px;
           }
 
           .card:nth-child(1) {
@@ -626,7 +640,7 @@ export default function Scan() {
           }
           .card:nth-child(2) {
             animation-delay: -4.17s;
-            transform: rotate(60deg) translateX(140px) rotate(-60deg);
+            transform: rotate(60deg) translateX(100px) rotate(-60deg);
           }
           .card:nth-child(3) {
             animation-delay: -8.34s;

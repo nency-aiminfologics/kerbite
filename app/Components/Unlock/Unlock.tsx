@@ -61,17 +61,18 @@ export default function Unlock() {
               >
                 Who It's For
               </li>
-              <li
-                onClick={() => scrollToSection("integrate")}
-                className="cursor-pointer hover:text-[#1DD673] transition-colors"
-              >
-                Integrate With Your App
-              </li>
+             
               <li
                 onClick={() => scrollToSection("how-its-works")}
                 className="cursor-pointer hover:text-[#1DD673] transition-colors"
               >
                 How its work
+              </li>
+               <li
+                onClick={() => scrollToSection("integrate")}
+                className="cursor-pointer hover:text-[#1DD673] transition-colors"
+              >
+                Integrate With Your App
               </li>
             </ul>
             <h1
@@ -85,7 +86,7 @@ export default function Unlock() {
 
             <div
               className="2xl:w-[170.4px] xl:w-[152px] lg:w-[266px] md:w-[226px] w-[144px]
-                        2xl:mt-[40px] xl:mt-[35px] lg:mt-[50px] md:mt-[54px] mt-[30px]
+                        2xl:mt-[40px] xl:mt-[35px] lg:mt-[50px] md:mt-[54px] mt-[40px]
                         mx-auto flex justify-between"
             >
               <Image
@@ -115,7 +116,7 @@ export default function Unlock() {
             </div>
           </div>
 
-          <div className="2xl:mt-[31px] xl:mt-[37.44px] lg:mt-[70px] md:mt-[40px] mt-[35px]">
+          <div className="2xl:mt-[31px] xl:mt-[37.44px] lg:mt-[70px] md:mt-[40px] mt-[40px]">
             <div
               className="lg:w-[870px] md:w-[295px] w-[262px] h-[93px] md:h-[109px] lg:h-0
                 flex lg:flex-row md:flex-col flex-col 2xl:hidden xl:hidden

@@ -43,7 +43,8 @@ export default function Navbar() {
         <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[90%] mx-auto">
           <div
             className={`2xl:w-[964px] xl:w-[964px] lg:w-[885px] md:w-[664px] w-full 2xl:h-[93px] 
-                xl:h-[93px] lg:h-[82px] md:h-[62px] h-[56px] 2xl:mt-[44px] xl:mt-[40px] lg:mt-[20px] md:mt-[15px] mt-[10px] 2xl:rounded-[20px] xl:rounded-[20px] lg:rounded-[18px] md:rounded-[15px] rounded-[12px] mx-auto px-4 flex justify-between items-center transition-all duration-300 ${
+                xl:h-[93px] lg:h-[82px] md:h-[62px] h-[56px] 2xl:mt-[44px] xl:mt-[40px] lg:mt-[20px]
+                 md:mt-[15px] mt-[10px] 2xl:rounded-[20px] xl:rounded-[20px] lg:rounded-[18px] md:rounded-[15px] rounded-[12px] mx-auto px-4 flex justify-between items-center transition-all duration-300 ${
               isScrolled
                 ? "bg-white shadow-custom"
                 : "bg-[#FFFFFF1A] backdrop-blur-[4px]"
@@ -105,7 +106,9 @@ export default function Navbar() {
             <button
               className={`bg-[#1B1A1F] 2xl:w-[141px] 2xl:h-[56px] xl:w-[141px] xl:h-[56px] lg:w-[137.33px] 
                 lg:h-[56px] md:w-[100px] md:h-[42px] hidden 2xl:block xl:block lg:block md:block 2xl:rounded-[15px] 
-                xl:rounded-[15px] lg:rounded-[12px] md:rounded-[8px] 2xl:text-[15px] xl:text-[15px] lg:text-[15px] md:text-[13px] leading-[100%] 2xl:my-[19px] xl:my-[19px] lg:my-[13.33px] md:my-[10px] geologica font-medium transition-colors duration-300 ${
+                xl:rounded-[15px] lg:rounded-[12px] md:rounded-[8px] 2xl:text-[15px] xl:text-[15px] 
+                lg:text-[15px] md:text-[13px] leading-[100%] 2xl:my-[19px] xl:my-[19px] lg:my-[13.33px]
+                 md:my-[10px] geologica font-medium transition-colors duration-300 ${
                 isScrolled ? "text-white" : "text-[#FFFFFF]"
               }`}
             >
@@ -129,22 +132,20 @@ export default function Navbar() {
 
           {/* Mobile Menu Dropdown */}
           <div
-            className={`fixed top-0 right-0 h-screen w-[80vw] bg-[#FFFFFF] shadow-lg z-40 px-12 py-5 text-[#1B1A1F] text-base font-medium geologica flex flex-col transform ${
+            className={`fixed top-0 right-0 h-screen w-[80vw]  bg-[#FFFFFF] 
+              shadow-lg z-40  py-8 text-[#1B1A1F] text-base font-medium geologica flex flex-col transform ${
               isOpen ? "translate-x-0" : "translate-x-full"
             } transition-transform duration-300 ease-in-out`}
           >
             {/* Close Button at the top right inside panel */}
-            <div className="flex justify-end">
-              <button
-                onClick={() => setIsOpen(false)}
-                className="text-black text-2xl font-bold"
-              >
-                X
-              </button>
+            <div className=" w-[270px] flex justify-end ">
+              
+              <Image src="/Images/close-icon.svg" alt="close-icon" 
+              width={30} height={30} onClick={() => setIsOpen(false)}/>
             </div>
 
             {/* Menu Items */}
-            <div className="flex flex-col space-y-4 mt-8">
+            <div className="flex flex-col space-y-4 mt-8 px-12">
               <span
                 onClick={() => scrollToSection("home")}
                 className="cursor-pointer hover:text-[#1DD673] transition-colors"
@@ -172,7 +173,7 @@ export default function Navbar() {
             </div>
 
             {/* Get Free Trial Button */}
-            <button className="bg-[#1B1A1F] text-[#FFFFFF] px-4 py-2 rounded-md w-full mt-10">
+            <button className="bg-[#1B1A1F] text-[#FFFFFF] px-4 py-2 rounded-md w-[200px] mx-auto mt-10">
               Get free trial
             </button>
           </div>

@@ -105,6 +105,7 @@
       --tw-skew-x: initial;
       --tw-skew-y: initial;
       --tw-space-y-reverse: 0;
+      --tw-space-x-reverse: 0;
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
@@ -155,15 +156,12 @@
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
     --text-base: 1rem;
     --text-base--line-height: calc(1.5 / 1);
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
-    --text-2xl: 1.5rem;
-    --text-2xl--line-height: calc(2 / 1.5);
     --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
@@ -477,6 +475,10 @@
 
   .left-1\/2 {
     left: 50%;
+  }
+
+  .left-1\/9 {
+    left: 11.1111%;
   }
 
   .left-\[2\%\] {
@@ -857,6 +859,10 @@
     height: 9px;
   }
 
+  .h-\[21vh\] {
+    height: 21vh;
+  }
+
   .h-\[28px\] {
     height: 28px;
   }
@@ -957,6 +963,10 @@
     height: 319px;
   }
 
+  .h-\[327px\] {
+    height: 327px;
+  }
+
   .h-\[424px\] {
     height: 424px;
   }
@@ -979,6 +989,10 @@
 
   .h-screen {
     height: 100vh;
+  }
+
+  .w-\[8px\] {
+    width: 8px;
   }
 
   .w-\[28px\] {
@@ -1213,6 +1227,10 @@
     width: 266px;
   }
 
+  .w-\[270px\] {
+    width: 270px;
+  }
+
   .w-\[271\], .w-\[271px\] {
     width: 271px;
   }
@@ -1255,6 +1273,10 @@
 
   .w-\[318px\] {
     width: 318px;
+  }
+
+  .w-\[320px\] {
+    width: 320px;
   }
 
   .w-\[321px\] {
@@ -1381,6 +1403,12 @@
     --tw-space-y-reverse: 0;
     margin-block-start: calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));
     margin-block-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
+  :where(.space-x-\[5px\] > :not(:last-child)) {
+    --tw-space-x-reverse: 0;
+    margin-inline-start: calc(5px * var(--tw-space-x-reverse));
+    margin-inline-end: calc(5px * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .overflow-hidden {
@@ -1541,6 +1569,10 @@
     background-color: #0000004d;
   }
 
+  .bg-\[\#7D7C814D\] {
+    background-color: #7d7c814d;
+  }
+
   .bg-\[\#C7FFE1\] {
     background-color: #c7ffe1;
   }
@@ -1645,8 +1677,8 @@
     padding-block: calc(var(--spacing) * 2);
   }
 
-  .py-5 {
-    padding-block: calc(var(--spacing) * 5);
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
   }
 
   .py-\[5\.04px\] {
@@ -1731,11 +1763,6 @@
 
   .text-center {
     text-align: center;
-  }
-
-  .text-2xl {
-    font-size: var(--text-2xl);
-    line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
 
   .text-base {
@@ -1899,10 +1926,6 @@
 
   .text-\[\#FFFFFF\], .text-\[\#ffffff\] {
     color: #fff;
-  }
-
-  .text-black {
-    color: var(--color-black);
   }
 
   .text-white {
@@ -8752,12 +8775,6 @@
   }
 
   @media (width >= 96rem) {
-    .\32 xl\:top-\[10\%\] {
-      top: 10%;
-    }
-  }
-
-  @media (width >= 96rem) {
     .\32 xl\:top-\[25\%\] {
       top: 25%;
     }
@@ -10670,6 +10687,36 @@
   font-style: normal;
 }
 
+.swiper {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.swiper-slide {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.swiper-pagination {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.swiper-pagination-bullet {
+  opacity: .5;
+  background: #7d7c81;
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #1b1a1f;
+}
+
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
@@ -10714,6 +10761,12 @@
 }
 
 @property --tw-space-y-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-space-x-reverse {
   syntax: "*";
   inherits: false;
   initial-value: 0;

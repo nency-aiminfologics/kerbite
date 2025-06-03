@@ -1763,437 +1763,478 @@ function WhatYouGet() {
             className: "bg-[#C7FFE14D] w-full",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] w-[100%] mx-auto     2xl:py-[94.37px] xl:py-[84px] lg:py-[80px] md:py-[70px] py-[50px]",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[90%]  mx-auto ",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: " justify-between 2xl:flex xl:flex lg:hidden md:hidden hidden",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "2xl:w-[364px] xl:w-[358px] 2xl:mt-[55.63px] xl:mt-[49px]",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "text-[#1B1A1F] font-bold geologica 2xl:text-[40px] xl:text-[36px] leading-[100%] ",
-                                                    children: "What You Get"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 20,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                    className: "list-disc ml-5 text-[#1B1A1F] geologica font-normal 2xl:text-[18px] xl:text-[18px]  leading-[100%] flex flex-col 2xl:gap-[40px] xl:gap-[33px] 2xl:mt-[50px] xl:mt-[44px]",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: "API & SDK Access – Easy integration with your mobile or web app"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 25,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: "White-labeled Solution – Keep your brand, power it with our intelligence"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 26,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: "Custom UI Support – Match your app’s look and feel"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 27,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: "Developer Support – We assist you through the integration process"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 28,
-                                                            columnNumber: 41
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 23,
-                                                    columnNumber: 37
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                            lineNumber: 19,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "2xl:w-[391px] 2xl:h-[381.63px] xl:w-[347.6px] xl:h-[339.22px] 2xl:mt-[60px] xl:mt-[45.67px] relative",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "bg-[#FFF3CEB2] 2xl:w-[391px] 2xl:h-[211.03px] xl:w-[381.63px] xl:h-[187.58px] 2xl:rounded-[18.21px] xl:rounded-[16.19px] 2xl:mt-[170.59px] xl:mt-[151.64px] absolute"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 32,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/Images/what-1.png",
-                                                    alt: "",
-                                                    width: 218,
-                                                    height: 442.69,
-                                                    className: " 2xl:w-[218px]  xl:w-[194px] 2xl:mx-[87px] xl:mx-[87px] 2xl:mt-[22px] xl:mt-[20.33px] absolute "
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 36,
-                                                    columnNumber: 37
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                            lineNumber: 31,
-                                            columnNumber: 33
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                    lineNumber: 18,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "2xl:mt-[55.63px] xl:mt-[49px]",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/Images/what-scan.png",
-                                        alt: "what-scan",
-                                        width: 334,
-                                        height: 692,
-                                        className: "2xl:w-[334px] 2xl:h-[692px] xl:w-[297px] xl:h-[615px]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                        lineNumber: 44,
-                                        columnNumber: 33
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                    lineNumber: 43,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "2xl:w-[391px] 2xl:h-[381.63px] xl:w-[347.6px] xl:h-[339.22px] relative",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "bg-[#FFD2C0B2] 2xl:w-[391px] 2xl:h-[211.03px] xl:w-[357.53px] xl:h-[187.46px] 2xl:rounded-[18.21px] xl:rounded-[16.19px] 2xl:mt-[170.59px] xl:mt-[151.64px] absolute"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 50,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/Images/what-2.png",
-                                                    alt: "",
-                                                    width: 218,
-                                                    height: 442.69,
-                                                    className: " 2xl:w-[218px]  xl:w-[194px] 2xl:mx-[87px] xl:mx-[87px] 2xl:mt-[22px] xl:mt-[20.33px] absolute "
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 54,
-                                                    columnNumber: 37
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "2xl:w-[364px] xl:w-[358px] 2xl:mt-[55.63px] xl:mt-[49px]",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "text-[#1B1A1F] font-bold geologica 2xl:text-[40px] xl:text-[36px] leading-[100%] ",
-                                                    children: "Use Cases"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 60,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                    className: "list-disc ml-5 text-[#1B1A1F] geologica font-normal 2xl:text-[18px] xl:text-[18px]  leading-[100%] flex flex-col 2xl:gap-[40px] xl:gap-[33px] 2xl:mt-[50px] xl:mt-[44px]",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: "Enable clients to scan their meals in your own branded app"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 64,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: "Offer instant health feedback without building from scratch"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 65,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: "Add smart nutrition tracking as a feature inside your platform"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 66,
-                                                            columnNumber: 41
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 62,
-                                                    columnNumber: 36
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                            lineNumber: 59,
-                                            columnNumber: 33
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                    lineNumber: 48,
-                                    columnNumber: 29
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                            lineNumber: 14,
-                            columnNumber: 25
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "lg:block md:block 2xl:hidden xl:hidden",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex lg:flex-row md:flex-row flex-col justify-between",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "lg:w-[420px] md:w-[435px]",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "lg:w-[420px] md:w-[422px] ",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                            className: " lg:text-[36px] md:text-[34px] text-[20px] text-[#1B1A1F] font-bold geologica leading-[100%] ",
-                                                            children: "What You Get"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 87,
-                                                            columnNumber: 37
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                            className: " lg:text-[18px] md:text-[16px] text-[16px] lg:gap-[30px] md:gap-[30px] gap-[28px] mt-[30px] lg:mt-[35px] md:mt-[28px] leading-[100%] list-disc ml-5 text-[#1B1A1F] geologica font-normal flex flex-col ",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    children: "API & SDK Access – Easy integration with your mobile or web app"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                                    lineNumber: 92,
-                                                                    columnNumber: 41
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    children: "White-labeled Solution – Keep your brand, power it with our intelligence"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                                    lineNumber: 93,
-                                                                    columnNumber: 41
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    children: "Custom UI Support – Match your app’s look and feel"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                                    lineNumber: 94,
-                                                                    columnNumber: 41
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    children: "Developer Support – We assist you through the integration process"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                                    lineNumber: 95,
-                                                                    columnNumber: 41
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 90,
-                                                            columnNumber: 37
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 86,
-                                                    columnNumber: 33
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "block lg:hidden md:hidden",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/Images/what-scan.png",
-                                                        alt: "what-scan",
-                                                        width: 163,
-                                                        height: 0,
-                                                        className: " mx-auto mt-[35px] w-[40%]"
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[90%]  mx-auto ",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: " justify-between 2xl:flex xl:flex lg:hidden md:hidden hidden",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "2xl:w-[364px] xl:w-[358px] 2xl:mt-[55.63px] xl:mt-[49px]",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                        className: "text-[#1B1A1F] font-bold geologica 2xl:text-[40px] xl:text-[36px] leading-[100%] ",
+                                                        children: "What You Get"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                        lineNumber: 99,
-                                                        columnNumber: 33
+                                                        lineNumber: 20,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                        className: "list-disc ml-5 text-[#1B1A1F] geologica font-normal 2xl:text-[18px] xl:text-[18px]  leading-[100%] flex flex-col 2xl:gap-[40px] xl:gap-[33px] 2xl:mt-[50px] xl:mt-[44px]",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                children: "API & SDK Access – Easy integration with your mobile or web app"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 25,
+                                                                columnNumber: 41
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                children: "White-labeled Solution – Keep your brand, power it with our intelligence"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 26,
+                                                                columnNumber: 41
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                children: "Custom UI Support – Match your app’s look and feel"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 27,
+                                                                columnNumber: 41
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                children: "Developer Support – We assist you through the integration process"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 28,
+                                                                columnNumber: 41
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 23,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                lineNumber: 19,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "2xl:w-[391px] 2xl:h-[381.63px] xl:w-[347.6px] xl:h-[339.22px] 2xl:mt-[60px] xl:mt-[45.67px] relative",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "bg-[#FFF3CEB2] 2xl:w-[391px] 2xl:h-[211.03px] xl:w-[381.63px] xl:h-[187.58px] 2xl:rounded-[18.21px] xl:rounded-[16.19px] 2xl:mt-[170.59px] xl:mt-[151.64px] absolute"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 32,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: "/Images/what-1.png",
+                                                        alt: "",
+                                                        width: 218,
+                                                        height: 442.69,
+                                                        className: " 2xl:w-[218px]  xl:w-[194px] 2xl:mx-[87px] xl:mx-[87px] 2xl:mt-[22px] xl:mt-[20.33px] absolute "
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 36,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                lineNumber: 31,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                        lineNumber: 18,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "2xl:mt-[55.63px] xl:mt-[49px]",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "/Images/what-scan.png",
+                                            alt: "what-scan",
+                                            width: 334,
+                                            height: 692,
+                                            className: "2xl:w-[334px] 2xl:h-[692px] xl:w-[297px] xl:h-[615px]"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                            lineNumber: 44,
+                                            columnNumber: 33
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                        lineNumber: 43,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "2xl:w-[391px] 2xl:h-[381.63px] xl:w-[347.6px] xl:h-[339.22px] relative",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "bg-[#FFD2C0B2] 2xl:w-[391px] 2xl:h-[211.03px] xl:w-[357.53px] xl:h-[187.46px] 2xl:rounded-[18.21px] xl:rounded-[16.19px] 2xl:mt-[170.59px] xl:mt-[151.64px] absolute"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 50,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: "/Images/what-2.png",
+                                                        alt: "",
+                                                        width: 218,
+                                                        height: 442.69,
+                                                        className: " 2xl:w-[218px]  xl:w-[194px] 2xl:mx-[87px] xl:mx-[87px] 2xl:mt-[22px] xl:mt-[20.33px] absolute "
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 54,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                lineNumber: 49,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "2xl:w-[364px] xl:w-[358px] 2xl:mt-[55.63px] xl:mt-[49px]",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                        className: "text-[#1B1A1F] font-bold geologica 2xl:text-[40px] xl:text-[36px] leading-[100%] ",
+                                                        children: "Use Cases"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 60,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                        className: "list-disc ml-5 text-[#1B1A1F] geologica font-normal 2xl:text-[18px] xl:text-[18px]  leading-[100%] flex flex-col 2xl:gap-[40px] xl:gap-[33px] 2xl:mt-[50px] xl:mt-[44px]",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                children: "Enable clients to scan their meals in your own branded app"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 64,
+                                                                columnNumber: 41
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                children: "Offer instant health feedback without building from scratch"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 65,
+                                                                columnNumber: 41
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                children: "Add smart nutrition tracking as a feature inside your platform"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 66,
+                                                                columnNumber: 41
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 62,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                lineNumber: 59,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                        lineNumber: 48,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                lineNumber: 14,
+                                columnNumber: 25
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "lg:block md:block 2xl:hidden xl:hidden",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex lg:flex-row md:flex-row flex-col justify-between",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "lg:w-[420px] md:w-[435px]",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "lg:w-[420px] md:w-[422px] ",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                className: " lg:text-[36px] md:text-[34px] text-[20px] text-[#1B1A1F] font-bold geologica leading-[100%] ",
+                                                                children: "What You Get"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 87,
+                                                                columnNumber: 41
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                                className: " lg:text-[18px] md:text-[16px] text-[16px] lg:gap-[30px] md:gap-[30px] gap-[28px] mt-[30px] lg:mt-[35px] md:mt-[28px] leading-[100%] list-disc ml-5 text-[#1B1A1F] geologica font-normal flex flex-col ",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                        children: "API & SDK Access – Easy integration with your mobile or web app"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                        lineNumber: 92,
+                                                                        columnNumber: 45
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                        children: "White-labeled Solution – Keep your brand, power it with our intelligence"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                        lineNumber: 93,
+                                                                        columnNumber: 45
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                        children: "Custom UI Support – Match your app’s look and feel"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                        lineNumber: 94,
+                                                                        columnNumber: 45
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                        children: "Developer Support – We assist you through the integration process"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                        lineNumber: 95,
+                                                                        columnNumber: 45
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 90,
+                                                                columnNumber: 41
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 86,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "block lg:hidden md:hidden",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                            src: "/Images/what-scan.png",
+                                                            alt: "what-scan",
+                                                            width: 163,
+                                                            height: 0,
+                                                            className: " mx-auto mt-[35px] w-[40%]"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                            lineNumber: 99,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 98,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "lg:w-[418px] md:w-[435px]  lg:mt-[45px] md:mt-[37px] mt-[35px]",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                                className: " lg:text-[36px]  md:text-[34px] text-[20px] text-[#1B1A1F] font-bold geologica leading-[100%]",
+                                                                children: "Use Cases"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 105,
+                                                                columnNumber: 41
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                                className: "lg:text-[18px] md:text-[16px]   text-[16px] lg:gap-[30px] md:gap-[30px] gap-[28px] mt-[30px] lg:mt-[35px] md:mt-[28px] leading-[100%] list-disc ml-5 text-[#1B1A1F] geologica font-normal flex flex-col",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                        children: "Enable clients to scan their meals in your own branded app"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                        lineNumber: 110,
+                                                                        columnNumber: 45
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                        children: "Offer instant health feedback without building from scratch"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                        lineNumber: 111,
+                                                                        columnNumber: 45
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                        children: "Add smart nutrition tracking as a feature inside your platform"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                        lineNumber: 112,
+                                                                        columnNumber: 45
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                                lineNumber: 108,
+                                                                columnNumber: 41
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 103,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                lineNumber: 84,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "hidden  lg:block md:block",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/Images/what-scan.png",
+                                                    alt: "what-scan",
+                                                    width: 293,
+                                                    height: 0,
+                                                    className: "lg:w-[293px]  md:w-[183px]"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                    lineNumber: 124,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                lineNumber: 123,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                        lineNumber: 82,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "lg:flex md:flex hidden lg:flex-row md:flex-row flex-col justify-between lg:mt-[48px] md:mt-[52px] mt-[35px]",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "lg:w-[420px] lg:h-[407px] md:w-[279px] md:h-[271px] w-[90%] h-[319px]  mx-auto",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "bg-[#FFF3CEB2] lg:w-[416.99px] lg:h-[223.77px] md:w-[277px] md:h-[149px] w-[100%] h-[176.4px] lg:rounded-[19.49px] md:rounded-[13px] rounded-[15.21px] mt-[142.6px] lg:mt-[183.23px] md:mt-[122px] relative",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: "/Images/what-1.png",
+                                                        alt: "",
+                                                        width: 233.33,
+                                                        height: 0,
+                                                        className: "lg:w-[233.33px] md:w-[155px] w-[182px]  bottom-[0px]  z-10  h-auto absolute top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 139,
+                                                        columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 98,
-                                                    columnNumber: 33
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "lg:w-[418px] md:w-[435px]  lg:mt-[45px] md:mt-[37px] mt-[35px]",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                            className: " lg:text-[36px]  md:text-[34px] text-[20px] text-[#1B1A1F] font-bold geologica leading-[100%]",
-                                                            children: "Use Cases"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 105,
-                                                            columnNumber: 37
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                            className: "lg:text-[18px] md:text-[16px]   text-[16px] lg:gap-[30px] md:gap-[30px] gap-[28px] mt-[30px] lg:mt-[35px] md:mt-[28px] leading-[100%] list-disc ml-5 text-[#1B1A1F] geologica font-normal flex flex-col",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    children: "Enable clients to scan their meals in your own branded app"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                                    lineNumber: 110,
-                                                                    columnNumber: 41
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    children: "Offer instant health feedback without building from scratch"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                                    lineNumber: 111,
-                                                                    columnNumber: 41
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    children: "Add smart nutrition tracking as a feature inside your platform"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                                    lineNumber: 112,
-                                                                    columnNumber: 41
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                            lineNumber: 108,
-                                                            columnNumber: 36
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 103,
-                                                    columnNumber: 33
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                            lineNumber: 84,
-                                            columnNumber: 32
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "hidden  lg:block md:block",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                src: "/Images/what-scan.png",
-                                                alt: "what-scan",
-                                                width: 293,
-                                                height: 0,
-                                                className: "lg:w-[293px]  md:w-[183px]"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                lineNumber: 124,
-                                                columnNumber: 33
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                            lineNumber: 123,
-                                            columnNumber: 32
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                    lineNumber: 82,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex lg:flex-row md:flex-row flex-col justify-between lg:mt-[48px] md:mt-[52px] mt-[35px]",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "lg:w-[420px] lg:h-[407px] md:w-[279px] md:h-[271px] w-[90%] h-[319px]  mx-auto",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "bg-[#FFF3CEB2] lg:w-[416.99px] lg:h-[223.77px] md:w-[277px] md:h-[149px] w-[100%] h-[176.4px] lg:rounded-[19.49px] md:rounded-[13px] rounded-[15.21px] mt-[142.6px] lg:mt-[183.23px] md:mt-[122px] relative",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/Images/what-1.png",
-                                                    alt: "",
-                                                    width: 233.33,
-                                                    height: 0,
-                                                    className: "lg:w-[233.33px] md:w-[155px] w-[182px]  bottom-[0px]  z-10  h-auto absolute top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 139,
+                                                    lineNumber: 136,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                lineNumber: 136,
-                                                columnNumber: 37
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                            lineNumber: 135,
-                                            columnNumber: 34
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "lg:w-[420px] lg:h-[407px] md:w-[279px] md:h-[271px]  w-[90%] h-[319px]  mt-[35px] mx-auto lg:mt-0 md:mt-0",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "bg-[#FFD2C0B2] lg:w-[416.99px] lg:h-[223.77px] md:w-[277px] md:h-[149px] w-[100%] h-[176.4px] lg:rounded-[19.49px] md:rounded-[13px] rounded-[15.21px] mt-[142.6px] lg:mt-[183.23px] md:mt-[122px] relative",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/Images/what-2.png",
-                                                    alt: "",
-                                                    width: 233.33,
-                                                    height: 0,
-                                                    className: "lg:w-[233.33px] md:w-[155px] w-[182px]   z-10 h-auto absolute top-7 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                                                lineNumber: 135,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "lg:w-[420px] lg:h-[407px] md:w-[279px] md:h-[271px]  w-[90%] h-[319px]  mt-[35px] mx-auto lg:mt-0 md:mt-0",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "bg-[#FFD2C0B2] lg:w-[416.99px] lg:h-[223.77px] md:w-[277px] md:h-[149px] w-[100%] h-[176.4px] lg:rounded-[19.49px] md:rounded-[13px] rounded-[15.21px] mt-[142.6px] lg:mt-[183.23px] md:mt-[122px] relative",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: "/Images/what-2.png",
+                                                        alt: "",
+                                                        width: 233.33,
+                                                        height: 0,
+                                                        className: "lg:w-[233.33px] md:w-[155px] w-[182px]   z-10 h-auto absolute top-7 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                                        lineNumber: 154,
+                                                        columnNumber: 41
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                    lineNumber: 154,
-                                                    columnNumber: 39
+                                                    lineNumber: 151,
+                                                    columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                                lineNumber: 151,
-                                                columnNumber: 37
+                                                lineNumber: 150,
+                                                columnNumber: 33
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                            lineNumber: 150,
-                                            columnNumber: 33
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                        lineNumber: 133,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                lineNumber: 78,
+                                columnNumber: 25
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                        lineNumber: 10,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "w-[320px] h-[327px] mt-[25px] mx-auto lg:hidden md:hidden flex flex-col justify-between relative",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
+                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                lineNumber: 178,
+                                columnNumber: 33
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "bg-[#FFF3CEB2] w-[100%] h-[21vh] rounded-[15.21px] relative",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute z-10 bottom-0 left-1/9",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/Images/mobile-what-2.png",
+                                        alt: "",
+                                        width: 246,
+                                        height: 0,
+                                        className: "w-[90%] h-auto"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                        lineNumber: 181,
+                                        columnNumber: 41
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                                    lineNumber: 133,
-                                    columnNumber: 29
+                                    lineNumber: 180,
+                                    columnNumber: 37
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                            lineNumber: 78,
-                            columnNumber: 26
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/Components/What You Get/What You Get.tsx",
-                    lineNumber: 10,
-                    columnNumber: 21
-                }, this)
-            }, void 0, false, {
+                            }, void 0, false, {
+                                fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                                lineNumber: 179,
+                                columnNumber: 33
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/Components/What You Get/What You Get.tsx",
+                        lineNumber: 177,
+                        columnNumber: 22
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/app/Components/What You Get/What You Get.tsx",
                 lineNumber: 8,
                 columnNumber: 17

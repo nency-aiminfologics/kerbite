@@ -23,6 +23,16 @@ module.exports = {
       '2xl': '1440px',
     },
     extend: {
+
+      colors: {
+      primary: '#1B1A1F',
+      step1: '#1DD673',
+      step2: '#FF733D',
+      step3: '#FDCB26',
+      textGray: '#7D7C81',
+      iconText: '#111827',
+    },
+    
       boxShadow: {
         'custom': '0px 4px 30px #D8D8D866', // #D8D8D866
       },

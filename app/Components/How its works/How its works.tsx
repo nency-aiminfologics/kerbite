@@ -4,16 +4,22 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { useState, useRef } from "react";
 
 export default function Howitsworks() {
-    var settings = {
-        dots: true,
+    const [currentSlide, setCurrentSlide] = useState(0);
+    // Explicitly type the ref as Slider from react-slick
+    const sliderRef = useRef<Slider | null>(null);
+
+    const settings = {
+        dots: false, // Disable default dots
         infinite: true,
         speed: 500,
         slidesToShow: 2.1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
+        afterChange: (index: number) => setCurrentSlide(index), // Update current slide index
         responsive: [
             {
                 breakpoint: 1023,
@@ -36,12 +42,23 @@ export default function Howitsworks() {
         ],
     };
 
+    // Total number of slides (we have 3 slides: Scan, Analyse, Instant Results)
+    const totalSlides = 3;
+
+    // Handler to navigate to a specific slide when a dot is clicked
+    const goToSlide = (index: number) => {
+        if (sliderRef.current) {
+            sliderRef.current.slickGoTo(index); // Now TypeScript recognizes slickGoTo
+            setCurrentSlide(index);
+        }
+    };
+
     return (
         <>
             <div className="w-full">
                 <div className="2xl:w-[1440px] xl:w-[1280px] 2xl:py-[115px] xl:py-[103px] lg:py-[80px] md:py-[60px] py-[80px]
                       mx-auto hidden md:hidden sm:hidden 2xl:block xl:block lg:block">
-                    <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto ">
+                    <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto">
                         <h1 className="text-[#1B1A1F] font-bold geologica 
                 2xl:text-[40px] xl:text-[36px] md:text-[34px] lg:text-[45.33px] leading-[130%] text-center">How its works</h1>
 
@@ -61,7 +78,7 @@ export default function Howitsworks() {
                                   2xl:mt-[35px] xl:mt-[31.11px] lg:mt-[53px]">
                                             <Image src="/Images/how-1.png" alt="how-1" width={211} height={0}
                                                 className="2xl:w-[271px] xl:w-[241.89px] lg:w-[213px]
-                                              absolute z-10 2xl:top-[10%] xl:top-[10%] lg:top-[17%] 2xl:left-[15%] xl:left-[15%] lg:left-[14%]" />
+                                              absolute z-10 2xl:top-[10%]08%] xl:top-[10%] lg:top-[17%] 2xl:left-[15%] xl:left-[15%] lg:left-[14%]" />
                                         </div>
                                     </div>
                                     <div className="2xl:w-[388px] 2xl:h-[148px] 
@@ -172,14 +189,14 @@ export default function Howitsworks() {
                                  border border-[#7D7C814D] absolute 2xl:top-[77.2%] xl:top-[77.3%] lg:top-[77.7%]
                                    z-20 rounded-b-[15px] bg-[#ffffff]">
                                         <div className="xl:w-[267px] 2xl:w-[300px] lg:w-[250px] 2xl:mx-4 xl:mx-4 lg:mx-3 lg:my-3 2xl:my-6 xl:my-6">
-                                            <h1 className="text-[#1DD673] geologica font-normal 2xl:text-[14px] xl:text-[14px] lg:text-[13px]
-                                        leading-[100%]">Step 1</h1>
+                                            <h1 className="text-[#FDCB26] geologica font-normal 2xl:text-[14px] xl:text-[14px] lg:text-[13px]
+                                        leading-[100%]">Step 3</h1>
                                             <h1 className="text-[#1B1A1F] geologica font-bold 2xl:text-[28px] xl:text-[24px] lg:text-[24px] leading-[100%] 
-                                         2xl:mt-[15px] xl:mt-[11px] lg:mt-[10px]">Scan</h1>
+                                         2xl:mt-[15px] xl:mt-[11px] lg:mt-[10px]">Instant Results</h1>
                                             <p className="text-[#7D7C81] geologica font-light 2xl:w-[300px] xl:w-[266px] lg:w-[250px]
                                         2xl:text-[18px] xl:text-[16px] lg:text-[15px] leading-[125%] 
                                         2xl:mt-[10px] xl:mt-[5px] lg:mt-[10px]">
-                                                Use the app to scan food products with a barcode or live camera.</p>
+                                                Instantly see a health report with nutrient and processing details.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -197,8 +214,8 @@ export default function Howitsworks() {
                         </div>
                         <div className="mt-[40px]">
                             <div className="md:w-full sm:w-full w-[279px] mx-auto md:mx-0">
-                                {/* first card */}
-                                <Slider {...settings}>
+                                <Slider {...settings} ref={sliderRef}>
+                                    {/* first card */}
                                     <div className="md:w-[345px] w-[279px]">
                                         <div className="relative">
                                             <Image src="/Images/how-bg-1.png" alt="/Images/how-bg-1.png" width={279} height={518}
@@ -315,11 +332,24 @@ export default function Howitsworks() {
                                         </div>
                                     </div>
                                 </Slider>
+
+                                {/* Custom Pagination */}
+                                <div className="flex justify-center mt-[20px] space-x-[5px]">
+                                    {Array.from({ length: totalSlides }).map((_, index) => (
+                                        <button
+                                            key={index}
+                                            onClick={() => goToSlide(index)}
+                                            className={`w-[8px] h-[8px] rounded-full ${
+                                                currentSlide === index ? "bg-[#1DD673] w-[30px] h-[8px]" : "bg-[#7D7C814D] w-[8px] h-[8px]"
+                                            } transition-all duration-300`}
+                                        />
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </>
-    )
+    );
 }
