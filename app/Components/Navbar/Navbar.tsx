@@ -122,7 +122,7 @@ export default function Navbar() {
                 className="w-[33px] h-[33px] bg-[#ffffff] rounded-[5px] flex items-center justify-center"
               >
                 {isOpen ? (
-                  <span className="text-[#1B1A1F] text-[20px] font-bold">X</span>
+                  <div></div>
                 ) : (
                   <Image src="/Images/menu.svg" alt="menu" width={25} height={25} />
                 )}

@@ -62,6 +62,9 @@
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --color-gray-200: oklch(92.8% .006 264.531);
+    --color-gray-500: oklch(55.1% .027 264.364);
+    --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
     --text-base: 1rem;
@@ -861,6 +864,10 @@
     height: 273px;
   }
 
+  .h-\[300px\] {
+    height: 300px;
+  }
+
   .h-\[315px\] {
     height: 315px;
   }
@@ -1459,6 +1466,10 @@
     border-color: #f3f3f3;
   }
 
+  .border-black {
+    border-color: var(--color-black);
+  }
+
   .bg-\[\#1B1A1F1A\] {
     background-color: #1b1a1f1a;
   }
@@ -1529,6 +1540,14 @@
 
   .bg-\[\#FFFFFF\], .bg-\[\#ffffff\] {
     background-color: #fff;
+  }
+
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
+  }
+
+  .bg-gray-500 {
+    background-color: var(--color-gray-500);
   }
 
   .bg-white {

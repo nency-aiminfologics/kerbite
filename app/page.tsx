@@ -11,6 +11,8 @@ import Frequently from "./Components/Frequently/Frequently";
 import OurTechnology from "./Components/Our Technology/Our Technology";
 import Unlock from "./Components/Unlock/Unlock";
 
+
+
 export default function Page() {
   return (
     <>
@@ -35,6 +37,7 @@ export default function Page() {
       <Frequently />
       <OurTechnology />
       <Unlock />
+    
     </>
   );
 }
