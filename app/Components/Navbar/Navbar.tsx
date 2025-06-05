@@ -42,9 +42,10 @@ export default function Navbar() {
       <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] md:w-[768px] w-[100%] mx-auto">
         <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] md:w-[668px] w-[90%] mx-auto">
           <div
-            className={`2xl:w-[964px] xl:w-[964px] lg:w-[885px] md:w-[664px] w-full 2xl:h-[93px] 
+            className={`2xl:w-[970px] xl:w-[970px] lg:w-[895px] md:w-[680px] w-full 2xl:h-[93px] 
                 xl:h-[93px] lg:h-[82px] md:h-[62px] h-[56px] 2xl:mt-[44px] xl:mt-[40px] lg:mt-[20px]
-                 md:mt-[15px] mt-[10px] 2xl:rounded-[20px] xl:rounded-[20px] lg:rounded-[18px] md:rounded-[15px] rounded-[12px] mx-auto px-4 flex justify-between items-center transition-all duration-300 ${
+                 md:mt-[15px] mt-[10px] 2xl:rounded-[20px] xl:rounded-[20px] lg:rounded-[18px] 
+                 md:rounded-[15px] rounded-[12px] mx-auto px-4 flex justify-between items-center transition-all duration-300 ${
               isScrolled
                 ? "bg-white shadow-custom"
                 : "bg-[#FFFFFF1A] backdrop-blur-[4px]"
@@ -63,8 +64,9 @@ export default function Navbar() {
 
             {/* Desktop Menu */}
             <ul
-              className={`2xl:flex xl:flex lg:flex md:flex 2xl:w-[524px] xl:w-[524px] lg:w-[527px] 
-                md:w-[399px] 2xl:text-[15px] xl:text-[15px] lg:text-[15px] md:text-[14px] leading-[100%] items-center geologica font-medium justify-between hidden transition-colors duration-300 ${
+              className={`2xl:flex xl:flex lg:flex md:flex 2xl:w-[600px] xl:w-[565px] lg:w-[560px] 
+                md:w-[450px] 2xl:text-[15px] xl:text-[15px] lg:text-[15px] md:text-[12px] 
+                leading-[100%] items-center geologica font-medium justify-between hidden transition-colors duration-300 ${
                 isScrolled ? "text-[#1B1A1F]" : "text-[#FFFFFF]"
               }`}
             >
@@ -91,6 +93,14 @@ export default function Navbar() {
                 }`}
               >
                 Who It's For
+              </li>
+              <li
+                onClick={() => scrollToSection("how-its-works")}
+                className={`cursor-pointer transition-colors ${
+                  isScrolled ? "hover:text-[#1DD673]" : "hover:text-[#1DD673]"
+                }`}
+              >
+                how-its-works
               </li>
               <li
                 onClick={() => scrollToSection("integrate")}
@@ -138,7 +148,7 @@ export default function Navbar() {
             } transition-transform duration-300 ease-in-out`}
           >
             {/* Close Button at the top right inside panel */}
-            <div className=" w-[270px] flex justify-end ">
+            <div className=" w-[85%] flex justify-end ">
               
               <Image src="/Images/close-icon.svg" alt="close-icon" 
               width={30} height={30} onClick={() => setIsOpen(false)}/>
@@ -173,7 +183,7 @@ export default function Navbar() {
             </div>
 
             {/* Get Free Trial Button */}
-            <button className="bg-[#1B1A1F] text-[#FFFFFF] px-4 py-2 rounded-md w-[200px] mx-auto mt-10">
+            <button className="bg-[#1B1A1F] text-[#FFFFFF] px-4 py-2 rounded-md w-[80%] mx-auto mt-10">
               Get free trial
             </button>
           </div>
