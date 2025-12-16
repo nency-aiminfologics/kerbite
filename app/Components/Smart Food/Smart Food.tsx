@@ -116,13 +116,13 @@ export default function SmartFood() {
                         <div className="lg:hidden md:hidden block">
 
                             <div className="grid grid-cols-4 gap-[10px]">
-                                  <Image src="/Images/smart1.png" alt="smart" width={72.64} height={0}
+                                  <Image src="/Images/smart1.png" alt="smart" width={147} height={0}
                                         className="w-full" />
-                                    <Image src="/Images/smart2.png" alt="smart" width={72.64} height={0}
+                                    <Image src="/Images/smart2.png" alt="smart" width={147} height={0}
                                         className="w-full" />
-                                <Image src="/Images/smart3.png" alt="smart" width={72.64} height={0}
+                                <Image src="/Images/smart3.png" alt="smart" width={147} height={0}
                                         className="w-full" />
-                                 <Image src="/Images/smart4.png" alt="smart" width={72.64} height={0}
+                                 <Image src="/Images/smart4.png" alt="smart" width={147} height={0}
                                         className="w-full" />
 
                             </div>
@@ -154,13 +154,13 @@ export default function SmartFood() {
                                 </div>
                             </div>
                             <div className="grid grid-cols-4 gap-[10px]">
-                                  <Image src="/Images/smart5.png" alt="smart" width={72.64} height={0}
+                                  <Image src="/Images/smart5.png" alt="smart" width={147} height={0}
                                         className="w-full" />
-                                    <Image src="/Images/smart6.png" alt="smart" width={72.64} height={0}
+                                    <Image src="/Images/smart6.png" alt="smart" width={147} height={0}
                                         className="w-full" />
-                                <Image src="/Images/smart7.png" alt="smart" width={72.64} height={0}
+                                <Image src="/Images/smart7.png" alt="smart" width={147} height={0}
                                         className="w-full" />
-                                 <Image src="/Images/smart8.png" alt="smart" width={72.64} height={0}
+                                 <Image src="/Images/smart8.png" alt="smart" width={147} height={0}
                                         className="w-full" />
 
                             </div>
